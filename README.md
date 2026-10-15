@@ -1,5 +1,7 @@
 # EplayerX
 
+简体中文 | [English](README.en.md)
+
 EplayerX 的公开反馈与 macOS 下载仓库。
 
 ## macOS 下载
