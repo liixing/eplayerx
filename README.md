@@ -6,13 +6,27 @@ EplayerX 的公开反馈与 macOS 下载仓库。
 
 ## macOS 下载
 
-前往 [Releases](https://github.com/liixing/eplayerx/releases) 查看版本说明并下载 macOS 安装包。
+当前版本：[**1.2.1**](https://github.com/liixing/eplayerx/releases/tag/v1.2.1-macos)，需要 **macOS 12.0 或更高版本**。
 
-当前版本：[**1.2.1**](https://github.com/liixing/eplayerx/releases/tag/v1.2.1-macos)。需要 **macOS 12.0 或更高版本**，通用安装包支持 **Apple Silicon 和 Intel**。
+| Mac 芯片 | 下载 |
+| --- | --- |
+| Apple Silicon（M 系列） | [下载 Apple Silicon 版](https://github.com/liixing/eplayerx/releases/download/v1.2.1-macos/EplayerX-1.2.1-48-macOS-Apple-Silicon.zip) |
+| Intel | [下载 Intel 版](https://github.com/liixing/eplayerx/releases/download/v1.2.1-macos/EplayerX-1.2.1-48-macOS-Intel.zip) |
 
-安装包已使用 Developer ID 签名并通过 Apple 公证。Releases 同时提供 SHA-256 校验值。
+在屏幕左上角选择 ** → 关于本机**，查看「芯片」或「处理器」，再选择对应版本。
 
-下载并解压 `.zip`，将 EplayerX 拖入「应用程序」，再从「应用程序」启动。
+下载并解压 `.zip`，将 EplayerX 拖入「应用程序」，再从「应用程序」启动。安装包已签名并通过 Apple 公证；[Releases](https://github.com/liixing/eplayerx/releases) 提供更新日志和 SHA-256 校验值。
+
+## 已购用户从商店版切换
+
+已在 Mac App Store 购买或订阅的用户，可以在**同一台 Mac** 上尝试以下方式沿用会员：
+
+1. 安装 Mac App Store 版 EplayerX，使用购买时的 Apple 账户，在应用内点击「恢复购买」，确认会员已生效。
+2. 完全退出 EplayerX，保留原有应用数据，不使用清理工具删除数据。
+3. 下载上方对应芯片的独立版，解压后拖入「应用程序」，替换原来的 EplayerX。
+4. 打开独立版，检查会员状态。
+
+这条路径可能沿用已有的本机会员状态，**目前不能保证成功，也不适用于换机或清空数据后的恢复**。如果会员没有显示，请先回到商店版确认购买状态并[反馈问题](https://github.com/liixing/eplayerx/issues/new?template=bug_report.md)，不要为了排查问题重复购买。
 
 ## 问题反馈与功能建议
 
@@ -26,6 +40,6 @@ Issues 和附件公开可见。请勿提交账号密码、访问令牌、带鉴�
 
 ## 版本更新
 
-新版本及更新说明会发布在 Releases。可通过仓库右上角 **Watch → Custom → Releases** 订阅发布通知。
+新版本及更新日志会发布在 [Releases](https://github.com/liixing/eplayerx/releases)。可通过仓库右上角 **Watch → Custom → Releases** 订阅发布通知。
 
 此仓库用于应用分发和用户反馈，不包含应用源代码。
