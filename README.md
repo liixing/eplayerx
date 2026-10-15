@@ -8,9 +8,11 @@ EplayerX 的公开反馈与 macOS 下载仓库。
 
 前往 [Releases](https://github.com/liixing/eplayerx/releases) 查看版本说明并下载 macOS 安装包。
 
-**目前尚未发布安装包。** 首个版本发布后会出现在 Releases 中；请以各版本说明中的系统和芯片要求为准。
+当前版本：[**1.2.1**](https://github.com/liixing/eplayerx/releases/tag/v1.2.1-macos)。需要 **macOS 12.0 或更高版本**，通用安装包支持 **Apple Silicon 和 Intel**。
 
-安装 DMG 版本时，打开下载的 `.dmg`，将 EplayerX 拖入「应用程序」，再从「应用程序」启动。
+安装包已使用 Developer ID 签名并通过 Apple 公证。Releases 同时提供 SHA-256 校验值。
+
+下载并解压 `.zip`，将 EplayerX 拖入「应用程序」，再从「应用程序」启动。
 
 ## 问题反馈与功能建议
 

@@ -8,9 +8,11 @@ The public hub for EplayerX feedback and macOS downloads.
 
 Visit [Releases](https://github.com/liixing/eplayerx/releases) for release notes and macOS downloads.
 
-**No installers have been published yet.** The first release will appear on the Releases page. Check each release's notes for macOS version and processor requirements.
+Current version: [**1.2.1**](https://github.com/liixing/eplayerx/releases/tag/v1.2.1-macos). Requires **macOS 12.0 or later**. The universal installer supports **Apple Silicon and Intel**.
 
-To install a DMG release, open the downloaded `.dmg`, drag EplayerX into Applications, then launch it from Applications.
+The app is signed with Developer ID and notarized by Apple. SHA-256 checksums are provided with each release.
+
+Download and extract the `.zip`, drag EplayerX into Applications, then launch it from Applications.
 
 ## Report a bug or request a feature
 
