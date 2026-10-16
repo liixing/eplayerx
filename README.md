@@ -6,12 +6,12 @@ EplayerX 的公开反馈与 macOS 下载仓库。
 
 ## macOS 下载
 
-当前版本：[**1.2.2**](https://github.com/liixing/eplayerx/releases/tag/v1.2.2-macos)，需要 **macOS 12.0 或更高版本**。
+当前版本：[**1.2.3**](https://github.com/liixing/eplayerx/releases/tag/v1.2.3-macos)，需要 **macOS 12.0 或更高版本**。
 
 | Mac 芯片 | 下载 |
 | --- | --- |
-| Apple Silicon（M 系列） | [下载 Apple Silicon 版](https://github.com/liixing/eplayerx/releases/download/v1.2.2-macos/EplayerX-1.2.2-50-macOS-Apple-Silicon.zip) |
-| Intel | [下载 Intel 版](https://github.com/liixing/eplayerx/releases/download/v1.2.2-macos/EplayerX-1.2.2-50-macOS-Intel.zip) |
+| Apple Silicon（M 系列） | [下载 Apple Silicon 版](https://github.com/liixing/eplayerx/releases/download/v1.2.3-macos/EplayerX-1.2.3-51-macOS-Apple-Silicon.zip) |
+| Intel | [下载 Intel 版](https://github.com/liixing/eplayerx/releases/download/v1.2.3-macos/EplayerX-1.2.3-51-macOS-Intel.zip) |
 
 在屏幕左上角选择 ** → 关于本机**，查看「芯片」或「处理器」，再选择对应版本。
 
@@ -19,12 +19,12 @@ EplayerX 的公开反馈与 macOS 下载仓库。
 
 ### SHA-256 校验值
 
-[下载校验文件](https://github.com/liixing/eplayerx/releases/download/v1.2.2-macos/SHA256SUMS.txt)
+[下载校验文件](https://github.com/liixing/eplayerx/releases/download/v1.2.3-macos/SHA256SUMS.txt)
 
 | Mac 芯片 | SHA-256 |
 | --- | --- |
-| Apple Silicon | `4fd7b9f95ea5c0af05e39e454fc7a792ab43f9ae6c5d53fa5bf21c79a82cd865` |
-| Intel | `45821ed66fc20bcbc20958275a7a58d1de98dfa8528fcd9a2e43fe48301d6d65` |
+| Apple Silicon | `cddfadeec5aac3cd689cc7b23cf667428856769f288f29e4d42e38997e69e489` |
+| Intel | `909ac54641f834e1f0d51f1d7a68873a0385a92c1c1c63242b3126f22167ebf5` |
 
 ## 已购用户从商店版切换
 
@@ -51,7 +51,7 @@ Issues 和附件公开可见。请勿提交账号密码、访问令牌、带鉴�
 
 从 **1.2.2** 起，独立版会自动检查更新。发现新版时，侧边栏 Pro 卡片右侧会显示青绿色下载按钮。点击按钮或应用菜单中的「检查更新…」，即可查看更新日志并下载；准备好重启时选择「安装并重启应用」。后台更新提示不会打断播放，也可在 Sparkle 更新窗口中选择自动安装。
 
-**1.2.1 没有内置更新器，需要先手动下载并安装一次 1.2.2，之后即可使用应用内更新。**
+**1.2.1 没有内置更新器，需要先手动下载并安装一次当前版本，之后即可使用应用内更新。**
 
 新版本及中英文更新日志也会发布在 [Releases](https://github.com/liixing/eplayerx/releases)。可通过仓库右上角 **Watch → Custom → Releases** 订阅发布通知。
 

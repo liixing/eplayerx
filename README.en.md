@@ -6,12 +6,12 @@ The public hub for EplayerX feedback and macOS downloads.
 
 ## Download for macOS
 
-Current version: [**1.2.2**](https://github.com/liixing/eplayerx/releases/tag/v1.2.2-macos). Requires **macOS 12.0 or later**.
+Current version: [**1.2.3**](https://github.com/liixing/eplayerx/releases/tag/v1.2.3-macos). Requires **macOS 12.0 or later**.
 
 | Mac processor | Download |
 | --- | --- |
-| Apple Silicon (M-series) | [Download for Apple Silicon](https://github.com/liixing/eplayerx/releases/download/v1.2.2-macos/EplayerX-1.2.2-50-macOS-Apple-Silicon.zip) |
-| Intel | [Download for Intel](https://github.com/liixing/eplayerx/releases/download/v1.2.2-macos/EplayerX-1.2.2-50-macOS-Intel.zip) |
+| Apple Silicon (M-series) | [Download for Apple Silicon](https://github.com/liixing/eplayerx/releases/download/v1.2.3-macos/EplayerX-1.2.3-51-macOS-Apple-Silicon.zip) |
+| Intel | [Download for Intel](https://github.com/liixing/eplayerx/releases/download/v1.2.3-macos/EplayerX-1.2.3-51-macOS-Intel.zip) |
 
 Choose ** → About This Mac** in the top-left corner of your screen and check the Chip or Processor field to select the right download.
 
@@ -19,12 +19,12 @@ Download and extract the `.zip`, drag EplayerX into Applications, then launch it
 
 ### SHA-256 checksums
 
-[Download checksum file](https://github.com/liixing/eplayerx/releases/download/v1.2.2-macos/SHA256SUMS.txt)
+[Download checksum file](https://github.com/liixing/eplayerx/releases/download/v1.2.3-macos/SHA256SUMS.txt)
 
 | Mac processor | SHA-256 |
 | --- | --- |
-| Apple Silicon | `4fd7b9f95ea5c0af05e39e454fc7a792ab43f9ae6c5d53fa5bf21c79a82cd865` |
-| Intel | `45821ed66fc20bcbc20958275a7a58d1de98dfa8528fcd9a2e43fe48301d6d65` |
+| Apple Silicon | `cddfadeec5aac3cd689cc7b23cf667428856769f288f29e4d42e38997e69e489` |
+| Intel | `909ac54641f834e1f0d51f1d7a68873a0385a92c1c1c63242b3126f22167ebf5` |
 
 ## Switching from the App Store version
 
@@ -51,7 +51,7 @@ Issues and attachments are public. Do not share passwords, access tokens, playba
 
 Starting with **1.2.2**, the standalone app checks for updates automatically. When an update is available, a teal download button appears on the right side of the sidebar Pro card. Click it, or select **Check for Updates…** in the app menu, to read the release notes and download the update. Choose **Install and Relaunch** when you are ready to restart. Background reminders do not interrupt playback. You can opt into automatic installation in Sparkle’s update window.
 
-**Version 1.2.1 has no built-in updater: download and install 1.2.2 manually once to enable future in-app updates.**
+**Version 1.2.1 has no built-in updater: download and install the current version manually once to enable future in-app updates.**
 
 New versions and bilingual changelogs are also published on [Releases](https://github.com/liixing/eplayerx/releases). To receive release notifications, select **Watch → Custom → Releases** at the top of this repository.
 

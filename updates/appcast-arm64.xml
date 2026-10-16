@@ -4,37 +4,37 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <channel>
     <title>EplayerX — Apple-Silicon</title>
     <item>
-      <title>EplayerX 1.2.2</title>
-      <pubDate>Fri, 16 Oct 2026 08:51:24 GMT</pubDate>
-      <sparkle:version>50</sparkle:version>
-      <sparkle:shortVersionString>1.2.2</sparkle:shortVersionString>
+      <title>EplayerX 1.2.3</title>
+      <pubDate>Fri, 16 Oct 2026 14:58:07 GMT</pubDate>
+      <sparkle:version>51</sparkle:version>
+      <sparkle:shortVersionString>1.2.3</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <description sparkle:format="markdown">## 更新日志
 
-- 独立版新增应用内自动更新检查，后续更新可直接下载并安装。
-- 侧边栏 Pro 卡片新增更新提示：发现新版时显示青绿色按钮和白色下载箭头，悬停可查看版本。
-- 更新菜单和版本提示已覆盖应用支持的全部 9 种界面语言。
-- 后台更新提示不会打断播放；也可在应用菜单中手动检查更新，并选择是否自动安装。
+- 支持打开本地 STRM 文件，并保留继续观看记录。
+- 播放截图可直接复制到剪贴板，并显示缩略图预览。
+- 改进社区首页的 iCloud 同步，提升自定义内容在多设备间恢复的完整性。
+- 改善继续观看封面、详情页选集和搜索交互。
+- 媒体库支持移除匹配元数据，保留源文件与观看进度，方便重新匹配。
+- 修复未观看提醒更新的部分问题。
 
-需要 macOS 12.0 或更高版本。请按 Mac 芯片选择 Apple Silicon 或 Intel 安装包。
-
-**1.2.1 用户请先手动下载并安装本次新版，之后即可使用应用内更新。**
+需要 macOS 12.0 或更高版本，请按 Mac 芯片选择 Apple Silicon 或 Intel 安装包。
 
 ## What's New
 
-- Added in-app update checks to the standalone edition, with downloads and installation for future updates.
-- Added an update indicator to the sidebar Pro card: a teal button with a white download arrow appears when an update is available. Hover to see the version.
-- Localized the update menu and version hints in all nine supported app languages.
-- Background update reminders keep playback uninterrupted. You can also check for updates from the app menu and choose whether to install updates automatically.
+- Open local STRM files while preserving continue-watching progress.
+- Copy playback screenshots directly to the clipboard, with thumbnail previews.
+- Improved iCloud sync for community home pages, preserving more custom content across devices.
+- Refined continue-watching artwork, episode selection, and search interactions.
+- Remove matched library metadata for a fresh match while keeping source files and watch progress.
+- Fixed issues with unwatched reminder updates.
 
 Requires macOS 12.0 or later. Choose the Apple Silicon or Intel download for your Mac.
-
-**If you are using 1.2.1, download and install this version manually once to enable future in-app updates.**
 </description>
-      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.2-macos/EplayerX-1.2.2-50-macOS-Apple-Silicon.zip" sparkle:edSignature="xLPb6rKSSA4i1YzSSxbUHkU3RB2f8Z7kRRa6iJh6+vnlhTzpYinkCtEad/QorWVKQW/Tq5UodaKLIKrxc7EBDw==" length="54519155" type="application/octet-stream"></enclosure>
+      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.3-macos/EplayerX-1.2.3-51-macOS-Apple-Silicon.zip" sparkle:edSignature="UKZTzyBnAq+itCy9uZPk+J178h+2fyAUlgO/hVeB8Kv49qlGkzbgq0tfIkMcmJPBigutXCXWJqTSl3RN5CLcAA==" length="54549603" type="application/octet-stream"></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: lgAc5O4HYm+Fm0yItnr2cmZjjA+EM3ulUnhYyWSK7gbhvjKIb7Bu1y0b5XS0twKjw+RUzzH3kxEC0WBEVg/TDg==
-length: 2469
+edSignature: 8LeXGKODeVH9j85rPMxEthIDFVq8o/SAXKK/Bm+NL0hpLtWkSJvvloj5gk9NV6i5TqU9yNyXjg7NFFTQ+ocrAg==
+length: 2256
 -->
