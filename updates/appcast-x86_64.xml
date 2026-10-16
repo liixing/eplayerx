@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+  <channel>
+    <title>EplayerX — Intel</title>
+    <item>
+      <title>EplayerX 1.2.1</title>
+      <pubDate>Fri, 16 Oct 2026 04:48:23 GMT</pubDate>
+      <sparkle:version>48</sparkle:version>
+      <sparkle:shortVersionString>1.2.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 更新日志
+
+- 优化预告片全屏观看入口与点击体验。
+- 修复预告片字幕与标题、简介重叠的问题。
+- 改善滚动和调整窗口大小时的字幕位置。
+- 提供 Apple Silicon 和 Intel 两个独立安装包。
+
+需要 macOS 12.0 或更高版本。
+
+| Mac 芯片 | 下载 |
+| --- | --- |
+| Apple Silicon（M 系列） | [Apple Silicon 版](https://github.com/liixing/eplayerx/releases/download/v1.2.1-macos/EplayerX-1.2.1-48-macOS-Apple-Silicon.zip) |
+| Intel | [Intel 版](https://github.com/liixing/eplayerx/releases/download/v1.2.1-macos/EplayerX-1.2.1-48-macOS-Intel.zip) |
+
+安装方法和已购用户切换步骤请见 [README](https://github.com/liixing/eplayerx#readme)。
+
+## What's New
+
+- Improved the fullscreen trailer button and click handling.
+- Fixed trailer captions overlapping titles and descriptions.
+- Improved caption placement while scrolling and resizing the window.
+- Added separate downloads for Apple Silicon and Intel Macs.
+
+Requires macOS 12.0 or later.
+
+| Mac processor | Download |
+| --- | --- |
+| Apple Silicon (M-series) | [Apple Silicon](https://github.com/liixing/eplayerx/releases/download/v1.2.1-macos/EplayerX-1.2.1-48-macOS-Apple-Silicon.zip) |
+| Intel | [Intel](https://github.com/liixing/eplayerx/releases/download/v1.2.1-macos/EplayerX-1.2.1-48-macOS-Intel.zip) |
+
+See the [English README](https://github.com/liixing/eplayerx/blob/main/README.en.md) for installation and instructions for switching from the App Store version.
+</description>
+      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.1-macos/EplayerX-1.2.1-48-macOS-Intel.zip" sparkle:edSignature="PpBZEJC3BPmt9+iuJ1U6wSRDepUzqgU8LfbiS5+KgiVS9uFKNR6Sh/oPtIyBfjTrfXcBpK4I84IGmQ9wJy+lCg==" length="57473576" type="application/octet-stream"></enclosure>
+    </item>
+  </channel>
+</rss><!-- sparkle-signatures:
+edSignature: +UZoJPfzJtjPpSL9tF/CdPCTlUa/zP+7WZw19V3DX+XtxN4/mXTrAXe2rwN0e/Kk3Jg1UlXtC3K3cGXhSqoCAg==
+length: 2607
+-->
