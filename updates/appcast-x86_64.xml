@@ -4,47 +4,37 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <channel>
     <title>EplayerX — Intel</title>
     <item>
-      <title>EplayerX 1.2.1</title>
-      <pubDate>Fri, 16 Oct 2026 04:48:23 GMT</pubDate>
-      <sparkle:version>48</sparkle:version>
-      <sparkle:shortVersionString>1.2.1</sparkle:shortVersionString>
+      <title>EplayerX 1.2.2</title>
+      <pubDate>Fri, 16 Oct 2026 08:51:25 GMT</pubDate>
+      <sparkle:version>50</sparkle:version>
+      <sparkle:shortVersionString>1.2.2</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <description sparkle:format="markdown">## 更新日志
 
-- 优化预告片全屏观看入口与点击体验。
-- 修复预告片字幕与标题、简介重叠的问题。
-- 改善滚动和调整窗口大小时的字幕位置。
-- 提供 Apple Silicon 和 Intel 两个独立安装包。
+- 独立版新增应用内自动更新检查，后续更新可直接下载并安装。
+- 侧边栏 Pro 卡片新增更新提示：发现新版时显示青绿色按钮和白色下载箭头，悬停可查看版本。
+- 更新菜单和版本提示已覆盖应用支持的全部 9 种界面语言。
+- 后台更新提示不会打断播放；也可在应用菜单中手动检查更新，并选择是否自动安装。
 
-需要 macOS 12.0 或更高版本。
+需要 macOS 12.0 或更高版本。请按 Mac 芯片选择 Apple Silicon 或 Intel 安装包。
 
-| Mac 芯片 | 下载 |
-| --- | --- |
-| Apple Silicon（M 系列） | [Apple Silicon 版](https://github.com/liixing/eplayerx/releases/download/v1.2.1-macos/EplayerX-1.2.1-48-macOS-Apple-Silicon.zip) |
-| Intel | [Intel 版](https://github.com/liixing/eplayerx/releases/download/v1.2.1-macos/EplayerX-1.2.1-48-macOS-Intel.zip) |
-
-安装方法和已购用户切换步骤请见 [README](https://github.com/liixing/eplayerx#readme)。
+**1.2.1 用户请先手动下载并安装本次新版，之后即可使用应用内更新。**
 
 ## What's New
 
-- Improved the fullscreen trailer button and click handling.
-- Fixed trailer captions overlapping titles and descriptions.
-- Improved caption placement while scrolling and resizing the window.
-- Added separate downloads for Apple Silicon and Intel Macs.
+- Added in-app update checks to the standalone edition, with downloads and installation for future updates.
+- Added an update indicator to the sidebar Pro card: a teal button with a white download arrow appears when an update is available. Hover to see the version.
+- Localized the update menu and version hints in all nine supported app languages.
+- Background update reminders keep playback uninterrupted. You can also check for updates from the app menu and choose whether to install updates automatically.
 
-Requires macOS 12.0 or later.
+Requires macOS 12.0 or later. Choose the Apple Silicon or Intel download for your Mac.
 
-| Mac processor | Download |
-| --- | --- |
-| Apple Silicon (M-series) | [Apple Silicon](https://github.com/liixing/eplayerx/releases/download/v1.2.1-macos/EplayerX-1.2.1-48-macOS-Apple-Silicon.zip) |
-| Intel | [Intel](https://github.com/liixing/eplayerx/releases/download/v1.2.1-macos/EplayerX-1.2.1-48-macOS-Intel.zip) |
-
-See the [English README](https://github.com/liixing/eplayerx/blob/main/README.en.md) for installation and instructions for switching from the App Store version.
+**If you are using 1.2.1, download and install this version manually once to enable future in-app updates.**
 </description>
-      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.1-macos/EplayerX-1.2.1-48-macOS-Intel.zip" sparkle:edSignature="PpBZEJC3BPmt9+iuJ1U6wSRDepUzqgU8LfbiS5+KgiVS9uFKNR6Sh/oPtIyBfjTrfXcBpK4I84IGmQ9wJy+lCg==" length="57473576" type="application/octet-stream"></enclosure>
+      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.2-macos/EplayerX-1.2.2-50-macOS-Intel.zip" sparkle:edSignature="R1zF69ealZ55dwEPBZUuZpiTR/2vYomjMe3H2gdtkb/8FKLbAqR+PiARWMHVrjNidstrvgwgtXdbosXZL/dVCA==" length="58207928" type="application/octet-stream"></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: +UZoJPfzJtjPpSL9tF/CdPCTlUa/zP+7WZw19V3DX+XtxN4/mXTrAXe2rwN0e/Kk3Jg1UlXtC3K3cGXhSqoCAg==
-length: 2607
+edSignature: /r0iwKR6leYJW3dnnMZ/jdFYX8SsjmLk/2k05VoztPQg+4j/32elYNtM8nXN1U863tTQrU33PLFdtAADlvwoDg==
+length: 2453
 -->
