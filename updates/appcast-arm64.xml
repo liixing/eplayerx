@@ -4,37 +4,35 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <channel>
     <title>EplayerX — Apple-Silicon</title>
     <item>
-      <title>EplayerX 1.2.3</title>
-      <pubDate>Fri, 16 Oct 2026 14:58:07 GMT</pubDate>
-      <sparkle:version>51</sparkle:version>
-      <sparkle:shortVersionString>1.2.3</sparkle:shortVersionString>
+      <title>EplayerX 1.2.4</title>
+      <pubDate>Sat, 17 Oct 2026 06:50:31 GMT</pubDate>
+      <sparkle:version>53</sparkle:version>
+      <sparkle:shortVersionString>1.2.4</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <description sparkle:format="markdown">## 更新日志
 
-- 支持打开本地 STRM 文件，并保留继续观看记录。
-- 播放截图可直接复制到剪贴板，并显示缩略图预览。
-- 改进社区首页的 iCloud 同步，提升自定义内容在多设备间恢复的完整性。
-- 改善继续观看封面、详情页选集和搜索交互。
-- 媒体库支持移除匹配元数据，保留源文件与观看进度，方便重新匹配。
-- 修复未观看提醒更新的部分问题。
+- 改进字幕选择与记忆，优先恢复已保存的内嵌、外挂和插件字幕选择，避免被默认关闭字幕设置覆盖。
+- 优化云盘媒体库与刮削任务列表的更新，保持任务选择状态。
+- 改善播放快捷键、全屏交互以及剧集资源信息展示。
+- 改进媒体库、社区内容同步和未观看提醒的稳定性。
+- 完善越南语及其他语言的界面文案。
 
 需要 macOS 12.0 或更高版本，请按 Mac 芯片选择 Apple Silicon 或 Intel 安装包。
 
 ## What's New
 
-- Open local STRM files while preserving continue-watching progress.
-- Copy playback screenshots directly to the clipboard, with thumbnail previews.
-- Improved iCloud sync for community home pages, preserving more custom content across devices.
-- Refined continue-watching artwork, episode selection, and search interactions.
-- Remove matched library metadata for a fresh match while keeping source files and watch progress.
-- Fixed issues with unwatched reminder updates.
+- Improved subtitle selection and memory: saved embedded, external, and plugin subtitle choices take priority over the default subtitles-off setting.
+- Refined cloud library and metadata task updates while preserving the selected task.
+- Improved playback shortcuts, fullscreen interactions, and episode resource information.
+- Improved reliability of media libraries, community sync, and unwatched reminders.
+- Refined Vietnamese and other interface translations.
 
 Requires macOS 12.0 or later. Choose the Apple Silicon or Intel download for your Mac.
 </description>
-      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.3-macos/EplayerX-1.2.3-51-macOS-Apple-Silicon.zip" sparkle:edSignature="UKZTzyBnAq+itCy9uZPk+J178h+2fyAUlgO/hVeB8Kv49qlGkzbgq0tfIkMcmJPBigutXCXWJqTSl3RN5CLcAA==" length="54549603" type="application/octet-stream"></enclosure>
+      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.4-macos/EplayerX-1.2.4-53-macOS-Apple-Silicon.zip" sparkle:edSignature="wHzVF2Mpv7pMuy9dL4kZwNFgD4KRDzrCnZmh441foJe9tHV9gQwZ/bsWlrvzMwGFc4E/0j47X88hSHpqhhbECg==" length="55526818" type="application/octet-stream"></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 8LeXGKODeVH9j85rPMxEthIDFVq8o/SAXKK/Bm+NL0hpLtWkSJvvloj5gk9NV6i5TqU9yNyXjg7NFFTQ+ocrAg==
-length: 2256
+edSignature: aU+VLSRbpSneuXDKm9ZhzqIOH5RAPHrquJZaAe9bCWAE+SnRYkHyjZ6VWo9ej2FkEsiCk+3VtcpGIL3qm737AA==
+length: 2222
 -->
