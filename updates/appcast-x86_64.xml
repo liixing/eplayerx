@@ -4,33 +4,33 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <channel>
     <title>EplayerX — Intel</title>
     <item>
-      <title>EplayerX 1.2.6</title>
-      <pubDate>Sun, 18 Oct 2026 10:17:40 GMT</pubDate>
-      <sparkle:version>57</sparkle:version>
-      <sparkle:shortVersionString>1.2.6</sparkle:shortVersionString>
+      <title>EplayerX 1.2.7</title>
+      <pubDate>Sun, 18 Oct 2026 13:49:21 GMT</pubDate>
+      <sparkle:version>58</sparkle:version>
+      <sparkle:shortVersionString>1.2.7</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <description sparkle:format="markdown">## 更新日志
 
-- 修复 macOS 12 下载管理列表空白、下载任务与进度不显示的问题。
-- 改进下载任务的进度展示、选择和重试操作。
-- 修复云盘与网络共享浏览中多选文件时可能出现的崩溃。
-- 修复关闭图像增强时可能出现的播放卡住问题。
+- 修复部分 Emby／Emos 服务器取消收藏后仍保持收藏状态的问题。
+- 改进软解视频的媒体信息展示，修复部分视频的分辨率和 HDR 标识缺失。
+
+- 改进部分 M2TS 视频的 Dolby Atmos 播放兼容性。
 
 需要 macOS 12.0 或更高版本，请按 Mac 芯片选择 Apple Silicon 或 Intel 安装包。
 
 ## What's New
 
-- Fixed a blank download manager on macOS 12 that could hide download tasks and progress.
-- Improved download progress display, task selection, and retry actions.
-- Fixed a possible crash when selecting multiple files in cloud drives and network shares.
-- Fixed a possible playback hang when shutting down video enhancement.
+- Fixed favorites remaining enabled after removal on some Emby/Emos servers.
+- Improved media information for software-decoded video, including missing resolution and HDR indicators.
+
+- Improved Dolby Atmos playback compatibility for some M2TS videos.
 
 Requires macOS 12.0 or later. Choose the Apple Silicon or Intel download for your Mac.
 </description>
-      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.6-macos/EplayerX-1.2.6-57-macOS-Intel.zip" sparkle:edSignature="/YHWu62AmGoLTbta0A7jEsDk5xmODcqDD3xRoUC5jGrPEOmeMxUbHq7cqQN3XotiEKE7KtUeMfAIJaZdpQSPCA==" length="59448919" type="application/octet-stream"></enclosure>
+      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.7-macos/EplayerX-1.2.7-58-macOS-Intel.zip" sparkle:edSignature="s4fNGC1f7XqS99mQ9PE4ijI7N/KNIdqLLISMR8Eyh7RzVfSvm8RkN62Hsy174rLDY9Xe9JVpZr2FhgLFZw36Dw==" length="59448967" type="application/octet-stream"></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 1bWhOey60pz7rwNOJNHwXPyBWzgQipTH5nImvHF9PRirp+kgnWBbU5p8TQEMoYl9LRl6WnVUydZNcxohA/k1Dg==
-length: 1944
+edSignature: KNGoRiaVAGPg9dA3X+LKfOc7mcoU8BXyZLBtFbaDknb4LpRUd2AV7L/2vPnlRoGse0WUKzTh/Z60qLBf/PF1BQ==
+length: 1821
 -->
