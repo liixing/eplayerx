@@ -4,37 +4,33 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <channel>
     <title>EplayerX — Apple-Silicon</title>
     <item>
-      <title>EplayerX 1.2.5</title>
-      <pubDate>Sun, 18 Oct 2026 05:06:16 GMT</pubDate>
-      <sparkle:version>55</sparkle:version>
-      <sparkle:shortVersionString>1.2.5</sparkle:shortVersionString>
+      <title>EplayerX 1.2.6</title>
+      <pubDate>Sun, 18 Oct 2026 10:17:40 GMT</pubDate>
+      <sparkle:version>57</sparkle:version>
+      <sparkle:shortVersionString>1.2.6</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <description sparkle:format="markdown">## 更新日志
 
-- 新增云盘与网络共享中的图片预览，支持切换图片、缩放和触控板浏览。
-- 完善媒体库的视频与音轨信息展示，改进云盘播放、字幕识别和下载稳定性。
-- 优化下载列表的选择、双击播放与批量操作，并支持设置播放截图的保存目录。
-- 改进 Trakt 续播、下一集选择以及已观看状态同步。
-- 优化元数据、海报与标题标志的语言设置，让首页与详情展示更一致。
-- 修复播放控制、解码回退及退出播放时的稳定性问题。
+- 修复 macOS 12 下载管理列表空白、下载任务与进度不显示的问题。
+- 改进下载任务的进度展示、选择和重试操作。
+- 修复云盘与网络共享浏览中多选文件时可能出现的崩溃。
+- 修复关闭图像增强时可能出现的播放卡住问题。
 
 需要 macOS 12.0 或更高版本，请按 Mac 芯片选择 Apple Silicon 或 Intel 安装包。
 
 ## What's New
 
-- Added image previews for cloud drives and network shares, with image navigation, zoom, and trackpad browsing.
-- Improved video and audio track information in media libraries, cloud playback, subtitle recognition, and download reliability.
-- Refined download selection, double-click playback, and batch actions, and added a configurable folder for playback screenshots.
-- Improved Trakt resume, next-episode selection, and watched-state sync.
-- Refined metadata, poster, and title-logo language preferences for more consistent Home and detail pages.
-- Fixed stability issues with playback controls, decoder fallback, and exiting playback.
+- Fixed a blank download manager on macOS 12 that could hide download tasks and progress.
+- Improved download progress display, task selection, and retry actions.
+- Fixed a possible crash when selecting multiple files in cloud drives and network shares.
+- Fixed a possible playback hang when shutting down video enhancement.
 
 Requires macOS 12.0 or later. Choose the Apple Silicon or Intel download for your Mac.
 </description>
-      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.5-macos/EplayerX-1.2.5-55-macOS-Apple-Silicon.zip" sparkle:edSignature="//RlN4tdJLxVztrT5h+hfpMl9NOoPjzxGmuXSHK4QhyaFvsyp/FUmh/S3h1FQv4HtWBDeZHRhK0GBu/M2PrhCA==" length="55622356" type="application/octet-stream"></enclosure>
+      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.6-macos/EplayerX-1.2.6-57-macOS-Apple-Silicon.zip" sparkle:edSignature="SQjfP2fvkI40R23Nob8l4UJ67Fr2Iz1pVRQSfFKOw9JOgyiiMH81D8eGdbDZlhsonDS9hFb8fxcd35YSNLGgCA==" length="55629910" type="application/octet-stream"></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: HNTh7Y1yUoJoRiG4A5+1FMMx4LWMpeRNJDxQajumxe2MBQkfqoht+jADLpeuVKfwawkfQip+Op+wDmGuxSN6Cw==
-length: 2533
+edSignature: e5nbIsInoMyfUq8N6ueFRb0WKx1JSvBiafOLYSNh3Yqu4/jhTPTUcu2kIPVKC34hIRI4yDWs+MT00EMQl1VKAg==
+length: 1960
 -->
