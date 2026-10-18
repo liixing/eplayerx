@@ -4,35 +4,37 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <channel>
     <title>EplayerX — Intel</title>
     <item>
-      <title>EplayerX 1.2.4</title>
-      <pubDate>Sat, 17 Oct 2026 06:50:31 GMT</pubDate>
-      <sparkle:version>53</sparkle:version>
-      <sparkle:shortVersionString>1.2.4</sparkle:shortVersionString>
+      <title>EplayerX 1.2.5</title>
+      <pubDate>Sun, 18 Oct 2026 05:06:17 GMT</pubDate>
+      <sparkle:version>55</sparkle:version>
+      <sparkle:shortVersionString>1.2.5</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <description sparkle:format="markdown">## 更新日志
 
-- 改进字幕选择与记忆，优先恢复已保存的内嵌、外挂和插件字幕选择，避免被默认关闭字幕设置覆盖。
-- 优化云盘媒体库与刮削任务列表的更新，保持任务选择状态。
-- 改善播放快捷键、全屏交互以及剧集资源信息展示。
-- 改进媒体库、社区内容同步和未观看提醒的稳定性。
-- 完善越南语及其他语言的界面文案。
+- 新增云盘与网络共享中的图片预览，支持切换图片、缩放和触控板浏览。
+- 完善媒体库的视频与音轨信息展示，改进云盘播放、字幕识别和下载稳定性。
+- 优化下载列表的选择、双击播放与批量操作，并支持设置播放截图的保存目录。
+- 改进 Trakt 续播、下一集选择以及已观看状态同步。
+- 优化元数据、海报与标题标志的语言设置，让首页与详情展示更一致。
+- 修复播放控制、解码回退及退出播放时的稳定性问题。
 
 需要 macOS 12.0 或更高版本，请按 Mac 芯片选择 Apple Silicon 或 Intel 安装包。
 
 ## What's New
 
-- Improved subtitle selection and memory: saved embedded, external, and plugin subtitle choices take priority over the default subtitles-off setting.
-- Refined cloud library and metadata task updates while preserving the selected task.
-- Improved playback shortcuts, fullscreen interactions, and episode resource information.
-- Improved reliability of media libraries, community sync, and unwatched reminders.
-- Refined Vietnamese and other interface translations.
+- Added image previews for cloud drives and network shares, with image navigation, zoom, and trackpad browsing.
+- Improved video and audio track information in media libraries, cloud playback, subtitle recognition, and download reliability.
+- Refined download selection, double-click playback, and batch actions, and added a configurable folder for playback screenshots.
+- Improved Trakt resume, next-episode selection, and watched-state sync.
+- Refined metadata, poster, and title-logo language preferences for more consistent Home and detail pages.
+- Fixed stability issues with playback controls, decoder fallback, and exiting playback.
 
 Requires macOS 12.0 or later. Choose the Apple Silicon or Intel download for your Mac.
 </description>
-      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.4-macos/EplayerX-1.2.4-53-macOS-Intel.zip" sparkle:edSignature="nyYcYVR2VLi2y/+kS/8gsnEbN2p1os4WGp+Ch9F4V+rSkbg5fl29N3S7HL94sJYurqsgKRgSnaLJQ0wseC4PAg==" length="59341230" type="application/octet-stream"></enclosure>
+      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.5-macos/EplayerX-1.2.5-55-macOS-Intel.zip" sparkle:edSignature="9K2GuanjcGUjW5BmHdQ7W07C5RSeqde8CJfoLb31J9atQUAlBGfDOS8RKt4S0S1MiKLpcd6glm0EmVTOEa9IDw==" length="59448048" type="application/octet-stream"></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: jhRCYuzzCvBEseNvsheEpgAhBS9CEAZqq5aONch2CZBA7OSKhKKQeMoEcQiBRpMjSq+j2wvy1X5S3cBlwPWkAA==
-length: 2206
+edSignature: 0q3Afi3rpauM1kqgNo23veBkakfgsxDxZXgHMmc72bIutlf2W+YScHXK+6zb5/DlhCpxdXro5WWYPv3KDGz8BQ==
+length: 2517
 -->
