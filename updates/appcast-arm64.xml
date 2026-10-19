@@ -4,33 +4,33 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <channel>
     <title>EplayerX — Apple-Silicon</title>
     <item>
-      <title>EplayerX 1.2.7</title>
-      <pubDate>Sun, 18 Oct 2026 13:49:21 GMT</pubDate>
-      <sparkle:version>58</sparkle:version>
-      <sparkle:shortVersionString>1.2.7</sparkle:shortVersionString>
+      <title>EplayerX 1.2.8</title>
+      <pubDate>Mon, 19 Oct 2026 06:13:36 GMT</pubDate>
+      <sparkle:version>60</sparkle:version>
+      <sparkle:shortVersionString>1.2.8</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <description sparkle:format="markdown">## 更新日志
 
-- 修复部分 Emby／Emos 服务器取消收藏后仍保持收藏状态的问题。
-- 改进软解视频的媒体信息展示，修复部分视频的分辨率和 HDR 标识缺失。
-
-- 改进部分 M2TS 视频的 Dolby Atmos 播放兼容性。
+- 改进 Jellyfin 下载的多版本选择，展示更完整的资源信息。
+- 优化批量下载选集，支持跨季保留勾选，并跳过已完成的下载。
+- 改进云盘、网络共享与 Plex 的播放信息和续播处理。
+- 提升音频输出、流媒体缓存恢复和播放器关闭时的稳定性。
 
 需要 macOS 12.0 或更高版本，请按 Mac 芯片选择 Apple Silicon 或 Intel 安装包。
 
 ## What's New
 
-- Fixed favorites remaining enabled after removal on some Emby/Emos servers.
-- Improved media information for software-decoded video, including missing resolution and HDR indicators.
-
-- Improved Dolby Atmos playback compatibility for some M2TS videos.
+- Improved version selection for Jellyfin downloads with more complete media information.
+- Improved batch episode downloads, preserving selections across seasons and skipping completed downloads.
+- Improved playback metadata and resume handling for cloud drives, network shares, and Plex.
+- Improved stability of audio output, streaming cache recovery, and player shutdown.
 
 Requires macOS 12.0 or later. Choose the Apple Silicon or Intel download for your Mac.
 </description>
-      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.7-macos/EplayerX-1.2.7-58-macOS-Apple-Silicon.zip" sparkle:edSignature="z/W028sB1P9yzuejp9rcRJEDVXddnap9kYQmcEjULg7H7xw6fA6d8y+4b1YwIpd4cUUYZxrPneTa/Qk9FQvTBQ==" length="55629821" type="application/octet-stream"></enclosure>
+      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.8-macos/EplayerX-1.2.8-60-macOS-Apple-Silicon.zip" sparkle:edSignature="1bn7kcCSo7uFE6SRjkRHFmze9a9Ty0B+BE2rbEo4yd3yW5c7nFYAFud/wJzp0S8IZiVx5QKaI0keZIIJefpOAg==" length="55683765" type="application/octet-stream"></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: HzdRbvwYv0nZtOsqo2UST0GOdbGuaikm05meJimZr50RiQ9nXHLstgZPc8Q7rL6DsGdpQ8Hf55zpH2F5IdSEBg==
-length: 1837
+edSignature: FORTvCfs0Xp25VW4w07EVhNy4Nxmb7VhCKDo+INpxV94iJLB22sJNbPoLhSRZke6Pvl5j7FtRbHZ/2NhG1V+Dg==
+length: 2034
 -->
