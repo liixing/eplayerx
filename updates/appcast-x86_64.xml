@@ -4,33 +4,35 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <channel>
     <title>EplayerX — Intel</title>
     <item>
-      <title>EplayerX 1.2.8</title>
-      <pubDate>Mon, 19 Oct 2026 06:13:36 GMT</pubDate>
-      <sparkle:version>60</sparkle:version>
-      <sparkle:shortVersionString>1.2.8</sparkle:shortVersionString>
+      <title>EplayerX 1.2.9</title>
+      <pubDate>Mon, 19 Oct 2026 10:32:12 GMT</pubDate>
+      <sparkle:version>62</sparkle:version>
+      <sparkle:shortVersionString>1.2.9</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <description sparkle:format="markdown">## 更新日志
 
-- 改进 Jellyfin 下载的多版本选择，展示更完整的资源信息。
-- 优化批量下载选集，支持跨季保留勾选，并跳过已完成的下载。
-- 改进云盘、网络共享与 Plex 的播放信息和续播处理。
-- 提升音频输出、流媒体缓存恢复和播放器关闭时的稳定性。
+- 下载列表新增已观看标记，结合本地播放记录与 Trakt 历史显示观看状态。
+- 完善已下载视频的片头片尾跳过与播放标识展示。
+- 播放器截图文件名包含影片名称、剧集编号和播放时间，重复截图自动保留为新文件。
+
+- 修复无音轨视频可能触发音频引擎异常的问题。
 
 需要 macOS 12.0 或更高版本，请按 Mac 芯片选择 Apple Silicon 或 Intel 安装包。
 
 ## What's New
 
-- Improved version selection for Jellyfin downloads with more complete media information.
-- Improved batch episode downloads, preserving selections across seasons and skipping completed downloads.
-- Improved playback metadata and resume handling for cloud drives, network shares, and Plex.
-- Improved stability of audio output, streaming cache recovery, and player shutdown.
+- Added watched indicators to downloads using local playback records and Trakt history.
+- Improved intro/outro skipping and playback branding for downloaded videos.
+- Player screenshots now include the title, episode number, and playback position in their filenames, preserving repeated captures as separate files.
+
+- Fixed an audio engine error that could occur when playing videos without an audio track.
 
 Requires macOS 12.0 or later. Choose the Apple Silicon or Intel download for your Mac.
 </description>
-      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.8-macos/EplayerX-1.2.8-60-macOS-Intel.zip" sparkle:edSignature="pLYmDpFhqAzytLCf8LLX6u0q6AbxsQgfuy8GcBMiT8Va0LjSMIz2asZohZii2DoPviVJC458IIDDh6AMgoJTDw==" length="59517146" type="application/octet-stream"></enclosure>
+      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.9-macos/EplayerX-1.2.9-62-macOS-Intel.zip" sparkle:edSignature="oF8yuVwU8PZ/ZFPwpvP6LH+nd2QXEtTJUTqLp1Pj36Sal0lRnSXc9VuZzxsUwRIl1zwf2ZdKeQg23iv4L+FzBg==" length="59555488" type="application/octet-stream"></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: +boPj04O+3lwXIdpQ7YQvqS66vVBr+pvvBYxH9f8T3KQmJVF7r37I40wRvC+lNupC9FO4kdCJkVzvmTD3+b1Dg==
-length: 2018
+edSignature: CkiO0o8RTm7Ng8eWTBm37U2Gt2i93qbGawLA8J0+h5u6Vu8V0KEIxRSCYeFoSwSCeGjeRfYFyFixE22O3C9EDw==
+length: 2084
 -->
