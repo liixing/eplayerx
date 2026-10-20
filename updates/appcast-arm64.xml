@@ -4,33 +4,33 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <channel>
     <title>EplayerX — Apple-Silicon</title>
     <item>
-      <title>EplayerX 1.2.10</title>
-      <pubDate>Tue, 20 Oct 2026 07:51:58 GMT</pubDate>
-      <sparkle:version>63</sparkle:version>
-      <sparkle:shortVersionString>1.2.10</sparkle:shortVersionString>
+      <title>EplayerX 1.2.11</title>
+      <pubDate>Tue, 20 Oct 2026 14:12:16 GMT</pubDate>
+      <sparkle:version>64</sparkle:version>
+      <sparkle:shortVersionString>1.2.11</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <description sparkle:format="markdown">## 更新日志
 
-- 改善媒体服务器地址解析与编辑，支持带端口及反向代理路径的地址。
-- 修复 WebDAV 未指定路径时连接到错误目录的问题，并改善 Silo 地址识别。
-- 修复将剧集标记为已观看后，Trakt 下一集可能从继续观看中消失的问题。
-- 修复关闭系统“自然滚动”后，播放器触控板横向拖动的快进快退方向。
+- 改善设置页在玻璃背景上的文字与输入框可读性，统一字幕、弹幕和 MoviePilot 等设置项的输入样式。
+- 修复弹幕回收后可能残留在画面上的问题，改善异步绘制稳定性。
+- 改善旧版 SMB 服务器的文件复制兼容性及连接异常处理。
+- 改善播放项目重建时 Dolby Atmos 音频输出的连续性。
 
 需要 macOS 12.0 或更高版本，请按 Mac 芯片选择 Apple Silicon 或 Intel 安装包。
 
 ## What's New
 
-- Improved media server address parsing and editing, including addresses with ports and reverse proxy paths.
-- Fixed WebDAV connections using the wrong directory when no path is specified, and improved Silo address handling.
-- Fixed Trakt's next episode disappearing from Continue Watching after marking an episode as watched.
-- Fixed the direction of horizontal trackpad seeking when Natural Scrolling is disabled in System Settings.
+- Improved text and input readability over glass backgrounds in Settings, with consistent input styling for subtitles, danmaku, MoviePilot, and more.
+- Fixed danmaku remaining onscreen after being recycled and improved asynchronous rendering stability.
+- Improved file-copy compatibility with older SMB servers and handling of connection failures.
+- Improved Dolby Atmos output continuity when playback items are rebuilt.
 
 Requires macOS 12.0 or later. Choose the Apple Silicon or Intel download for your Mac.
 </description>
-      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.10-macos/EplayerX-1.2.10-63-macOS-Apple-Silicon.zip" sparkle:edSignature="hRltclq2aJ3gKcyggjtr98iENcltWUT6zLqMeETuu9j8IgMiUYGFoyiqxXwWVAR01OTNzJr/pnFAXd2P35V2Cw==" length="55719063" type="application/octet-stream"></enclosure>
+      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.11-macos/EplayerX-1.2.11-64-macOS-Apple-Silicon.zip" sparkle:edSignature="D//vnFoyfv1s2+kGzRBkyLNWuVE9nXPTDmTBsHPcnyoHR9hoRhJSZeydbgm8yeQCGh/CaB9yymFHyFo4qpNqCQ==" length="55721099" type="application/octet-stream"></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: wG3ms+bNtTtqcsVecvpNIBhuDHRNoFda5ke9Ud8thBcib9jKylusxe15DcL04yhMYbdlgBUy0izK+tUgfYZiCA==
-length: 2171
+edSignature: gjbp6127LMN6ny+iLa0Ut4vCUZftOIAk+s2my9P40OorYpJE+pESCFaf5pXH+yI06+kn6BDa7kp8Z8jBKf0BAQ==
+length: 2138
 -->
