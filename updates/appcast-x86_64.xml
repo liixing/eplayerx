@@ -4,35 +4,33 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <channel>
     <title>EplayerX — Intel</title>
     <item>
-      <title>EplayerX 1.2.9</title>
-      <pubDate>Mon, 19 Oct 2026 10:32:12 GMT</pubDate>
-      <sparkle:version>62</sparkle:version>
-      <sparkle:shortVersionString>1.2.9</sparkle:shortVersionString>
+      <title>EplayerX 1.2.10</title>
+      <pubDate>Tue, 20 Oct 2026 07:51:59 GMT</pubDate>
+      <sparkle:version>63</sparkle:version>
+      <sparkle:shortVersionString>1.2.10</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <description sparkle:format="markdown">## 更新日志
 
-- 下载列表新增已观看标记，结合本地播放记录与 Trakt 历史显示观看状态。
-- 完善已下载视频的片头片尾跳过与播放标识展示。
-- 播放器截图文件名包含影片名称、剧集编号和播放时间，重复截图自动保留为新文件。
-
-- 修复无音轨视频可能触发音频引擎异常的问题。
+- 改善媒体服务器地址解析与编辑，支持带端口及反向代理路径的地址。
+- 修复 WebDAV 未指定路径时连接到错误目录的问题，并改善 Silo 地址识别。
+- 修复将剧集标记为已观看后，Trakt 下一集可能从继续观看中消失的问题。
+- 修复关闭系统“自然滚动”后，播放器触控板横向拖动的快进快退方向。
 
 需要 macOS 12.0 或更高版本，请按 Mac 芯片选择 Apple Silicon 或 Intel 安装包。
 
 ## What's New
 
-- Added watched indicators to downloads using local playback records and Trakt history.
-- Improved intro/outro skipping and playback branding for downloaded videos.
-- Player screenshots now include the title, episode number, and playback position in their filenames, preserving repeated captures as separate files.
-
-- Fixed an audio engine error that could occur when playing videos without an audio track.
+- Improved media server address parsing and editing, including addresses with ports and reverse proxy paths.
+- Fixed WebDAV connections using the wrong directory when no path is specified, and improved Silo address handling.
+- Fixed Trakt's next episode disappearing from Continue Watching after marking an episode as watched.
+- Fixed the direction of horizontal trackpad seeking when Natural Scrolling is disabled in System Settings.
 
 Requires macOS 12.0 or later. Choose the Apple Silicon or Intel download for your Mac.
 </description>
-      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.9-macos/EplayerX-1.2.9-62-macOS-Intel.zip" sparkle:edSignature="oF8yuVwU8PZ/ZFPwpvP6LH+nd2QXEtTJUTqLp1Pj36Sal0lRnSXc9VuZzxsUwRIl1zwf2ZdKeQg23iv4L+FzBg==" length="59555488" type="application/octet-stream"></enclosure>
+      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.10-macos/EplayerX-1.2.10-63-macOS-Intel.zip" sparkle:edSignature="Gk3h0Cwo3YN5ltHmGKRTIpxiAHOTnCz5Gc+OWuDEnyt/F9EX6QWcAi+xRRaRcjphyRlPbXn8kA3K8Pa4LsVhBg==" length="59553903" type="application/octet-stream"></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: CkiO0o8RTm7Ng8eWTBm37U2Gt2i93qbGawLA8J0+h5u6Vu8V0KEIxRSCYeFoSwSCeGjeRfYFyFixE22O3C9EDw==
-length: 2084
+edSignature: 4HwDIJocozYJ1KVVAzDHkua7Q8QvEM9l0wSKSJHAPE9cLd7nakU3ajk31A9G6Id43ITuyOLmzw0lIuin6EiSBA==
+length: 2155
 -->
