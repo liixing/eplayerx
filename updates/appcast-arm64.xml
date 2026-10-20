@@ -4,33 +4,31 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <channel>
     <title>EplayerX — Apple-Silicon</title>
     <item>
-      <title>EplayerX 1.2.11</title>
-      <pubDate>Tue, 20 Oct 2026 14:12:16 GMT</pubDate>
-      <sparkle:version>64</sparkle:version>
-      <sparkle:shortVersionString>1.2.11</sparkle:shortVersionString>
+      <title>EplayerX 1.2.12</title>
+      <pubDate>Tue, 20 Oct 2026 16:04:01 GMT</pubDate>
+      <sparkle:version>65</sparkle:version>
+      <sparkle:shortVersionString>1.2.12</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <description sparkle:format="markdown">## 更新日志
 
-- 改善设置页在玻璃背景上的文字与输入框可读性，统一字幕、弹幕和 MoviePilot 等设置项的输入样式。
-- 修复弹幕回收后可能残留在画面上的问题，改善异步绘制稳定性。
-- 改善旧版 SMB 服务器的文件复制兼容性及连接异常处理。
-- 改善播放项目重建时 Dolby Atmos 音频输出的连续性。
+- 修复从继续观看移除 Trakt 剧集后，刷新或切换设备时可能重新出现的问题。
+- 完善 Trakt 隐藏状态同步，同时保留标记已观看后的下一集推荐。
+- 修复 HLS 下载失败后重试丢失已完成分片的问题，改善暂停、恢复与进度保留。
 
 需要 macOS 12.0 或更高版本，请按 Mac 芯片选择 Apple Silicon 或 Intel 安装包。
 
 ## What's New
 
-- Improved text and input readability over glass backgrounds in Settings, with consistent input styling for subtitles, danmaku, MoviePilot, and more.
-- Fixed danmaku remaining onscreen after being recycled and improved asynchronous rendering stability.
-- Improved file-copy compatibility with older SMB servers and handling of connection failures.
-- Improved Dolby Atmos output continuity when playback items are rebuilt.
+- Fixed removed Trakt shows reappearing in Continue Watching after a refresh or on another device.
+- Improved Trakt hidden-state syncing while preserving next-episode suggestions after marking an episode as watched.
+- Fixed completed HLS segments being discarded on retry, and improved pause, resume, and progress retention.
 
 Requires macOS 12.0 or later. Choose the Apple Silicon or Intel download for your Mac.
 </description>
-      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.11-macos/EplayerX-1.2.11-64-macOS-Apple-Silicon.zip" sparkle:edSignature="D//vnFoyfv1s2+kGzRBkyLNWuVE9nXPTDmTBsHPcnyoHR9hoRhJSZeydbgm8yeQCGh/CaB9yymFHyFo4qpNqCQ==" length="55721099" type="application/octet-stream"></enclosure>
+      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.12-macos/EplayerX-1.2.12-65-macOS-Apple-Silicon.zip" sparkle:edSignature="xJoCEI+NAOuw2qlXEHDQr4YrnQUmHcMQOXi1DDr4uqC24MT+1bdkwOxW2DRBh8sxDDpWKDVARcObnM/QlJyNDg==" length="55736599" type="application/octet-stream"></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: gjbp6127LMN6ny+iLa0Ut4vCUZftOIAk+s2my9P40OorYpJE+pESCFaf5pXH+yI06+kn6BDa7kp8Z8jBKf0BAQ==
-length: 2138
+edSignature: PHhKSEGhog9l3wPzHzf2KzWDgR0mN/mNbPCeyrTdCrPyVVL5m3uZLwpLnxXmD7NISvmd2BZNiDEQkYV54TkEDg==
+length: 1967
 -->
