@@ -4,33 +4,31 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <channel>
     <title>EplayerX — Apple-Silicon</title>
     <item>
-      <title>EplayerX 1.2.14</title>
-      <pubDate>Wed, 21 Oct 2026 12:25:07 GMT</pubDate>
-      <sparkle:version>67</sparkle:version>
-      <sparkle:shortVersionString>1.2.14</sparkle:shortVersionString>
+      <title>EplayerX 1.2.15</title>
+      <pubDate>Thu, 22 Oct 2026 02:19:41 GMT</pubDate>
+      <sparkle:version>69</sparkle:version>
+      <sparkle:shortVersionString>1.2.15</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <description sparkle:format="markdown">## 更新日志
 
-- 新增 Emby 播放列表浏览，按服务器顺序展示内容，并支持分页加载和重复条目。
-- 新增杜比视界 Profile 7 转 Profile 8.1 播放选项，可在播放设置中开启，默认关闭。
-- 修复部分 Emby 服务器播放列表无法正常显示的问题。
-- 修复字幕翻译开关切换后，设置状态未能立即更新的问题。
+- 修复 Emby 播放列表中的剧集详情跳转，保留对应的季数和集数，避免匹配到错误的节目。
+- 改善杜比视界 Profile 7 转 Profile 8.1 播放及跳转后的画面兼容性。
+- 改善播放恢复、音轨切换和跳转到未缓存位置时的稳定性。
 
 需要 macOS 12.0 或更高版本，请按 Mac 芯片选择 Apple Silicon 或 Intel 安装包。
 
 ## What's New
 
-- Added Emby playlist browsing with server-defined ordering, pagination, and support for repeated entries.
-- Added an optional Dolby Vision Profile 7 to Profile 8.1 playback setting, disabled by default.
-- Fixed playlists not appearing correctly on some Emby servers.
-- Fixed subtitle translation toggles not immediately reflecting their updated state.
+- Fixed episode navigation from Emby playlists, preserving season and episode information and avoiding incorrect show matches.
+- Improved Dolby Vision Profile 7 to Profile 8.1 playback compatibility, including playback after seeking.
+- Improved playback recovery, audio track switching, and seeking to uncached positions.
 
 Requires macOS 12.0 or later. Choose the Apple Silicon or Intel download for your Mac.
 </description>
-      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.14-macos/EplayerX-1.2.14-67-macOS-Apple-Silicon.zip" sparkle:edSignature="oWNeX/wQSzDffgIUQu0zrlNUMYRsboYwEnfK/bg5LPu/SpaksSZ4i2xMbgaeeBETf100n4090E4NGhbONhKQCw==" length="55762028" type="application/octet-stream"></enclosure>
+      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.15-macos/EplayerX-1.2.15-69-macOS-Apple-Silicon.zip" sparkle:edSignature="Ox4YyUrN/nRprwzqXhQ8x5sK/FLAP4DdUsVn2JbWsGm5ezgx9/QvGkls8A6khSw4m9XiGrLDA9iqGE12U1stAw==" length="55767730" type="application/octet-stream"></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: Y4ilv8U9lAwMY/rWY7ZnW0KZhMDYcupfpw+IbUYLafTNzInOfkvRFf0uzSJaADmOYaly0p8Bax4b8hQeVYZFDQ==
-length: 2066
+edSignature: DGOWhHVQRAPtlUXIIIZZ7RyTdphv8ZhordrdroP1Og07eGV86hQLuffSK6bNforup/qJjSsVURhVFjVXIZpvBQ==
+length: 1954
 -->
