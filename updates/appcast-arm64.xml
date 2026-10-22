@@ -4,31 +4,37 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <channel>
     <title>EplayerX — Apple-Silicon</title>
     <item>
-      <title>EplayerX 1.2.15</title>
-      <pubDate>Thu, 22 Oct 2026 02:19:41 GMT</pubDate>
-      <sparkle:version>69</sparkle:version>
-      <sparkle:shortVersionString>1.2.15</sparkle:shortVersionString>
+      <title>EplayerX 1.2.16</title>
+      <pubDate>Thu, 22 Oct 2026 06:20:32 GMT</pubDate>
+      <sparkle:version>71</sparkle:version>
+      <sparkle:shortVersionString>1.2.16</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <description sparkle:format="markdown">## 更新日志
 
-- 修复 Emby 播放列表中的剧集详情跳转，保留对应的季数和集数，避免匹配到错误的节目。
-- 改善杜比视界 Profile 7 转 Profile 8.1 播放及跳转后的画面兼容性。
-- 改善播放恢复、音轨切换和跳转到未缓存位置时的稳定性。
+- 下载视频时可同时保存匹配的外挂字幕及弹幕文件，方便离线播放。
+- 下载管理支持补充下载或重试字幕及附属文件，并显示保存状态。
+- 改善离线播放的字幕选择，避免在线字幕偏好影响已下载的字幕。
+- 改善部分 HEVC 视频的硬件解码兼容性，以及解码异常后的播放恢复。
+
+已知问题：系统下载服务异常失效后，下载任务可能停滞。可尝试完全退出并重新打开应用后重试。
 
 需要 macOS 12.0 或更高版本，请按 Mac 芯片选择 Apple Silicon 或 Intel 安装包。
 
-## What's New
+## What’s New
 
-- Fixed episode navigation from Emby playlists, preserving season and episode information and avoiding incorrect show matches.
-- Improved Dolby Vision Profile 7 to Profile 8.1 playback compatibility, including playback after seeking.
-- Improved playback recovery, audio track switching, and seeking to uncached positions.
+- Video downloads can now save matching external subtitles and danmaku files for offline playback.
+- Download management now supports downloading or retrying subtitles and sidecar files, with save status shown in the list.
+- Improved subtitle selection during offline playback so online subtitle preferences do not override downloaded subtitles.
+- Improved hardware decoding compatibility for some HEVC videos and playback recovery after decoder errors.
+
+Known issue: downloads may stall after the system download service invalidates its session. If this happens, try quitting and reopening the app before retrying.
 
 Requires macOS 12.0 or later. Choose the Apple Silicon or Intel download for your Mac.
 </description>
-      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.15-macos/EplayerX-1.2.15-69-macOS-Apple-Silicon.zip" sparkle:edSignature="Ox4YyUrN/nRprwzqXhQ8x5sK/FLAP4DdUsVn2JbWsGm5ezgx9/QvGkls8A6khSw4m9XiGrLDA9iqGE12U1stAw==" length="55767730" type="application/octet-stream"></enclosure>
+      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.16-macos/EplayerX-1.2.16-71-macOS-Apple-Silicon.zip" sparkle:edSignature="kFbUij8Gwq0MbuXvWOkhr3UK1uovn3ziH7ptLVWX7RzoO9T3Ih6oh5kUuskbmGAIchWDoaMkFgUj3x4NZN+YBA==" length="55838777" type="application/octet-stream"></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: DGOWhHVQRAPtlUXIIIZZ7RyTdphv8ZhordrdroP1Og07eGV86hQLuffSK6bNforup/qJjSsVURhVFjVXIZpvBQ==
-length: 1954
+edSignature: zRp/NUMtSEpDmreNrsMRe4vN0zCIG4fqR0KUh+Esa+EZlvsIA8FKiNpy9FbRtNx8TOhqCqf6P5FCC2Bp975GCA==
+length: 2462
 -->
