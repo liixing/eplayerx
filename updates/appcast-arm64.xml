@@ -4,17 +4,18 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <channel>
     <title>EplayerX — Apple-Silicon</title>
     <item>
-      <title>EplayerX 1.2.16</title>
-      <pubDate>Thu, 22 Oct 2026 06:20:32 GMT</pubDate>
-      <sparkle:version>71</sparkle:version>
-      <sparkle:shortVersionString>1.2.16</sparkle:shortVersionString>
+      <title>EplayerX 1.2.17</title>
+      <pubDate>Fri, 23 Oct 2026 07:45:24 GMT</pubDate>
+      <sparkle:version>73</sparkle:version>
+      <sparkle:shortVersionString>1.2.17</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <description sparkle:format="markdown">## 更新日志
 
-- 下载视频时可同时保存匹配的外挂字幕及弹幕文件，方便离线播放。
-- 下载管理支持补充下载或重试字幕及附属文件，并显示保存状态。
-- 改善离线播放的字幕选择，避免在线字幕偏好影响已下载的字幕。
-- 改善部分 HEVC 视频的硬件解码兼容性，以及解码异常后的播放恢复。
+- 播放视频、首页隐藏或窗口不可见时暂停首页自动轮播，减少后台活动。
+- 改善继续观看的刷新与合并，减少重复处理，保持服务器和账号切换后的记录一致。
+- 云盘媒体库支持保存分类排序偏好，首页与媒体库使用一致的排序。
+- 改善剧集年份识别与上映日期信息，提升媒体匹配和排序的准确性。
+- 改善字幕、解码异常恢复和播放切换的稳定性。
 
 已知问题：系统下载服务异常失效后，下载任务可能停滞。可尝试完全退出并重新打开应用后重试。
 
@@ -22,19 +23,20 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 
 ## What’s New
 
-- Video downloads can now save matching external subtitles and danmaku files for offline playback.
-- Download management now supports downloading or retrying subtitles and sidecar files, with save status shown in the list.
-- Improved subtitle selection during offline playback so online subtitle preferences do not override downloaded subtitles.
-- Improved hardware decoding compatibility for some HEVC videos and playback recovery after decoder errors.
+- Home auto-advance now pauses during video playback and while Home or its window is hidden, reducing background activity.
+- Improved continue-watching refresh and merging, reducing duplicate work and keeping records consistent when switching servers or accounts.
+- Cloud media libraries now remember category sorting preferences, with consistent sorting across Home and library views.
+- Improved TV series year recognition and release-date metadata for more accurate media matching and sorting.
+- Improved subtitle handling, decoder-error recovery, and playback switching stability.
 
 Known issue: downloads may stall after the system download service invalidates its session. If this happens, try quitting and reopening the app before retrying.
 
 Requires macOS 12.0 or later. Choose the Apple Silicon or Intel download for your Mac.
 </description>
-      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.16-macos/EplayerX-1.2.16-71-macOS-Apple-Silicon.zip" sparkle:edSignature="kFbUij8Gwq0MbuXvWOkhr3UK1uovn3ziH7ptLVWX7RzoO9T3Ih6oh5kUuskbmGAIchWDoaMkFgUj3x4NZN+YBA==" length="55838777" type="application/octet-stream"></enclosure>
+      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.17-macos/EplayerX-1.2.17-73-macOS-Apple-Silicon.zip" sparkle:edSignature="sICVP+/x0qCNnSxCj9v2uKGfzpytDh1Wd2y0/Lg1CgybUcXJMEumDOMGwuqmjwiqhlv+Y1JFF3uNhGSPRgOLAw==" length="55873166" type="application/octet-stream"></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: zRp/NUMtSEpDmreNrsMRe4vN0zCIG4fqR0KUh+Esa+EZlvsIA8FKiNpy9FbRtNx8TOhqCqf6P5FCC2Bp975GCA==
-length: 2462
+edSignature: eTl8LFOIbWT2jrN8CouDdTDKFb6h2Ak6/ATstknj6rVWl03+Wxfh5CsbB+b7VVCteomc5/xEgu463dcQA9qrBQ==
+length: 2691
 -->
