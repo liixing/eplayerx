@@ -17,6 +17,8 @@ EplayerX 的公开反馈与 macOS 下载仓库。
 
 下载并解压 `.zip`，将 EplayerX 拖入「应用程序」，再从「应用程序」启动。安装包已签名并通过 Apple 公证；[Releases](https://github.com/liixing/eplayerx/releases) 提供更新日志和 SHA-256 校验值。
 
+仅提供最新版安装包下载，历史版本保留更新日志和校验值。
+
 ### SHA-256 校验值
 
 [下载校验文件](https://github.com/liixing/eplayerx/releases/download/v1.2.19-macos/SHA256SUMS.txt)

@@ -17,6 +17,8 @@ Choose ** → About This Mac** in the top-left corner of your screen and chec
 
 Download and extract the `.zip`, drag EplayerX into Applications, then launch it from Applications. The app is code-signed and has passed Apple’s notarization. [Releases](https://github.com/liixing/eplayerx/releases) includes the changelog and SHA-256 checksums.
 
+Installer downloads are available only for the latest version. Older releases retain their changelogs and checksums.
+
 ### SHA-256 checksums
 
 [Download checksum file](https://github.com/liixing/eplayerx/releases/download/v1.2.19-macos/SHA256SUMS.txt)
