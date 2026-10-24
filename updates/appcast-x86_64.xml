@@ -4,17 +4,14 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <channel>
     <title>EplayerX — Intel</title>
     <item>
-      <title>EplayerX 1.2.18</title>
-      <pubDate>Fri, 23 Oct 2026 13:00:16 GMT</pubDate>
-      <sparkle:version>76</sparkle:version>
-      <sparkle:shortVersionString>1.2.18</sparkle:shortVersionString>
+      <title>EplayerX 1.2.19</title>
+      <pubDate>Sat, 24 Oct 2026 07:04:43 GMT</pubDate>
+      <sparkle:version>78</sparkle:version>
+      <sparkle:shortVersionString>1.2.19</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <description sparkle:format="markdown">## 更新内容
 
-- 修复详情页“更多”菜单首项被隐藏的问题，资源刷新入口现在可正常显示。
-- 优化剧集播放结束后的续播定位，优先使用当前播放服务器的最新进度，减少跳到错误剧集的情况。
-- 改善需要自定义 User-Agent 的视频源兼容性，播放切换、重定向和缩略图加载会保留所需信息。
-- 更新 Trakt 登录地址，提高账号授权兼容性。
+- 加强 Pro 权益验证，拒绝未通过真实性校验的权益信息。
 
 已知问题：系统下载服务异常失效后，下载任务可能停滞。可尝试完全退出并重新打开应用后重试。
 
@@ -22,19 +19,16 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 
 ## What’s New
 
-- Fixed the first action being hidden in the detail page’s More menu, restoring access to resource refresh.
-- Improved resume selection after episode playback by using the current playback server’s latest progress, reducing incorrect episode jumps.
-- Improved compatibility with video sources that require a custom User-Agent, preserving it through playback changes, redirects, and thumbnail loading.
-- Updated the Trakt sign-in address for improved authorization compatibility.
+- Strengthened Pro entitlement verification by rejecting entitlement information that fails authenticity checks.
 
 Known issue: downloads may stall after the system download service invalidates its session. If this happens, try quitting and reopening the app before retrying.
 
 Requires macOS 12.0 or later. Choose the Apple Silicon or Intel download for your Mac.
 </description>
-      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.18-macos/EplayerX-1.2.18-76-macOS-Intel.zip" sparkle:edSignature="uvi7BkIR69UXrXrmsSXFnoJLFXitIIlhEJeat93byKNtddGansvZ0n1Lj5qySNlws4JpTNzQTvEOVWSgpR27Bw==" length="59724093" type="application/octet-stream"></enclosure>
+      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.19-macos/EplayerX-1.2.19-78-macOS-Intel.zip" sparkle:edSignature="Nxdw6lvrZQOFtg+J+or2RAfC6KgXkajJOYBFo6dHxg2hLw65JSPJe8iredZ9+g/cIIQY9SFTbcsiJHzNKfpyCQ==" length="59723929" type="application/octet-stream"></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: l8j0zKrZHYrdoMG9UA0TsxAQoOSUzAbv78dWXQXRxZohE7RLOTmixX03Yb9gY23lAo+a2D9qop/jVtSq7WvkBA==
-length: 2536
+edSignature: umBSgx8z6SkqNR7DiHRJ9QZAtyE40A0tLabmW91LDs8egg4JxAWPeveQMWtJI8tz+RD87Ij79WU3cgYIzX61CQ==
+length: 1816
 -->
