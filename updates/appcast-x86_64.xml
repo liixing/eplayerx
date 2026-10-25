@@ -4,35 +4,35 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <channel>
     <title>EplayerX — Intel</title>
     <item>
-      <title>EplayerX 1.2.20</title>
-      <pubDate>Sun, 25 Oct 2026 03:25:02 GMT</pubDate>
-      <sparkle:version>80</sparkle:version>
-      <sparkle:shortVersionString>1.2.20</sparkle:shortVersionString>
+      <title>EplayerX 1.2.21</title>
+      <pubDate>Sun, 25 Oct 2026 15:50:09 GMT</pubDate>
+      <sparkle:version>81</sparkle:version>
+      <sparkle:shortVersionString>1.2.21</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <description sparkle:format="markdown">## 更新内容
 
-- 修复下载服务失效后任务停滞的问题，支持在应用内重试并重建下载连接，无需退出应用。
-- 修复播放器剧集列表与当前播放服务器不一致的问题，改善季、集切换与选集播放。
-- 改进自动跳过片头和下一集预加载，减少连播时从错误时间开始或使用不匹配片尾标记的情况。
-- 优化媒体库元数据管理：在设置中直接查看、筛选和搜索媒体库，并改善离线媒体库浏览。
-- 调整设置窗口尺寸与布局，改善媒体库管理面板的显示和操作。
+- 改善下载服务中断后的恢复与重试，减少下载任务卡住或重复连接的问题。
+- 优化播放进度缩略图的加载与取消，切换视频或关闭播放器时及时停止过期请求。
+- 应用切到后台时暂停首页轮播和动态图标，减少不必要的资源占用，并改善切换应用时的稳定性。
+- 改善播放器关闭后的资源释放，以及播放状态上报的稳定性。
+- 优化 MoviePilot 设置页面和部分工具栏的布局与显示。
 
 需要 macOS 12.0 或更高版本，请按 Mac 芯片选择 Apple Silicon 或 Intel 安装包。
 
 ## What’s New
 
-- Fixed downloads getting stuck after the system download service disconnects. Retrying now reconnects the download service without restarting the app.
-- Fixed player episode lists showing content from a different server, improving season switching and episode selection.
-- Improved automatic intro skipping and next-episode preloading to reduce incorrect start positions and mismatched outro markers during continuous playback.
-- Improved media library metadata management with browsing, filtering, and search directly from Settings, plus better offline library browsing.
-- Refined the Settings window size and layout for easier use of media library management panels.
+- Improved download recovery and retries after service interruptions, reducing stalled tasks and duplicate connections.
+- Improved playback thumbnail loading and cancellation, stopping obsolete requests when switching videos or closing the player.
+- Paused Home carousels and animated icons while the app is inactive to reduce unnecessary resource use, and improved stability when switching apps.
+- Improved resource cleanup when closing the player and the reliability of playback status reporting.
+- Refined the MoviePilot settings page and several toolbar layouts.
 
 Requires macOS 12.0 or later. Choose the Apple Silicon or Intel download for your Mac.
 </description>
-      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.20-macos/EplayerX-1.2.20-80-macOS-Intel.zip" sparkle:edSignature="pMqmm3rZ5fgp6jN34yttVTFtp4yFDo8vqUfA2PPveBK0WX7dlXv4Nmb/xxFO1GhR/gkdEqxGICUtRS7q/xjXCA==" length="59806177" type="application/octet-stream"></enclosure>
+      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.21-macos/EplayerX-1.2.21-81-macOS-Intel.zip" sparkle:edSignature="k/PCbR6/iaoLb8cmTCILUbug/9J8rzvcEX7wDTSpZVKk90oUjOo/1utr+KGmJFeElSvgQwW/BFX0bsqTohYjAg==" length="59812322" type="application/octet-stream"></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: VibMl0n7ilFp22X+ZVxZKqgn0ctwwppsRrMF08AvVuwrV+O6pCkbTp+13NDUuqLDA6Kr4qmgIbpg7WLw9RNfDA==
-length: 2576
+edSignature: 4GsXeY+GbNooOCZNmIUPnvpsIwBC/sjVzTS6T9CyJ4xhm8BHLHGkIU8an4yjOln7YdASfgDu1faDheDR6ZbaDg==
+length: 2398
 -->
