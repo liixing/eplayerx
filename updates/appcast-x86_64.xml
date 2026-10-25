@@ -4,31 +4,35 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <channel>
     <title>EplayerX — Intel</title>
     <item>
-      <title>EplayerX 1.2.19</title>
-      <pubDate>Sat, 24 Oct 2026 07:04:43 GMT</pubDate>
-      <sparkle:version>78</sparkle:version>
-      <sparkle:shortVersionString>1.2.19</sparkle:shortVersionString>
+      <title>EplayerX 1.2.20</title>
+      <pubDate>Sun, 25 Oct 2026 03:25:02 GMT</pubDate>
+      <sparkle:version>80</sparkle:version>
+      <sparkle:shortVersionString>1.2.20</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <description sparkle:format="markdown">## 更新内容
 
-- 加强 Pro 权益验证，拒绝未通过真实性校验的权益信息。
-
-已知问题：系统下载服务异常失效后，下载任务可能停滞。可尝试完全退出并重新打开应用后重试。
+- 修复下载服务失效后任务停滞的问题，支持在应用内重试并重建下载连接，无需退出应用。
+- 修复播放器剧集列表与当前播放服务器不一致的问题，改善季、集切换与选集播放。
+- 改进自动跳过片头和下一集预加载，减少连播时从错误时间开始或使用不匹配片尾标记的情况。
+- 优化媒体库元数据管理：在设置中直接查看、筛选和搜索媒体库，并改善离线媒体库浏览。
+- 调整设置窗口尺寸与布局，改善媒体库管理面板的显示和操作。
 
 需要 macOS 12.0 或更高版本，请按 Mac 芯片选择 Apple Silicon 或 Intel 安装包。
 
 ## What’s New
 
-- Strengthened Pro entitlement verification by rejecting entitlement information that fails authenticity checks.
-
-Known issue: downloads may stall after the system download service invalidates its session. If this happens, try quitting and reopening the app before retrying.
+- Fixed downloads getting stuck after the system download service disconnects. Retrying now reconnects the download service without restarting the app.
+- Fixed player episode lists showing content from a different server, improving season switching and episode selection.
+- Improved automatic intro skipping and next-episode preloading to reduce incorrect start positions and mismatched outro markers during continuous playback.
+- Improved media library metadata management with browsing, filtering, and search directly from Settings, plus better offline library browsing.
+- Refined the Settings window size and layout for easier use of media library management panels.
 
 Requires macOS 12.0 or later. Choose the Apple Silicon or Intel download for your Mac.
 </description>
-      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.19-macos/EplayerX-1.2.19-78-macOS-Intel.zip" sparkle:edSignature="Nxdw6lvrZQOFtg+J+or2RAfC6KgXkajJOYBFo6dHxg2hLw65JSPJe8iredZ9+g/cIIQY9SFTbcsiJHzNKfpyCQ==" length="59723929" type="application/octet-stream"></enclosure>
+      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.20-macos/EplayerX-1.2.20-80-macOS-Intel.zip" sparkle:edSignature="pMqmm3rZ5fgp6jN34yttVTFtp4yFDo8vqUfA2PPveBK0WX7dlXv4Nmb/xxFO1GhR/gkdEqxGICUtRS7q/xjXCA==" length="59806177" type="application/octet-stream"></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: umBSgx8z6SkqNR7DiHRJ9QZAtyE40A0tLabmW91LDs8egg4JxAWPeveQMWtJI8tz+RD87Ij79WU3cgYIzX61CQ==
-length: 1816
+edSignature: VibMl0n7ilFp22X+ZVxZKqgn0ctwwppsRrMF08AvVuwrV+O6pCkbTp+13NDUuqLDA6Kr4qmgIbpg7WLw9RNfDA==
+length: 2576
 -->
