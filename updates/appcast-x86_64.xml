@@ -4,35 +4,35 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <channel>
     <title>EplayerX — Intel</title>
     <item>
-      <title>EplayerX 1.2.21</title>
-      <pubDate>Sun, 25 Oct 2026 15:50:09 GMT</pubDate>
-      <sparkle:version>81</sparkle:version>
-      <sparkle:shortVersionString>1.2.21</sparkle:shortVersionString>
+      <title>EplayerX 1.2.22</title>
+      <pubDate>Tue, 27 Oct 2026 07:25:42 GMT</pubDate>
+      <sparkle:version>83</sparkle:version>
+      <sparkle:shortVersionString>1.2.22</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <description sparkle:format="markdown">## 更新内容
 
-- 改善下载服务中断后的恢复与重试，减少下载任务卡住或重复连接的问题。
-- 优化播放进度缩略图的加载与取消，切换视频或关闭播放器时及时停止过期请求。
-- 应用切到后台时暂停首页轮播和动态图标，减少不必要的资源占用，并改善切换应用时的稳定性。
-- 改善播放器关闭后的资源释放，以及播放状态上报的稳定性。
-- 优化 MoviePilot 设置页面和部分工具栏的布局与显示。
+- 改善剧集详情的续播与选集，准确衔接本地播放记录和 Trakt 进度，减少切换资源或返回详情后选错集的问题。
+- 优化剧集资源版本与媒体信息展示，提升切换剧集、加载片源时的状态一致性。
+- 改善下载恢复与重试，减少任务中断后停滞或进度显示异常的问题。
+- 修复杜比视界视频解码回退可能被覆盖的问题，提升播放兼容性。
+- 修复 MoviePilot 管理员查看和管理其他用户及插件订阅的兼容性问题。
 
 需要 macOS 12.0 或更高版本，请按 Mac 芯片选择 Apple Silicon 或 Intel 安装包。
 
 ## What’s New
 
-- Improved download recovery and retries after service interruptions, reducing stalled tasks and duplicate connections.
-- Improved playback thumbnail loading and cancellation, stopping obsolete requests when switching videos or closing the player.
-- Paused Home carousels and animated icons while the app is inactive to reduce unnecessary resource use, and improved stability when switching apps.
-- Improved resource cleanup when closing the player and the reliability of playback status reporting.
-- Refined the MoviePilot settings page and several toolbar layouts.
+- Improved episode selection and resume behavior by keeping local playback records and Trakt progress in sync, reducing incorrect episode selections after switching sources or returning to details.
+- Refined episode resource versions and media information, with more consistent state when switching episodes and loading playback sources.
+- Improved download recovery and retries, reducing stalled tasks and incorrect progress after interruptions.
+- Fixed an issue that could override Dolby Vision decoder fallback, improving playback compatibility.
+- Fixed MoviePilot compatibility for administrators viewing and managing subscriptions from other users and plugins.
 
 Requires macOS 12.0 or later. Choose the Apple Silicon or Intel download for your Mac.
 </description>
-      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.21-macos/EplayerX-1.2.21-81-macOS-Intel.zip" sparkle:edSignature="k/PCbR6/iaoLb8cmTCILUbug/9J8rzvcEX7wDTSpZVKk90oUjOo/1utr+KGmJFeElSvgQwW/BFX0bsqTohYjAg==" length="59812322" type="application/octet-stream"></enclosure>
+      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.22-macos/EplayerX-1.2.22-83-macOS-Intel.zip" sparkle:edSignature="BIQshu+RPU0p5Qf73htqGiymgMxXaAl0/MsQjSHl9EEexHw/cuRTcZ80TWOQwqVMv5Z0hwa3PZCGsBWmB77IBg==" length="59853624" type="application/octet-stream"></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 4GsXeY+GbNooOCZNmIUPnvpsIwBC/sjVzTS6T9CyJ4xhm8BHLHGkIU8an4yjOln7YdASfgDu1faDheDR6ZbaDg==
-length: 2398
+edSignature: gOInc7wA18+ilvgUABXAPS2g2RzfxGlNtimztOWhmtvNwvuqHIGmTuQCix9boI07ELv4836h4gMmnQzxVXZqAg==
+length: 2528
 -->
