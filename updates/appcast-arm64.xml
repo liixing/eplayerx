@@ -4,35 +4,35 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <channel>
     <title>EplayerX — Apple-Silicon</title>
     <item>
-      <title>EplayerX 1.2.22</title>
-      <pubDate>Tue, 27 Oct 2026 07:25:41 GMT</pubDate>
-      <sparkle:version>83</sparkle:version>
-      <sparkle:shortVersionString>1.2.22</sparkle:shortVersionString>
+      <title>EplayerX 1.2.23</title>
+      <pubDate>Tue, 27 Oct 2026 16:22:43 GMT</pubDate>
+      <sparkle:version>85</sparkle:version>
+      <sparkle:shortVersionString>1.2.23</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <description sparkle:format="markdown">## 更新内容
 
-- 改善剧集详情的续播与选集，准确衔接本地播放记录和 Trakt 进度，减少切换资源或返回详情后选错集的问题。
-- 优化剧集资源版本与媒体信息展示，提升切换剧集、加载片源时的状态一致性。
-- 改善下载恢复与重试，减少任务中断后停滞或进度显示异常的问题。
-- 修复杜比视界视频解码回退可能被覆盖的问题，提升播放兼容性。
-- 修复 MoviePilot 管理员查看和管理其他用户及插件订阅的兼容性问题。
+- 扩大弹幕滚动时长的调节范围，支持 2–30 秒，并可按 0.5 秒精细调整。
+- 修复返回前台或同步未变化的设置时弹幕被重置的问题，改善弹幕显示的连续性，并减少退出播放时的残留弹幕。
+- 改善 PGS 图形字幕切换，优先使用已缓存的字幕数据，减少切换语言时对音视频播放的打断。
+- 改善部分杜比视界视频的播放兼容性：当符合条件的片源缺少必要的杜比视界数据时，使用 HDR10 基础画面播放。
+- 修复多个任务同时下载时，下载速度采样可能受其他任务干扰的问题。
 
 需要 macOS 12.0 或更高版本，请按 Mac 芯片选择 Apple Silicon 或 Intel 安装包。
 
 ## What’s New
 
-- Improved episode selection and resume behavior by keeping local playback records and Trakt progress in sync, reducing incorrect episode selections after switching sources or returning to details.
-- Refined episode resource versions and media information, with more consistent state when switching episodes and loading playback sources.
-- Improved download recovery and retries, reducing stalled tasks and incorrect progress after interruptions.
-- Fixed an issue that could override Dolby Vision decoder fallback, improving playback compatibility.
-- Fixed MoviePilot compatibility for administrators viewing and managing subscriptions from other users and plugins.
+- Expanded the danmaku scrolling duration range to 2–30 seconds, with finer 0.5-second adjustments.
+- Fixed danmaku resets when returning to the app or syncing unchanged settings, improving continuity and preventing leftover comments when exiting playback.
+- Improved PGS image subtitle switching by reusing cached subtitle data, reducing interruptions to audio and video when changing languages.
+- Improved compatibility with certain Dolby Vision videos by playing the HDR10 base layer when eligible sources lack required Dolby Vision data.
+- Fixed download speed sampling being affected by other tasks when multiple downloads run simultaneously.
 
 Requires macOS 12.0 or later. Choose the Apple Silicon or Intel download for your Mac.
 </description>
-      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.22-macos/EplayerX-1.2.22-83-macOS-Apple-Silicon.zip" sparkle:edSignature="nSS99oDD0jRfB/MC1ZrVvjokr5gppb1bvzmvS7w380gG3Yn6ZPrjyxuh0/jTjIPIONLedGfbgITxwvWpiuiQAQ==" length="55993508" type="application/octet-stream"></enclosure>
+      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.23-macos/EplayerX-1.2.23-85-macOS-Apple-Silicon.zip" sparkle:edSignature="1oBg5+roW6X7d3koW8AaMqwYn94tIwGDmyoGQ+sExnww/sxyTOFkPDDSUdtWntGrpYRoX4cuH1C2eCwaDc15CA==" length="55999631" type="application/octet-stream"></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: mXsMM6h29RT0s7AXyxIoPq53WKS9yENRvQaRzglSRFlmycKxPp588cwuUmLdZd2Fu7hcQpT3GPwOZzDWodKVAg==
-length: 2544
+edSignature: 4XwYKQB0ZHhQdGgqwoPGnoXgaGzSFQSK5Jas/DtV0CXV07U0mIAVpvu7M7h5ISMwkdfRomX+g5diLI3n83zZDQ==
+length: 2618
 -->
