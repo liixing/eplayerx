@@ -4,33 +4,33 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <channel>
     <title>EplayerX — Apple-Silicon</title>
     <item>
-      <title>EplayerX 1.2.24</title>
-      <pubDate>Wed, 28 Oct 2026 10:40:02 GMT</pubDate>
-      <sparkle:version>87</sparkle:version>
-      <sparkle:shortVersionString>1.2.24</sparkle:shortVersionString>
+      <title>EplayerX 1.2.25</title>
+      <pubDate>Thu, 29 Oct 2026 16:26:20 GMT</pubDate>
+      <sparkle:version>89</sparkle:version>
+      <sparkle:shortVersionString>1.2.25</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <description sparkle:format="markdown">## 更新内容
 
-- 网盘媒体库卡片现可显示已识别的电影和剧集数量，并随媒体库更新。
-- 修复搜索结果刷新时可能发生的崩溃，提升搜索和历史记录操作的稳定性。
-- 改善部分 Emby 兼容服务器的下载请求兼容性。
-- 优化媒体封面加载时的鉴权信息匹配，减少重复处理。
+- 优化媒体信息的展开和收起动画，修正翻转方向、残影及下方内容重叠的问题。
+- 改善首页、详情页和媒体列表的加载占位及内容过渡，减少闪烁和重复入场动画。
+- 提升首页刷新时封面显示的稳定性，改善部分媒体分级标签的识别与显示。
+- 统一历史记录、收藏及媒体浏览页面的返回操作，改善导航体验。
 
 需要 macOS 12.0 或更高版本，请按 Mac 芯片选择 Apple Silicon 或 Intel 安装包。
 
 ## What’s New
 
-- Cloud drive library cards now show recognized movie and series counts and refresh as the library changes.
-- Fixed a potential crash when search results refresh, improving search and history stability.
-- Improved download request compatibility with certain Emby-compatible servers.
-- Reduced repeated processing when matching authentication headers for artwork requests.
+- Improved media information expand and collapse animations, fixing the fold direction, ghosting, and overlap with content below.
+- Refined loading placeholders and content transitions across Home, detail pages, and media lists to reduce flicker and repeated entrance animations.
+- Improved artwork stability when Home refreshes and recognition and display of certain content rating labels.
+- Made back navigation more consistent across history, favorites, and media browsing pages.
 
 Requires macOS 12.0 or later. Choose the Apple Silicon or Intel download for your Mac.
 </description>
-      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.24-macos/EplayerX-1.2.24-87-macOS-Apple-Silicon.zip" sparkle:edSignature="PhNavJyWwh4lui88sWvxOThh6Q/rCeufpqogkICPRulx3Jsot9oPiLC2rWp+x02fGSUQawIQNczLk8vunaZCDw==" length="56004281" type="application/octet-stream"></enclosure>
+      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.25-macos/EplayerX-1.2.25-89-macOS-Apple-Silicon.zip" sparkle:edSignature="b4nS4D5CjL4Mx47gb3sD3Uru/Tfq5oGqETeRYQdqqRzz+AcMUstTroHTMoXWz5YKVZHs6gKGcoLYsBUaaHs+DA==" length="56103540" type="application/octet-stream"></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: ghPSIVWHdvNvBSjvGBjmypbbR8Yc92NoP9VCzVjPcVoAtVrflJUbWhtmW+uwDmRmnS/DvAdEA+7KNSHVWEU3Cg==
-length: 2054
+edSignature: lfjhjYPGlYHkxmdnKqKBy/kM9UExlGTosrpMpCEAkCCSf2TJ//AqYPG+vh11IJVqYpOHO5TKtSjKG8rwsqU8BA==
+length: 2240
 -->
