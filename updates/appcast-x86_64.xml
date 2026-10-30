@@ -4,33 +4,37 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <channel>
     <title>EplayerX — Intel</title>
     <item>
-      <title>EplayerX 1.2.25</title>
-      <pubDate>Thu, 29 Oct 2026 16:26:20 GMT</pubDate>
-      <sparkle:version>89</sparkle:version>
-      <sparkle:shortVersionString>1.2.25</sparkle:shortVersionString>
+      <title>EplayerX 1.2.26</title>
+      <pubDate>Fri, 30 Oct 2026 09:52:23 GMT</pubDate>
+      <sparkle:version>91</sparkle:version>
+      <sparkle:shortVersionString>1.2.26</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <description sparkle:format="markdown">## 更新内容
 
-- 优化媒体信息的展开和收起动画，修正翻转方向、残影及下方内容重叠的问题。
-- 改善首页、详情页和媒体列表的加载占位及内容过渡，减少闪烁和重复入场动画。
-- 提升首页刷新时封面显示的稳定性，改善部分媒体分级标签的识别与显示。
-- 统一历史记录、收藏及媒体浏览页面的返回操作，改善导航体验。
+- 改善首页首次加载时骨架屏与背景封面的衔接，减少空白和内容跳动。
+- 优化首页、媒体库、详情页和社区的横向列表布局、边距及翻页按钮显示。
+- 调整资源选择面板的按钮样式，让操作界面更简洁。
+- 优化预告片画质增强，并减少非 4K 视频的软件解码提示。
+- 改善通过 Infuse 播放时的进度恢复与播放状态同步。
+- 在「关于」中加入 Discord 社区反馈入口。
 
 需要 macOS 12.0 或更高版本，请按 Mac 芯片选择 Apple Silicon 或 Intel 安装包。
 
 ## What’s New
 
-- Improved media information expand and collapse animations, fixing the fold direction, ghosting, and overlap with content below.
-- Refined loading placeholders and content transitions across Home, detail pages, and media lists to reduce flicker and repeated entrance animations.
-- Improved artwork stability when Home refreshes and recognition and display of certain content rating labels.
-- Made back navigation more consistent across history, favorites, and media browsing pages.
+- Improved the transition from loading placeholders to Home artwork, reducing blank areas and content jumps.
+- Refined horizontal list layouts, spacing, and paging controls across Home, libraries, detail pages, and Community.
+- Simplified button styling in the resource selection panel.
+- Improved trailer video enhancement and reduced software decoding notices for videos below 4K.
+- Improved playback resume and state synchronization when using Infuse.
+- Added a Discord community feedback link in About.
 
 Requires macOS 12.0 or later. Choose the Apple Silicon or Intel download for your Mac.
 </description>
-      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.25-macos/EplayerX-1.2.25-89-macOS-Intel.zip" sparkle:edSignature="Tv9qyUxkyeFO4IE12w3tDT++Ao+ZxA+UCd+7hxjB/wqGedVLGTQbUqcmCSvYnaXh10jGpiubtiLN4p0/sa4wAg==" length="59974037" type="application/octet-stream"></enclosure>
+      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.26-macos/EplayerX-1.2.26-91-macOS-Intel.zip" sparkle:edSignature="7YNrd5ADkfG6YVU77vVnCMMOyt15Tgrix+DQaPWgBxhGtcxeeZDDVD0WJzjrl2lifT5G91tku4/JmItvxwnMAw==" length="60196775" type="application/octet-stream"></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: n45uy6FnsRwpecd3zg/F6cEvZDRvCJ8lW6xOoy6xqTlKQ1s5fm1zfQhDdPqFZWGnzeer5OBasb2E+rEncD4UAw==
-length: 2224
+edSignature: ofOkRoy90oSxTVeyHSYN0fZAbEOpgG7iMSiPOXehAe36m0I47Q99ZB+neolfPMKFkjDXskFo4Opb9+DyDpfOBg==
+length: 2314
 -->
