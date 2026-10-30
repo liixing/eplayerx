@@ -4,37 +4,35 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <channel>
     <title>EplayerX — Intel</title>
     <item>
-      <title>EplayerX 1.2.26</title>
-      <pubDate>Fri, 30 Oct 2026 09:52:23 GMT</pubDate>
-      <sparkle:version>91</sparkle:version>
-      <sparkle:shortVersionString>1.2.26</sparkle:shortVersionString>
+      <title>EplayerX 1.2.27</title>
+      <pubDate>Fri, 30 Oct 2026 16:38:19 GMT</pubDate>
+      <sparkle:version>93</sparkle:version>
+      <sparkle:shortVersionString>1.2.27</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <description sparkle:format="markdown">## 更新内容
 
-- 改善首页首次加载时骨架屏与背景封面的衔接，减少空白和内容跳动。
-- 优化首页、媒体库、详情页和社区的横向列表布局、边距及翻页按钮显示。
-- 调整资源选择面板的按钮样式，让操作界面更简洁。
-- 优化预告片画质增强，并减少非 4K 视频的软件解码提示。
-- 改善通过 Infuse 播放时的进度恢复与播放状态同步。
-- 在「关于」中加入 Discord 社区反馈入口。
+- 重新设计人物详情页，加入作品海报墙、柔和的人物背景和更清晰的简介布局。
+- 优化服务器合集的预览、卡片样式和首页展示，让社区与首页的合集外观保持一致。
+- 改善合集样式选择，仅在有可用封面时提供封面展示样式。
+- 修复部分字幕轨道名称缺失或重复显示的问题，让字幕选择更容易辨认。
+- 改善 ASS 字幕渲染的稳定性。
 
 需要 macOS 12.0 或更高版本，请按 Mac 芯片选择 Apple Silicon 或 Intel 安装包。
 
 ## What’s New
 
-- Improved the transition from loading placeholders to Home artwork, reducing blank areas and content jumps.
-- Refined horizontal list layouts, spacing, and paging controls across Home, libraries, detail pages, and Community.
-- Simplified button styling in the resource selection panel.
-- Improved trailer video enhancement and reduced software decoding notices for videos below 4K.
-- Improved playback resume and state synchronization when using Infuse.
-- Added a Discord community feedback link in About.
+- Redesigned person detail pages with a wall of work posters, a soft portrait backdrop, and a clearer biography layout.
+- Improved server collection previews, card styles, and Home presentation for a consistent appearance across Community and Home.
+- Refined collection style selection so cover-based styles appear only when cover artwork is available.
+- Fixed missing or duplicated names for some subtitle tracks, making subtitles easier to identify.
+- Improved the stability of ASS subtitle rendering.
 
 Requires macOS 12.0 or later. Choose the Apple Silicon or Intel download for your Mac.
 </description>
-      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.26-macos/EplayerX-1.2.26-91-macOS-Intel.zip" sparkle:edSignature="7YNrd5ADkfG6YVU77vVnCMMOyt15Tgrix+DQaPWgBxhGtcxeeZDDVD0WJzjrl2lifT5G91tku4/JmItvxwnMAw==" length="60196775" type="application/octet-stream"></enclosure>
+      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.27-macos/EplayerX-1.2.27-93-macOS-Intel.zip" sparkle:edSignature="dONrabFJ90kBBQ0JK1DIN+WEAC/pgknQZwPcigr2/ZogdEQzFy7dFVXz8BnZiJXm9ePKGWyhkjnSXSFZzdNWBw==" length="60250263" type="application/octet-stream"></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: ofOkRoy90oSxTVeyHSYN0fZAbEOpgG7iMSiPOXehAe36m0I47Q99ZB+neolfPMKFkjDXskFo4Opb9+DyDpfOBg==
-length: 2314
+edSignature: EBkzxL3j8ySRgZzO2e//XAuwdN9Mxf/tmOzibaU/gN+ySclxaE4JukCtA3oOFRDDxBHfFZkQ7IywFTwY3D3LCg==
+length: 2277
 -->
