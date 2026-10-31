@@ -4,35 +4,35 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <channel>
     <title>EplayerX — Intel</title>
     <item>
-      <title>EplayerX 1.2.27</title>
-      <pubDate>Fri, 30 Oct 2026 16:38:19 GMT</pubDate>
-      <sparkle:version>93</sparkle:version>
-      <sparkle:shortVersionString>1.2.27</sparkle:shortVersionString>
+      <title>EplayerX 1.2.28</title>
+      <pubDate>Sat, 31 Oct 2026 10:45:47 GMT</pubDate>
+      <sparkle:version>94</sparkle:version>
+      <sparkle:shortVersionString>1.2.28</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <description sparkle:format="markdown">## 更新内容
 
-- 重新设计人物详情页，加入作品海报墙、柔和的人物背景和更清晰的简介布局。
-- 优化服务器合集的预览、卡片样式和首页展示，让社区与首页的合集外观保持一致。
-- 改善合集样式选择，仅在有可用封面时提供封面展示样式。
-- 修复部分字幕轨道名称缺失或重复显示的问题，让字幕选择更容易辨认。
-- 改善 ASS 字幕渲染的稳定性。
+- 服务器首页沿用媒体库的排序设置，修改排序后会及时刷新。
+- 媒体库支持删除百度网盘及受支持网络共享中的原始文件，并同步更新本地记录；也可清理未匹配条目的识别记录。
+- 优化 AI 字幕的选择与恢复：可在字幕列表中直接选择，自动启用时尊重已有字幕与手动关闭选择。
+- 改善画中画状态下的播放引擎切换、连续播放及兼容性恢复。
+- 修复部分蓝光播放列表的解析问题。
 
 需要 macOS 12.0 或更高版本，请按 Mac 芯片选择 Apple Silicon 或 Intel 安装包。
 
 ## What’s New
 
-- Redesigned person detail pages with a wall of work posters, a soft portrait backdrop, and a clearer biography layout.
-- Improved server collection previews, card styles, and Home presentation for a consistent appearance across Community and Home.
-- Refined collection style selection so cover-based styles appear only when cover artwork is available.
-- Fixed missing or duplicated names for some subtitle tracks, making subtitles easier to identify.
-- Improved the stability of ASS subtitle rendering.
+- Server Home now follows library sorting preferences and refreshes when the sort order changes.
+- Delete original files on Baidu Netdisk and supported network shares from the media library, with local records updated accordingly. Recognition records can also be cleared for unmatched entries.
+- Choose AI Subtitles directly from the subtitle list. Automatic activation now respects existing subtitles and manual Off selections.
+- Improved playback engine switching, episode transitions, and compatibility recovery while using Picture in Picture.
+- Fixed parsing of some Blu-ray playlists.
 
 Requires macOS 12.0 or later. Choose the Apple Silicon or Intel download for your Mac.
 </description>
-      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.27-macos/EplayerX-1.2.27-93-macOS-Intel.zip" sparkle:edSignature="dONrabFJ90kBBQ0JK1DIN+WEAC/pgknQZwPcigr2/ZogdEQzFy7dFVXz8BnZiJXm9ePKGWyhkjnSXSFZzdNWBw==" length="60250263" type="application/octet-stream"></enclosure>
+      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.28-macos/EplayerX-1.2.28-94-macOS-Intel.zip" sparkle:edSignature="uINQ8qweF/n+I/6aHSsmLvaS0/GGOtW4dJwY80P1DDqbz5wZxegzmKD65jSkC0bYXWyk80vCgP1LwG+2LFlfAg==" length="60273784" type="application/octet-stream"></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: EBkzxL3j8ySRgZzO2e//XAuwdN9Mxf/tmOzibaU/gN+ySclxaE4JukCtA3oOFRDDxBHfFZkQ7IywFTwY3D3LCg==
-length: 2277
+edSignature: XvFUibbNWxt8kG1DZvhK4Yj8QEE79JWxXs9UmQybDkGF7bLm/xyip3lIYc78nhdz5CMtXhBC9mQGbeDdrVkACw==
+length: 2428
 -->
