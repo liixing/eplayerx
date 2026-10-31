@@ -4,35 +4,33 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <channel>
     <title>EplayerX — Intel</title>
     <item>
-      <title>EplayerX 1.2.28</title>
-      <pubDate>Sat, 31 Oct 2026 10:45:47 GMT</pubDate>
-      <sparkle:version>94</sparkle:version>
-      <sparkle:shortVersionString>1.2.28</sparkle:shortVersionString>
+      <title>EplayerX 1.2.29</title>
+      <pubDate>Sat, 31 Oct 2026 15:28:47 GMT</pubDate>
+      <sparkle:version>96</sparkle:version>
+      <sparkle:shortVersionString>1.2.29</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <description sparkle:format="markdown">## 更新内容
 
-- 服务器首页沿用媒体库的排序设置，修改排序后会及时刷新。
-- 媒体库支持删除百度网盘及受支持网络共享中的原始文件，并同步更新本地记录；也可清理未匹配条目的识别记录。
-- 优化 AI 字幕的选择与恢复：可在字幕列表中直接选择，自动启用时尊重已有字幕与手动关闭选择。
-- 改善画中画状态下的播放引擎切换、连续播放及兼容性恢复。
-- 修复部分蓝光播放列表的解析问题。
+- 新增“显示资源原始路径”设置，方便在资源选择列表中辨认文件。
+- 字幕搜索结果会随各来源返回逐步显示，减少等待；优化字幕服务的配置与测试反馈。
+- 改善 AI 字幕与内嵌、在线及网盘字幕之间的切换，减少字幕选择被自动恢复覆盖的情况。
+- 优化继续观看的进度同步、账号切换和条目移除后的刷新，减少旧状态重新出现。
 
 需要 macOS 12.0 或更高版本，请按 Mac 芯片选择 Apple Silicon 或 Intel 安装包。
 
 ## What’s New
 
-- Server Home now follows library sorting preferences and refreshes when the sort order changes.
-- Delete original files on Baidu Netdisk and supported network shares from the media library, with local records updated accordingly. Recognition records can also be cleared for unmatched entries.
-- Choose AI Subtitles directly from the subtitle list. Automatic activation now respects existing subtitles and manual Off selections.
-- Improved playback engine switching, episode transitions, and compatibility recovery while using Picture in Picture.
-- Fixed parsing of some Blu-ray playlists.
+- Added a Show Original Resource Path setting to help identify files in the resource picker.
+- Subtitle search results now appear as each source responds, reducing the wait. Improved subtitle service configuration and test feedback.
+- Improved switching between AI, embedded, online, and cloud subtitles, reducing cases where automatic restoration overrides your selection.
+- Improved Continue Watching progress synchronization, account switching, and refreshes after removing items, reducing the reappearance of stale states.
 
 Requires macOS 12.0 or later. Choose the Apple Silicon or Intel download for your Mac.
 </description>
-      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.28-macos/EplayerX-1.2.28-94-macOS-Intel.zip" sparkle:edSignature="uINQ8qweF/n+I/6aHSsmLvaS0/GGOtW4dJwY80P1DDqbz5wZxegzmKD65jSkC0bYXWyk80vCgP1LwG+2LFlfAg==" length="60273784" type="application/octet-stream"></enclosure>
+      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.29-macos/EplayerX-1.2.29-96-macOS-Intel.zip" sparkle:edSignature="tGllGASNGb6IT2r/TB9CCG0sDjjgj4+ExUIE8aVi94BvQvH4xKawXGq8AjLktT7V6CkVuMq3bfJnMI6SWEo3Ag==" length="60305124" type="application/octet-stream"></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: XvFUibbNWxt8kG1DZvhK4Yj8QEE79JWxXs9UmQybDkGF7bLm/xyip3lIYc78nhdz5CMtXhBC9mQGbeDdrVkACw==
-length: 2428
+edSignature: JpOTY7Sy6mw3jecMRj1DGNKI0hEbp5CuB5ZozGM+WUDxAigUiOTtNZR6dib61EaC68OUNRhS97vZsmAo+ezxAg==
+length: 2299
 -->
