@@ -4,29 +4,35 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <channel>
     <title>EplayerX — Intel</title>
     <item>
-      <title>EplayerX 1.2.30</title>
-      <pubDate>Sun, 01 Nov 2026 01:34:51 GMT</pubDate>
-      <sparkle:version>97</sparkle:version>
-      <sparkle:shortVersionString>1.2.30</sparkle:shortVersionString>
+      <title>EplayerX 1.2.31</title>
+      <pubDate>Sun, 01 Nov 2026 12:47:52 GMT</pubDate>
+      <sparkle:version>98</sparkle:version>
+      <sparkle:shortVersionString>1.2.31</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <description sparkle:format="markdown">## 更新内容
 
-- 修复播放异常恢复时可能出现的崩溃，改善连续报错及切换播放内容时的稳定性。
-- 优化播放器兼容性回退，避免旧播放会话的延迟错误干扰当前播放。
+- 修复网盘和网络共享文件列表的列排序，切换排序后及时刷新。
+- 媒体库支持批量清除匹配记录、删除受支持来源的原始文件，并改进海报显示、选择与返回操作。
+- 优化播放中的字幕调整，使针对当前内容的设置更独立，减少影响其他影片。
+- 改善字幕翻译与双字幕的配合，修复取消 AI 字幕后普通字幕可能被自动恢复的问题。
+- 优化继续观看的播放地址复用、弹幕请求和缓存管理。
 
 需要 macOS 12.0 或更高版本，请按 Mac 芯片选择 Apple Silicon 或 Intel 安装包。
 
 ## What’s New
 
-- Fixed potential crashes during playback error recovery and improved stability when errors repeat or playback content changes.
-- Improved compatibility fallback so delayed errors from a previous playback session do not interfere with the current session.
+- Fixed column sorting in cloud-drive and network-share file lists, with prompt refreshes when the sort order changes.
+- Added batch removal of matching records and original files from supported sources, with improved poster display, selection, and back navigation in the media library.
+- Improved subtitle adjustments during playback so settings for the current title are more independent and less likely to affect other titles.
+- Improved cooperation between subtitle translation and dual subtitles, and fixed ordinary subtitles being restored automatically after cancelling AI subtitles.
+- Improved playback-address reuse for Continue Watching, danmaku requests, and cache management.
 
 Requires macOS 12.0 or later. Choose the Apple Silicon or Intel download for your Mac.
 </description>
-      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.30-macos/EplayerX-1.2.30-97-macOS-Intel.zip" sparkle:edSignature="8wK84lwm4VM+teV64RCoWrd8t7JpmJYKJrJbbbVE8a9e8LfdjLetY21B4KiGsRidg9q2ilZF22GZaAxIJmUdAw==" length="60312832" type="application/octet-stream"></enclosure>
+      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.31-macos/EplayerX-1.2.31-98-macOS-Intel.zip" sparkle:edSignature="Su7lgzjmi1jp/IaZz9lyM5V1hQ8Ieg5f4TvFHgYUku5w/kBjS4IZQD5rFm1cP+8eIkZGhUmt7gpoGQaK5HQgAw==" length="60353162" type="application/octet-stream"></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: frRvYFVTTHZel6th7iqwWoIGeqSlOHCuy119RWhLC7m0/7vu3LhB+XUKWCsJPduQ4tL7Usn7tr+jJg5tkiX1Cg==
-length: 1790
+edSignature: zsYs7EEMsefpOkyrX6ia3xLa3KYqg37Bd5h1rrWgPGEu7mWoSVQW82X/nXCWsHf2SO633rUmsMyilYXW/I04Bw==
+length: 2532
 -->
