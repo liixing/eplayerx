@@ -4,33 +4,29 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <channel>
     <title>EplayerX — Intel</title>
     <item>
-      <title>EplayerX 1.2.29</title>
-      <pubDate>Sat, 31 Oct 2026 15:28:47 GMT</pubDate>
-      <sparkle:version>96</sparkle:version>
-      <sparkle:shortVersionString>1.2.29</sparkle:shortVersionString>
+      <title>EplayerX 1.2.30</title>
+      <pubDate>Sun, 01 Nov 2026 01:34:51 GMT</pubDate>
+      <sparkle:version>97</sparkle:version>
+      <sparkle:shortVersionString>1.2.30</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <description sparkle:format="markdown">## 更新内容
 
-- 新增“显示资源原始路径”设置，方便在资源选择列表中辨认文件。
-- 字幕搜索结果会随各来源返回逐步显示，减少等待；优化字幕服务的配置与测试反馈。
-- 改善 AI 字幕与内嵌、在线及网盘字幕之间的切换，减少字幕选择被自动恢复覆盖的情况。
-- 优化继续观看的进度同步、账号切换和条目移除后的刷新，减少旧状态重新出现。
+- 修复播放异常恢复时可能出现的崩溃，改善连续报错及切换播放内容时的稳定性。
+- 优化播放器兼容性回退，避免旧播放会话的延迟错误干扰当前播放。
 
 需要 macOS 12.0 或更高版本，请按 Mac 芯片选择 Apple Silicon 或 Intel 安装包。
 
 ## What’s New
 
-- Added a Show Original Resource Path setting to help identify files in the resource picker.
-- Subtitle search results now appear as each source responds, reducing the wait. Improved subtitle service configuration and test feedback.
-- Improved switching between AI, embedded, online, and cloud subtitles, reducing cases where automatic restoration overrides your selection.
-- Improved Continue Watching progress synchronization, account switching, and refreshes after removing items, reducing the reappearance of stale states.
+- Fixed potential crashes during playback error recovery and improved stability when errors repeat or playback content changes.
+- Improved compatibility fallback so delayed errors from a previous playback session do not interfere with the current session.
 
 Requires macOS 12.0 or later. Choose the Apple Silicon or Intel download for your Mac.
 </description>
-      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.29-macos/EplayerX-1.2.29-96-macOS-Intel.zip" sparkle:edSignature="tGllGASNGb6IT2r/TB9CCG0sDjjgj4+ExUIE8aVi94BvQvH4xKawXGq8AjLktT7V6CkVuMq3bfJnMI6SWEo3Ag==" length="60305124" type="application/octet-stream"></enclosure>
+      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.30-macos/EplayerX-1.2.30-97-macOS-Intel.zip" sparkle:edSignature="8wK84lwm4VM+teV64RCoWrd8t7JpmJYKJrJbbbVE8a9e8LfdjLetY21B4KiGsRidg9q2ilZF22GZaAxIJmUdAw==" length="60312832" type="application/octet-stream"></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: JpOTY7Sy6mw3jecMRj1DGNKI0hEbp5CuB5ZozGM+WUDxAigUiOTtNZR6dib61EaC68OUNRhS97vZsmAo+ezxAg==
-length: 2299
+edSignature: frRvYFVTTHZel6th7iqwWoIGeqSlOHCuy119RWhLC7m0/7vu3LhB+XUKWCsJPduQ4tL7Usn7tr+jJg5tkiX1Cg==
+length: 1790
 -->
