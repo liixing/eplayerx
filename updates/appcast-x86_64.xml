@@ -4,35 +4,35 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <channel>
     <title>EplayerX — Intel</title>
     <item>
-      <title>EplayerX 1.2.31</title>
-      <pubDate>Sun, 01 Nov 2026 12:47:52 GMT</pubDate>
-      <sparkle:version>98</sparkle:version>
-      <sparkle:shortVersionString>1.2.31</sparkle:shortVersionString>
+      <title>EplayerX 1.2.32</title>
+      <pubDate>Mon, 02 Nov 2026 03:59:08 GMT</pubDate>
+      <sparkle:version>100</sparkle:version>
+      <sparkle:shortVersionString>1.2.32</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <description sparkle:format="markdown">## 更新内容
 
-- 修复网盘和网络共享文件列表的列排序，切换排序后及时刷新。
-- 媒体库支持批量清除匹配记录、删除受支持来源的原始文件，并改进海报显示、选择与返回操作。
-- 优化播放中的字幕调整，使针对当前内容的设置更独立，减少影响其他影片。
-- 改善字幕翻译与双字幕的配合，修复取消 AI 字幕后普通字幕可能被自动恢复的问题。
-- 优化继续观看的播放地址复用、弹幕请求和缓存管理。
+- 改进剧集与播放资源的对应关系，让选集、续播和跳转最新可播放剧集更加准确。
+- 统一详情页和继续观看中的播放工具，改善切换资源与字幕的操作体验。
+- 优化字幕设置面板的布局与说明，统一字幕外观偏好，同时保留当前内容的独立播放调整。
+- 改善预告片的加载与超时处理，减少无响应的等待。
+- 优化社区内容加载，改善 AI 字幕的识别与状态恢复。
 
 需要 macOS 12.0 或更高版本，请按 Mac 芯片选择 Apple Silicon 或 Intel 安装包。
 
 ## What’s New
 
-- Fixed column sorting in cloud-drive and network-share file lists, with prompt refreshes when the sort order changes.
-- Added batch removal of matching records and original files from supported sources, with improved poster display, selection, and back navigation in the media library.
-- Improved subtitle adjustments during playback so settings for the current title are more independent and less likely to affect other titles.
-- Improved cooperation between subtitle translation and dual subtitles, and fixed ordinary subtitles being restored automatically after cancelling AI subtitles.
-- Improved playback-address reuse for Continue Watching, danmaku requests, and cache management.
+- Improved episode-to-resource matching for more accurate episode selection, resume playback, and navigation to the latest playable episode.
+- Unified playback tools on detail pages and Continue Watching for smoother resource and subtitle switching.
+- Refined the subtitle settings layout and guidance, with consistent appearance preferences and separate playback adjustments for the current title.
+- Improved trailer loading and timeout handling to reduce unresponsive waits.
+- Improved community content loading, AI subtitle recognition, and subtitle state restoration.
 
 Requires macOS 12.0 or later. Choose the Apple Silicon or Intel download for your Mac.
 </description>
-      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.31-macos/EplayerX-1.2.31-98-macOS-Intel.zip" sparkle:edSignature="Su7lgzjmi1jp/IaZz9lyM5V1hQ8Ieg5f4TvFHgYUku5w/kBjS4IZQD5rFm1cP+8eIkZGhUmt7gpoGQaK5HQgAw==" length="60353162" type="application/octet-stream"></enclosure>
+      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.32-macos/EplayerX-1.2.32-100-macOS-Intel.zip" sparkle:edSignature="RO9UOvaBC9jKyivyz3y+iUj+5ya4hEWXc6NkaKTCfYZLxapVamYYXH28Quj4yqxrNZFhHym2PAkwgCgQfveTCQ==" length="60354324" type="application/octet-stream"></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: zsYs7EEMsefpOkyrX6ia3xLa3KYqg37Bd5h1rrWgPGEu7mWoSVQW82X/nXCWsHf2SO633rUmsMyilYXW/I04Bw==
-length: 2532
+edSignature: ZX1lfYzD6P9WCF6Xmkj3LZzHe3xVPYxwzB6qeFcn6gI8/4rAYdbRfHE/1aJ9rnYebSORG9gYcE7r/4SFQBKjCg==
+length: 2382
 -->
