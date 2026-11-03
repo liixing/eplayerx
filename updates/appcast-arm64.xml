@@ -4,35 +4,37 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <channel>
     <title>EplayerX — Apple-Silicon</title>
     <item>
-      <title>EplayerX 1.2.33</title>
-      <pubDate>Tue, 03 Nov 2026 01:22:15 GMT</pubDate>
-      <sparkle:version>102</sparkle:version>
-      <sparkle:shortVersionString>1.2.33</sparkle:shortVersionString>
+      <title>EplayerX 1.2.34</title>
+      <pubDate>Tue, 03 Nov 2026 15:45:30 GMT</pubDate>
+      <sparkle:version>103</sparkle:version>
+      <sparkle:shortVersionString>1.2.34</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <description sparkle:format="markdown">## 更新内容
 
-- 统一演员与人物详情页，改善人物介绍、作品浏览和返回导航体验。
-- 提升人物头像清晰度，让搜索、首页和详情页中的人物图片保持一致。
-- 优化媒体库扫描：优先完成影片识别，再补充剧集 NFO 信息；改善中断恢复和临时网络错误后的重试。
-- 修复未观看提醒在刷新后重复安排的问题，改善提醒时间的稳定性。
-- 改进音轨语言名称显示与多语言文本。
+- 支持在统一搜索中查找已扫描的网盘和网络共享媒体库，按影片与剧集浏览结果。
+- 改善媒体详情手动刷新，让资源、季和剧集信息及时更新。
+- 修复跨设备同步后本地专属媒体源顺序变化的问题。
+- 更新 Pro 会员页面，优化方案切换、功能介绍和购买状态展示。
+- 改善字幕翻译服务的网络错误处理与重试体验。
+- 改善弱网环境下已缓存视频的跳转响应。
 
 需要 macOS 12.0 或更高版本，请按 Mac 芯片选择 Apple Silicon 或 Intel 安装包。
 
 ## What’s New
 
-- Unified cast and person detail pages for smoother biographies, filmography browsing, and back navigation.
-- Improved portrait clarity and consistency across search, Home, and detail pages.
-- Improved library scanning by completing title recognition before importing episode NFO metadata, with better interruption recovery and retries after temporary network errors.
-- Fixed repeated rescheduling of unwatched reminders after refreshes for more consistent delivery times.
-- Improved audio track language names and localized text.
+- Search scanned cloud-drive and network-share libraries alongside your other media sources, with movie and TV results.
+- Improved manual refresh on media details so sources, seasons, and episodes update promptly.
+- Fixed local-only media sources changing position after cross-device sync.
+- Refreshed the Pro membership page with clearer plan switching, feature descriptions, and purchase status.
+- Improved network error handling and retries for subtitle translation services.
+- Improved seeking responsiveness for cached video on slow or stalled connections.
 
 Requires macOS 12.0 or later. Choose the Apple Silicon or Intel download for your Mac.
 </description>
-      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.33-macos/EplayerX-1.2.33-102-macOS-Apple-Silicon.zip" sparkle:edSignature="IiYXQChQgeYqyr1bQUeRBg4LEy6itZXXfRRGhqngAjl6DVfnSCGWYrQqxyrDiV2zRfMgt2E0vb2TFbs96WsyAg==" length="56377186" type="application/octet-stream"></enclosure>
+      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.34-macos/EplayerX-1.2.34-103-macOS-Apple-Silicon.zip" sparkle:edSignature="5eVNNOWK4ncnQbn1IidgysWC8BL7MNKYghy9ERmpPlgKf9x1hbFG8IrvbwU91JryGzixFwcacVIdKHrnqmcrBg==" length="56471199" type="application/octet-stream"></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: q/2dZHJa147JJXheyuetrZfyUJeBcOdqKKja4hwpInvEYRcd/8dPn3RV07aHPr+J2ldMq5WT0HolULLRJA9KBA==
-length: 2352
+edSignature: oN0WpPII4gJ3ZAMu/49q03p6En0dlCQCpuXd4jBOG2extLOo3ff9wv7Pl57BPc/j1+j4NAxdRsYaNzWuzS9SBQ==
+length: 2383
 -->
