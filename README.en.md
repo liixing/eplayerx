@@ -6,12 +6,12 @@ The public hub for EplayerX feedback and macOS downloads.
 
 ## Download for macOS
 
-Current version: [**1.2.32**](https://github.com/liixing/eplayerx/releases/tag/v1.2.32-macos). Requires **macOS 12.0 or later**.
+Current version: [**1.2.33**](https://github.com/liixing/eplayerx/releases/tag/v1.2.33-macos). Requires **macOS 12.0 or later**.
 
 | Mac processor | Download |
 | --- | --- |
-| Apple Silicon (M-series) | [Download for Apple Silicon](https://github.com/liixing/eplayerx/releases/download/v1.2.32-macos/EplayerX-1.2.32-100-macOS-Apple-Silicon.zip) |
-| Intel | [Download for Intel](https://github.com/liixing/eplayerx/releases/download/v1.2.32-macos/EplayerX-1.2.32-100-macOS-Intel.zip) |
+| Apple Silicon (M-series) | [Download for Apple Silicon](https://github.com/liixing/eplayerx/releases/download/v1.2.33-macos/EplayerX-1.2.33-102-macOS-Apple-Silicon.zip) |
+| Intel | [Download for Intel](https://github.com/liixing/eplayerx/releases/download/v1.2.33-macos/EplayerX-1.2.33-102-macOS-Intel.zip) |
 
 Choose ** → About This Mac** in the top-left corner of your screen and check the Chip or Processor field to select the right download.
 
@@ -21,12 +21,12 @@ Installer downloads are available only for the latest version. Older releases re
 
 ### SHA-256 checksums
 
-[Download checksum file](https://github.com/liixing/eplayerx/releases/download/v1.2.32-macos/SHA256SUMS.txt)
+[Download checksum file](https://github.com/liixing/eplayerx/releases/download/v1.2.33-macos/SHA256SUMS.txt)
 
 | Mac processor | SHA-256 |
 | --- | --- |
-| Apple Silicon | `9020293444284962c81eb53578426a88719e045f12dab8c42f8a656ae0e34082` |
-| Intel | `81c6ffebe0b5d4eaa80a6a5dee9588ecbf6322a03125ca23e12c8e6166c923f8` |
+| Apple Silicon | `123e2cdb88de8af7cebd485a8f6e59ee6c09021ce242a75f9163e7155128f35f` |
+| Intel | `f2bdeca526cec4b5b35273de7f256257bfc450bc1448e0f4b12a7a979d067def` |
 
 ## Switching from the App Store version
 

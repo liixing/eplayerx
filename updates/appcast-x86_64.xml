@@ -4,35 +4,35 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <channel>
     <title>EplayerX — Intel</title>
     <item>
-      <title>EplayerX 1.2.32</title>
-      <pubDate>Mon, 02 Nov 2026 03:59:08 GMT</pubDate>
-      <sparkle:version>100</sparkle:version>
-      <sparkle:shortVersionString>1.2.32</sparkle:shortVersionString>
+      <title>EplayerX 1.2.33</title>
+      <pubDate>Tue, 03 Nov 2026 01:22:16 GMT</pubDate>
+      <sparkle:version>102</sparkle:version>
+      <sparkle:shortVersionString>1.2.33</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <description sparkle:format="markdown">## 更新内容
 
-- 改进剧集与播放资源的对应关系，让选集、续播和跳转最新可播放剧集更加准确。
-- 统一详情页和继续观看中的播放工具，改善切换资源与字幕的操作体验。
-- 优化字幕设置面板的布局与说明，统一字幕外观偏好，同时保留当前内容的独立播放调整。
-- 改善预告片的加载与超时处理，减少无响应的等待。
-- 优化社区内容加载，改善 AI 字幕的识别与状态恢复。
+- 统一演员与人物详情页，改善人物介绍、作品浏览和返回导航体验。
+- 提升人物头像清晰度，让搜索、首页和详情页中的人物图片保持一致。
+- 优化媒体库扫描：优先完成影片识别，再补充剧集 NFO 信息；改善中断恢复和临时网络错误后的重试。
+- 修复未观看提醒在刷新后重复安排的问题，改善提醒时间的稳定性。
+- 改进音轨语言名称显示与多语言文本。
 
 需要 macOS 12.0 或更高版本，请按 Mac 芯片选择 Apple Silicon 或 Intel 安装包。
 
 ## What’s New
 
-- Improved episode-to-resource matching for more accurate episode selection, resume playback, and navigation to the latest playable episode.
-- Unified playback tools on detail pages and Continue Watching for smoother resource and subtitle switching.
-- Refined the subtitle settings layout and guidance, with consistent appearance preferences and separate playback adjustments for the current title.
-- Improved trailer loading and timeout handling to reduce unresponsive waits.
-- Improved community content loading, AI subtitle recognition, and subtitle state restoration.
+- Unified cast and person detail pages for smoother biographies, filmography browsing, and back navigation.
+- Improved portrait clarity and consistency across search, Home, and detail pages.
+- Improved library scanning by completing title recognition before importing episode NFO metadata, with better interruption recovery and retries after temporary network errors.
+- Fixed repeated rescheduling of unwatched reminders after refreshes for more consistent delivery times.
+- Improved audio track language names and localized text.
 
 Requires macOS 12.0 or later. Choose the Apple Silicon or Intel download for your Mac.
 </description>
-      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.32-macos/EplayerX-1.2.32-100-macOS-Intel.zip" sparkle:edSignature="RO9UOvaBC9jKyivyz3y+iUj+5ya4hEWXc6NkaKTCfYZLxapVamYYXH28Quj4yqxrNZFhHym2PAkwgCgQfveTCQ==" length="60354324" type="application/octet-stream"></enclosure>
+      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.33-macos/EplayerX-1.2.33-102-macOS-Intel.zip" sparkle:edSignature="ksSrfyaV3kkSJ8deycQuPbKT5SMTAsN2pHZC46G5TqccHP/d/jPZQi2Y1DRbJGOScI+pTUJARhtEZPb8CavlAA==" length="60502216" type="application/octet-stream"></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: ZX1lfYzD6P9WCF6Xmkj3LZzHe3xVPYxwzB6qeFcn6gI8/4rAYdbRfHE/1aJ9rnYebSORG9gYcE7r/4SFQBKjCg==
-length: 2382
+edSignature: wc6ICyL7COc48jK2UXbiHAJz1r+2upBxs3+xtwUCfXfgY4e9d12Ny5A8O+0UzPoOtHnJTIYVUjMwJ8UEzdGrBw==
+length: 2336
 -->
