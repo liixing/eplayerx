@@ -4,35 +4,37 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <channel>
     <title>EplayerX — Apple-Silicon</title>
     <item>
-      <title>EplayerX 1.2.35</title>
-      <pubDate>Wed, 04 Nov 2026 07:47:36 GMT</pubDate>
-      <sparkle:version>105</sparkle:version>
-      <sparkle:shortVersionString>1.2.35</sparkle:shortVersionString>
+      <title>EplayerX 1.2.36</title>
+      <pubDate>Fri, 06 Nov 2026 02:02:49 GMT</pubDate>
+      <sparkle:version>107</sparkle:version>
+      <sparkle:shortVersionString>1.2.36</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <description sparkle:format="markdown">## 更新内容
 
-- 改善部分 H.264 视频的解码兼容性与播放稳定性。
-- 优化跳转进度时的画面衔接，以及连续播放下一集时的预加载处理。
-- 改善预告片静音自动播放和声音切换体验。
-- 修复 Silo 媒体源部分外挂字幕无法加载的问题。
-- 改善播放切换、音频输出和字幕渲染的稳定性。
+- 新增 Seerr 接入，可在影视详情页提交电影、剧集分季请求，并查看和管理请求状态。
+- 支持自定义下载保存位置，并将已有下载迁移到新文件夹。
+- 改善媒体库删除记录的 iCloud 同步，以及详情页资源更新的及时性。
+- 修复 Jellyfin 服务器弹幕加载兼容性问题。
+- 优化移动云盘视频的缓存复用，提升播放恢复与字幕显示的稳定性。
+- 新用户默认启用第二代播放引擎，已有引擎选择继续生效。
 
 需要 macOS 12.0 或更高版本，请按 Mac 芯片选择 Apple Silicon 或 Intel 安装包。
 
 ## What’s New
 
-- Improved decoding compatibility and playback stability for certain H.264 videos.
-- Smoother picture transitions when seeking, with improved preloading for the next episode.
-- Improved muted trailer autoplay and audio switching.
-- Fixed external subtitles failing to load for some Silo media sources.
-- Improved stability when switching playback, outputting audio, and rendering subtitles.
+- Added Seerr integration to request movies or selected TV seasons from media details, and view and manage requests.
+- Choose a custom download location and move existing downloads to the new folder.
+- Improved iCloud syncing of media-library deletions and resource refreshes on media detail pages.
+- Fixed danmaku loading compatibility with Jellyfin servers.
+- Improved video cache reuse for China Mobile Cloud Drive, playback recovery, and subtitle stability.
+- The second-generation playback engine is now enabled by default for new users. Existing engine preferences are respected.
 
 Requires macOS 12.0 or later. Choose the Apple Silicon or Intel download for your Mac.
 </description>
-      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.35-macos/EplayerX-1.2.35-105-macOS-Apple-Silicon.zip" sparkle:edSignature="Pzl4QTS+a8/ya/M3Q8jr52hr3C8Er/8AKdOqsiUb2ue6NsYH50fF1HKjal3eO2jsmRt9nzgafKefh6AAqnGeDw==" length="56592207" type="application/octet-stream"></enclosure>
+      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.36-macos/EplayerX-1.2.36-107-macOS-Apple-Silicon.zip" sparkle:edSignature="yVTWgEjzY9KJ3WhvVo/ozKcOYtrL9EMr/zV5xlLN/0ljCVCzruJouxYxGi+d5OMurqJv9qbbfPXMIIqLo/BnBA==" length="56708818" type="application/octet-stream"></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: fOivrtvfe1yjXPI+uZRHk7bmJF5pNRNyJAOxp+t7d9eyDrvshX8MA/ua2F/sdN48LdIPx9MpnlLHjVfcgI5WBQ==
-length: 2091
+edSignature: 8LUKZ8CCGn5kxMcvN1oOpv5/lXSK8cym6PSsNNaTHSIppJunnbnF6i6H9aQu/cEZDMVdHWzBX9yO/bktomr7Cw==
+length: 2454
 -->
