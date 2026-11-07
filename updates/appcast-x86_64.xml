@@ -4,37 +4,35 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <channel>
     <title>EplayerX — Intel</title>
     <item>
-      <title>EplayerX 1.2.37</title>
-      <pubDate>Sat, 07 Nov 2026 05:44:28 GMT</pubDate>
-      <sparkle:version>109</sparkle:version>
-      <sparkle:shortVersionString>1.2.37</sparkle:shortVersionString>
+      <title>EplayerX 1.2.38</title>
+      <pubDate>Sat, 07 Nov 2026 11:03:31 GMT</pubDate>
+      <sparkle:version>111</sparkle:version>
+      <sparkle:shortVersionString>1.2.38</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <description sparkle:format="markdown">## 更新内容
 
-- 新增画面右下角关键词识别与自动跳过，支持自定义关键词和正则规则。
-- 支持共享剧集片头片尾标记，改善跳过片头片尾的体验。
-- 增强蓝光 ISO、BDMV 和网络共享视频的播放兼容性，改善未标注格式的 ISO 识别，并支持切换光盘标题。
-- 优化播放启动和下一集预加载，减少自动选择音轨时的等待。
-- 改善跳转进度、预览缩略图和字幕显示的稳定性。
-- Seerr 新增 Plex 账号授权登录，并优化登录和请求管理体验。
+- 新增飞牛影视服务器接入，支持登录、浏览媒体库和播放。
+- 优化画面关键词自动跳过，提高识别效率，完善自定义关键词与正则规则编辑，并增加识别提示。
+- 改进 Seerr 多服务器管理、登录和请求列表，优化剧集季选择与请求提交体验。
+- 改善 Emby 外挂字幕与播放地址兼容性，优化预告片播放和切换体验。
+- 优化提示消息与部分界面文案。
 
 需要 macOS 12.0 或更高版本，请按 Mac 芯片选择 Apple Silicon 或 Intel 安装包。
 
 ## What’s New
 
-- Added automatic skipping based on keywords detected in the bottom-right corner of the video, with custom keywords and regular expressions.
-- Added shared episode intro and outro markers for improved intro and outro skipping.
-- Improved playback compatibility for Blu-ray ISO, BDMV, and network-share videos, including detection of mislabeled ISO files and disc title selection.
-- Improved playback startup and next-episode preloading, reducing delays during automatic audio-track selection.
-- Improved the reliability of seeking, preview thumbnails, and subtitle rendering.
-- Added Plex account authorization for Seerr, with improvements to sign-in and request management.
+- Added FnMedia server support for signing in, browsing libraries, and playback.
+- Improved the efficiency of on-screen keyword skipping, refined custom keyword and regular-expression editing, and added detection notifications.
+- Improved Seerr multi-server management, sign-in, and request lists, with refinements to season selection and request submission.
+- Improved compatibility with Emby external subtitles and playback URLs, and refined trailer playback and switching.
+- Refined notifications and interface text.
 
 Requires macOS 12.0 or later. Choose the Apple Silicon or Intel download for your Mac.
 </description>
-      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.37-macos/EplayerX-1.2.37-109-macOS-Intel.zip" sparkle:edSignature="fdGsCCEWPgQQh6aodL3FFTjFbOunxCYVBiz58UkC5625+BEs4w9aV6/Pa5dJ7sO6HBgxZmkDoD2pjVp4PytgAg==" length="69758464" type="application/octet-stream"></enclosure>
+      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.38-macos/EplayerX-1.2.38-111-macOS-Intel.zip" sparkle:edSignature="QhHcT6Tte8wwzvDh6vgkic5fVx3eSxLbp3cvRwUTSJG+niIXsClZNRkKc72DNbZM7JO6hr28bAc19MiPUYQODw==" length="61192863" type="application/octet-stream"></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 3MyCeF6fVDto0qAESzWJlCMRBDCX236IXijmg11ErRghPo2Y4liksYXUE3lH7LcHe2YUzmD0xtmkTbZz7wmzDA==
-length: 2555
+edSignature: wCaCzOJf8xtEKlS8AaBMDex54q+d9HA1u6JVIFIhysYCzhsCUCQPFNMirnYP9/HC41kJnPj5iYYZP+wEo12uBw==
+length: 2309
 -->
