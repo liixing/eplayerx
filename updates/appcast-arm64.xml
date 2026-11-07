@@ -4,37 +4,37 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <channel>
     <title>EplayerX — Apple-Silicon</title>
     <item>
-      <title>EplayerX 1.2.36</title>
-      <pubDate>Fri, 06 Nov 2026 02:02:49 GMT</pubDate>
-      <sparkle:version>107</sparkle:version>
-      <sparkle:shortVersionString>1.2.36</sparkle:shortVersionString>
+      <title>EplayerX 1.2.37</title>
+      <pubDate>Sat, 07 Nov 2026 05:44:27 GMT</pubDate>
+      <sparkle:version>109</sparkle:version>
+      <sparkle:shortVersionString>1.2.37</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <description sparkle:format="markdown">## 更新内容
 
-- 新增 Seerr 接入，可在影视详情页提交电影、剧集分季请求，并查看和管理请求状态。
-- 支持自定义下载保存位置，并将已有下载迁移到新文件夹。
-- 改善媒体库删除记录的 iCloud 同步，以及详情页资源更新的及时性。
-- 修复 Jellyfin 服务器弹幕加载兼容性问题。
-- 优化移动云盘视频的缓存复用，提升播放恢复与字幕显示的稳定性。
-- 新用户默认启用第二代播放引擎，已有引擎选择继续生效。
+- 新增画面右下角关键词识别与自动跳过，支持自定义关键词和正则规则。
+- 支持共享剧集片头片尾标记，改善跳过片头片尾的体验。
+- 增强蓝光 ISO、BDMV 和网络共享视频的播放兼容性，改善未标注格式的 ISO 识别，并支持切换光盘标题。
+- 优化播放启动和下一集预加载，减少自动选择音轨时的等待。
+- 改善跳转进度、预览缩略图和字幕显示的稳定性。
+- Seerr 新增 Plex 账号授权登录，并优化登录和请求管理体验。
 
 需要 macOS 12.0 或更高版本，请按 Mac 芯片选择 Apple Silicon 或 Intel 安装包。
 
 ## What’s New
 
-- Added Seerr integration to request movies or selected TV seasons from media details, and view and manage requests.
-- Choose a custom download location and move existing downloads to the new folder.
-- Improved iCloud syncing of media-library deletions and resource refreshes on media detail pages.
-- Fixed danmaku loading compatibility with Jellyfin servers.
-- Improved video cache reuse for China Mobile Cloud Drive, playback recovery, and subtitle stability.
-- The second-generation playback engine is now enabled by default for new users. Existing engine preferences are respected.
+- Added automatic skipping based on keywords detected in the bottom-right corner of the video, with custom keywords and regular expressions.
+- Added shared episode intro and outro markers for improved intro and outro skipping.
+- Improved playback compatibility for Blu-ray ISO, BDMV, and network-share videos, including detection of mislabeled ISO files and disc title selection.
+- Improved playback startup and next-episode preloading, reducing delays during automatic audio-track selection.
+- Improved the reliability of seeking, preview thumbnails, and subtitle rendering.
+- Added Plex account authorization for Seerr, with improvements to sign-in and request management.
 
 Requires macOS 12.0 or later. Choose the Apple Silicon or Intel download for your Mac.
 </description>
-      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.36-macos/EplayerX-1.2.36-107-macOS-Apple-Silicon.zip" sparkle:edSignature="yVTWgEjzY9KJ3WhvVo/ozKcOYtrL9EMr/zV5xlLN/0ljCVCzruJouxYxGi+d5OMurqJv9qbbfPXMIIqLo/BnBA==" length="56708818" type="application/octet-stream"></enclosure>
+      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.37-macos/EplayerX-1.2.37-109-macOS-Apple-Silicon.zip" sparkle:edSignature="SOvUz1oA9CmcUFDjfck6IYrZch/iMoqR6n545irsIIxLg0tboXcPQycQnYrTtHbBW3SbPgFVm5KaGStTCl77Dg==" length="65581153" type="application/octet-stream"></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 8LUKZ8CCGn5kxMcvN1oOpv5/lXSK8cym6PSsNNaTHSIppJunnbnF6i6H9aQu/cEZDMVdHWzBX9yO/bktomr7Cw==
-length: 2454
+edSignature: ix9cEPv20G1Aj7e+XYQgfxNokQx729ocZN+wwEzAod9XHfMIa6MvhYJaO9wrg9niruOLb+DLjWt6doJkZEywAA==
+length: 2571
 -->

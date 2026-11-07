@@ -6,12 +6,12 @@ EplayerX 的公开反馈与 macOS 下载仓库。
 
 ## macOS 下载
 
-当前版本：[**1.2.36**](https://github.com/liixing/eplayerx/releases/tag/v1.2.36-macos)，需要 **macOS 12.0 或更高版本**。
+当前版本：[**1.2.37**](https://github.com/liixing/eplayerx/releases/tag/v1.2.37-macos)，需要 **macOS 12.0 或更高版本**。
 
 | Mac 芯片 | 下载 |
 | --- | --- |
-| Apple Silicon（M 系列） | [下载 Apple Silicon 版](https://github.com/liixing/eplayerx/releases/download/v1.2.36-macos/EplayerX-1.2.36-107-macOS-Apple-Silicon.zip) |
-| Intel | [下载 Intel 版](https://github.com/liixing/eplayerx/releases/download/v1.2.36-macos/EplayerX-1.2.36-107-macOS-Intel.zip) |
+| Apple Silicon（M 系列） | [下载 Apple Silicon 版](https://github.com/liixing/eplayerx/releases/download/v1.2.37-macos/EplayerX-1.2.37-109-macOS-Apple-Silicon.zip) |
+| Intel | [下载 Intel 版](https://github.com/liixing/eplayerx/releases/download/v1.2.37-macos/EplayerX-1.2.37-109-macOS-Intel.zip) |
 
 在屏幕左上角选择 ** → 关于本机**，查看「芯片」或「处理器」，再选择对应版本。
 
@@ -21,12 +21,12 @@ EplayerX 的公开反馈与 macOS 下载仓库。
 
 ### SHA-256 校验值
 
-[下载校验文件](https://github.com/liixing/eplayerx/releases/download/v1.2.36-macos/SHA256SUMS.txt)
+[下载校验文件](https://github.com/liixing/eplayerx/releases/download/v1.2.37-macos/SHA256SUMS.txt)
 
 | Mac 芯片 | SHA-256 |
 | --- | --- |
-| Apple Silicon | `abc04029ad59bedc71d85263dc2df09dadba514c396c4005017fba6aa00f0337` |
-| Intel | `88b2d5bcf0937c7035e5cdde2f9dd54b46cee6d70db7d9337036933822276deb` |
+| Apple Silicon | `117df41cbb0d978e63032542883714a65ebf7442533f8176afd8b36f0b379e27` |
+| Intel | `dbb99d12175a87e47c8335f3dfd1b31cea3c8ef5da6a339dcf4063ce021c2bfc` |
 
 ## 已购用户从商店版切换
 
