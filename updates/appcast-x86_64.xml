@@ -4,33 +4,33 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <channel>
     <title>EplayerX — Intel</title>
     <item>
-      <title>EplayerX 1.2.39</title>
-      <pubDate>Sun, 08 Nov 2026 07:37:53 GMT</pubDate>
-      <sparkle:version>112</sparkle:version>
-      <sparkle:shortVersionString>1.2.39</sparkle:shortVersionString>
+      <title>EplayerX 1.2.40</title>
+      <pubDate>Sun, 08 Nov 2026 14:53:49 GMT</pubDate>
+      <sparkle:version>114</sparkle:version>
+      <sparkle:shortVersionString>1.2.40</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <description sparkle:format="markdown">## 更新内容
 
-- 广告跳过切换为共享剧集时间匹配，按片源时长选择广告区间，并优化片头片尾标记的应用。
-- 改善跨广告区间跳转的响应与稳定性，减少跳转后的等待。
-- 优化播放预览缩略图与 ASS 字幕显示的稳定性。
-- 重新整理设置分组和账号入口，简化界面文案。
+- 改善 AIOStreams 播放兼容性，支持需要特定 HTTP 请求头的片源和预览缩略图。
+- 修复媒体库中点击服务器卡片有时无法打开的问题，保留拖动排序。
+- 修复 iCloud 同步时旧版网盘连接可能消失的问题。网盘授权损坏后，可以重新登录或移除连接。
+- 简化资源排序菜单，用图标显示排序方向。
 
 需要 macOS 12.0 或更高版本，请按 Mac 芯片选择 Apple Silicon 或 Intel 安装包。
 
 ## What’s New
 
-- Switched ad skipping to shared episode timings, matching ad segments to the video duration and refining how intro and outro markers are applied.
-- Improved responsiveness and reliability when seeking past ad segments, reducing delays after skipping.
-- Improved the stability of playback preview thumbnails and ASS subtitle rendering.
-- Reorganized settings and account access, with clearer interface text.
+- Improved AIOStreams compatibility for streams and preview thumbnails that require specific HTTP headers.
+- Fixed an issue where clicking a server card in the library could fail to open it. Drag to reorder remains available.
+- Fixed an issue where older cloud drive connections could disappear during iCloud sync. You can sign in again or remove a connection if its authorization data is damaged.
+- Simplified the resource sorting menu and used icons to show sort direction.
 
 Requires macOS 12.0 or later. Choose the Apple Silicon or Intel download for your Mac.
 </description>
-      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.39-macos/EplayerX-1.2.39-112-macOS-Intel.zip" sparkle:edSignature="Qlz+9ZCVJdTDO1OebrmRWsiUAVF1iA2Xhk+8szOZIHYcvCL0nlAjtw8S6hLY9MN3oSnhaQBlTGHYe2hCrpGACg==" length="61136121" type="application/octet-stream"></enclosure>
+      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.40-macos/EplayerX-1.2.40-114-macOS-Intel.zip" sparkle:edSignature="CtB/JCtoobyZM9r6oDRAg2V8sKe8NoSYNDS5X5YJsFlHhe7DdJ+UYNLIgM3RzBeUkAO2SIv0hsy6Bu0vtNsHBQ==" length="61154673" type="application/octet-stream"></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: wHiAKpuI78Q+q9xFhQQi+Sce0toZEzzR+VZclCtRiVhpwVVIuviJZXNCRQOEljXA4qAT0lN7LVtKKfhPfV+4Aw==
-length: 2078
+edSignature: ZxBfprroaA367Rad7/TXCcbA1UhyGiKn0EqoRqjDB1DXB/KbHnDWcDNplSg8nGQKin0zD41QySPwVsu+dFVYAA==
+length: 2191
 -->
