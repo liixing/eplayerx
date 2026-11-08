@@ -4,35 +4,33 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <channel>
     <title>EplayerX — Intel</title>
     <item>
-      <title>EplayerX 1.2.38</title>
-      <pubDate>Sat, 07 Nov 2026 11:03:31 GMT</pubDate>
-      <sparkle:version>111</sparkle:version>
-      <sparkle:shortVersionString>1.2.38</sparkle:shortVersionString>
+      <title>EplayerX 1.2.39</title>
+      <pubDate>Sun, 08 Nov 2026 07:37:53 GMT</pubDate>
+      <sparkle:version>112</sparkle:version>
+      <sparkle:shortVersionString>1.2.39</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <description sparkle:format="markdown">## 更新内容
 
-- 新增飞牛影视服务器接入，支持登录、浏览媒体库和播放。
-- 优化画面关键词自动跳过，提高识别效率，完善自定义关键词与正则规则编辑，并增加识别提示。
-- 改进 Seerr 多服务器管理、登录和请求列表，优化剧集季选择与请求提交体验。
-- 改善 Emby 外挂字幕与播放地址兼容性，优化预告片播放和切换体验。
-- 优化提示消息与部分界面文案。
+- 广告跳过切换为共享剧集时间匹配，按片源时长选择广告区间，并优化片头片尾标记的应用。
+- 改善跨广告区间跳转的响应与稳定性，减少跳转后的等待。
+- 优化播放预览缩略图与 ASS 字幕显示的稳定性。
+- 重新整理设置分组和账号入口，简化界面文案。
 
 需要 macOS 12.0 或更高版本，请按 Mac 芯片选择 Apple Silicon 或 Intel 安装包。
 
 ## What’s New
 
-- Added FnMedia server support for signing in, browsing libraries, and playback.
-- Improved the efficiency of on-screen keyword skipping, refined custom keyword and regular-expression editing, and added detection notifications.
-- Improved Seerr multi-server management, sign-in, and request lists, with refinements to season selection and request submission.
-- Improved compatibility with Emby external subtitles and playback URLs, and refined trailer playback and switching.
-- Refined notifications and interface text.
+- Switched ad skipping to shared episode timings, matching ad segments to the video duration and refining how intro and outro markers are applied.
+- Improved responsiveness and reliability when seeking past ad segments, reducing delays after skipping.
+- Improved the stability of playback preview thumbnails and ASS subtitle rendering.
+- Reorganized settings and account access, with clearer interface text.
 
 Requires macOS 12.0 or later. Choose the Apple Silicon or Intel download for your Mac.
 </description>
-      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.38-macos/EplayerX-1.2.38-111-macOS-Intel.zip" sparkle:edSignature="QhHcT6Tte8wwzvDh6vgkic5fVx3eSxLbp3cvRwUTSJG+niIXsClZNRkKc72DNbZM7JO6hr28bAc19MiPUYQODw==" length="61192863" type="application/octet-stream"></enclosure>
+      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.39-macos/EplayerX-1.2.39-112-macOS-Intel.zip" sparkle:edSignature="Qlz+9ZCVJdTDO1OebrmRWsiUAVF1iA2Xhk+8szOZIHYcvCL0nlAjtw8S6hLY9MN3oSnhaQBlTGHYe2hCrpGACg==" length="61136121" type="application/octet-stream"></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: wCaCzOJf8xtEKlS8AaBMDex54q+d9HA1u6JVIFIhysYCzhsCUCQPFNMirnYP9/HC41kJnPj5iYYZP+wEo12uBw==
-length: 2309
+edSignature: wHiAKpuI78Q+q9xFhQQi+Sce0toZEzzR+VZclCtRiVhpwVVIuviJZXNCRQOEljXA4qAT0lN7LVtKKfhPfV+4Aw==
+length: 2078
 -->
