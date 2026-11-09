@@ -4,33 +4,33 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <channel>
     <title>EplayerX — Apple-Silicon</title>
     <item>
-      <title>EplayerX 1.2.40</title>
-      <pubDate>Sun, 08 Nov 2026 14:53:48 GMT</pubDate>
-      <sparkle:version>114</sparkle:version>
-      <sparkle:shortVersionString>1.2.40</sparkle:shortVersionString>
+      <title>EplayerX 1.2.41</title>
+      <pubDate>Mon, 09 Nov 2026 05:00:25 GMT</pubDate>
+      <sparkle:version>116</sparkle:version>
+      <sparkle:shortVersionString>1.2.41</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <description sparkle:format="markdown">## 更新内容
 
-- 改善 AIOStreams 播放兼容性，支持需要特定 HTTP 请求头的片源和预览缩略图。
-- 修复媒体库中点击服务器卡片有时无法打开的问题，保留拖动排序。
-- 修复 iCloud 同步时旧版网盘连接可能消失的问题。网盘授权损坏后，可以重新登录或移除连接。
-- 简化资源排序菜单，用图标显示排序方向。
+- 修复搜索结果分页与历史记录恢复问题，改善切换隐私模式后的搜索结果隔离。
+- 改善下载任务的删除、重试和异常恢复，减少重启后任务状态不一致的问题。
+- 改善播放画质增强的兼容性，在不支持的播放场景中隐藏 SDR → HDR 选项。
+- 改善网盘媒体刮削与同步的稳定性。
 
 需要 macOS 12.0 或更高版本，请按 Mac 芯片选择 Apple Silicon 或 Intel 安装包。
 
 ## What’s New
 
-- Improved AIOStreams compatibility for streams and preview thumbnails that require specific HTTP headers.
-- Fixed an issue where clicking a server card in the library could fail to open it. Drag to reorder remains available.
-- Fixed an issue where older cloud drive connections could disappear during iCloud sync. You can sign in again or remove a connection if its authorization data is damaged.
-- Simplified the resource sorting menu and used icons to show sort direction.
+- Fixed search pagination and history restoration, and improved search result separation when switching privacy modes.
+- Improved download deletion, retries, and recovery to keep task states consistent after restarting the app.
+- Improved video enhancement compatibility and hid the SDR → HDR option in unsupported playback scenarios.
+- Improved the reliability of cloud drive media scraping and synchronization.
 
 Requires macOS 12.0 or later. Choose the Apple Silicon or Intel download for your Mac.
 </description>
-      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.40-macos/EplayerX-1.2.40-114-macOS-Apple-Silicon.zip" sparkle:edSignature="ZVqZ5xue2696H3rXWbDyVLvyWcBh+QTuSdrXT7tgezlAlZ/bWjfLG1Rm48+6Ib6utQLguSBphcTUMT1DhPORBw==" length="56969199" type="application/octet-stream"></enclosure>
+      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.41-macos/EplayerX-1.2.41-116-macOS-Apple-Silicon.zip" sparkle:edSignature="WPw7E1dgw8imGCXYrqv6Wa/lz8rBEfY4FCOQRtRCtuRFLo4MdJ5DYjYWIvKxuPDw2RLoJvtDp/pO3y5Z7GCvCA==" length="56996764" type="application/octet-stream"></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: fdxnHFlu6T0Vgmibt4wokxrhnnkuIAiO3K+tM7RZzf93RrPtgNh4TCzulNucDN2EEKgm7HVSJd2IoCUtlgOwAw==
-length: 2207
+edSignature: 1NDdp2bKKftsJ+aNSqmqa45FU2adW6Sn4ZQy3gv7Ruv/HzroN/tCz0wm0ISLHpseyMTdm+9ht2GT2NER72GqDA==
+length: 2127
 -->
