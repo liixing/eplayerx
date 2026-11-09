@@ -4,33 +4,29 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <channel>
     <title>EplayerX — Apple-Silicon</title>
     <item>
-      <title>EplayerX 1.2.41</title>
-      <pubDate>Mon, 09 Nov 2026 05:00:25 GMT</pubDate>
-      <sparkle:version>116</sparkle:version>
-      <sparkle:shortVersionString>1.2.41</sparkle:shortVersionString>
+      <title>EplayerX 1.2.42</title>
+      <pubDate>Mon, 09 Nov 2026 14:42:13 GMT</pubDate>
+      <sparkle:version>118</sparkle:version>
+      <sparkle:shortVersionString>1.2.42</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <description sparkle:format="markdown">## 更新内容
 
-- 修复搜索结果分页与历史记录恢复问题，改善切换隐私模式后的搜索结果隔离。
-- 改善下载任务的删除、重试和异常恢复，减少重启后任务状态不一致的问题。
-- 改善播放画质增强的兼容性，在不支持的播放场景中隐藏 SDR → HDR 选项。
-- 改善网盘媒体刮削与同步的稳定性。
+- 修复网盘媒体手动匹配后重复出现「电影」或「剧集」分类的问题。已有对应分类时会归入其中，同时保留自定义目录和混合内容目录。
+- 修复合并多个网盘目录时，刷新自动分类可能选错来源的问题。
 
-需要 macOS 12.0 或更高版本，请按 Mac 芯片选择 Apple Silicon 或 Intel 安装包。
+需要 macOS 12.0 或更高版本。请按 Mac 芯片选择 Apple Silicon 或 Intel 安装包。
 
 ## What’s New
 
-- Fixed search pagination and history restoration, and improved search result separation when switching privacy modes.
-- Improved download deletion, retries, and recovery to keep task states consistent after restarting the app.
-- Improved video enhancement compatibility and hid the SDR → HDR option in unsupported playback scenarios.
-- Improved the reliability of cloud drive media scraping and synchronization.
+- Fixed duplicate Movies and TV Shows categories after manually matching cloud drive media. Matched titles can join existing categories while custom folders and folders with mixed content keep their own groups.
+- Fixed an issue where refreshing an automatic category in a combined cloud library could select the wrong source.
 
 Requires macOS 12.0 or later. Choose the Apple Silicon or Intel download for your Mac.
 </description>
-      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.41-macos/EplayerX-1.2.41-116-macOS-Apple-Silicon.zip" sparkle:edSignature="WPw7E1dgw8imGCXYrqv6Wa/lz8rBEfY4FCOQRtRCtuRFLo4MdJ5DYjYWIvKxuPDw2RLoJvtDp/pO3y5Z7GCvCA==" length="56996764" type="application/octet-stream"></enclosure>
+      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.42-macos/EplayerX-1.2.42-118-macOS-Apple-Silicon.zip" sparkle:edSignature="YgAscHRIUOndorvNV1eiH0XKxkHMQkxyrTHYr/51l92CfCx118y/yvUERZ0h2DgaKAb98q5Ek4T1KowF0hLtAA==" length="57009417" type="application/octet-stream"></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 1NDdp2bKKftsJ+aNSqmqa45FU2adW6Sn4ZQy3gv7Ruv/HzroN/tCz0wm0ISLHpseyMTdm+9ht2GT2NER72GqDA==
-length: 2127
+edSignature: BbL32PYlJJKixWhuiekPPxfk/aSB/DI+ox+9pOk5Vkq+SEYo1HLQxJmZias4DapDUKytlsLgY9CBHugMgCmtCA==
+length: 1944
 -->
