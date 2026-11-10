@@ -4,29 +4,29 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <channel>
     <title>EplayerX — Intel</title>
     <item>
-      <title>EplayerX 1.2.42</title>
-      <pubDate>Mon, 09 Nov 2026 14:42:14 GMT</pubDate>
-      <sparkle:version>118</sparkle:version>
-      <sparkle:shortVersionString>1.2.42</sparkle:shortVersionString>
+      <title>EplayerX 1.2.43</title>
+      <pubDate>Tue, 10 Nov 2026 03:57:26 GMT</pubDate>
+      <sparkle:version>119</sparkle:version>
+      <sparkle:shortVersionString>1.2.43</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <description sparkle:format="markdown">## 更新内容
 
-- 修复网盘媒体手动匹配后重复出现「电影」或「剧集」分类的问题。已有对应分类时会归入其中，同时保留自定义目录和混合内容目录。
-- 修复合并多个网盘目录时，刷新自动分类可能选错来源的问题。
+- 更新了 EplayerX 的应用图标，并简化了人物详情页的头像样式。
+- 改善了剧集片头和片尾标记的共享。共享标记现在会附带视频时长，帮助区分同一集的不同片源，减少跳到错误位置的情况。
 
 需要 macOS 12.0 或更高版本。请按 Mac 芯片选择 Apple Silicon 或 Intel 安装包。
 
 ## What’s New
 
-- Fixed duplicate Movies and TV Shows categories after manually matching cloud drive media. Matched titles can join existing categories while custom folders and folders with mixed content keep their own groups.
-- Fixed an issue where refreshing an automatic category in a combined cloud library could select the wrong source.
+- Refreshed the EplayerX app icon and simplified the portrait styling on cast and crew pages.
+- Improved shared intro and credits markers. Shared markers now include the video duration, helping distinguish different cuts of the same episode and reducing skips to the wrong point.
 
 Requires macOS 12.0 or later. Choose the Apple Silicon or Intel download for your Mac.
 </description>
-      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.42-macos/EplayerX-1.2.42-118-macOS-Intel.zip" sparkle:edSignature="vZpzk5wb7bQL+DIT0oXtWWSlq54ycnDHvD9Mfnj0On4YEDwOloqv5b/lnzBZMOhszQ+BFOBgunNnc2V+XvjVBw==" length="61196372" type="application/octet-stream"></enclosure>
+      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.43-macos/EplayerX-1.2.43-119-macOS-Intel.zip" sparkle:edSignature="iQpPdUbPKcU+9HXjpukLu0Yo/YykhlFeLzssBnXDbY3yOXyJCOQsQGC4ATGsdcbQt/qMgvJlYerSVaixpBkLCQ==" length="61379700" type="application/octet-stream"></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: +UvGGsf+VucQmFO75VDTWIlttzqhJpaYx4GePMf+8SouzN824GndRGX30oopHx+JPMMBmAIkOx9hKwfD3lOFAQ==
-length: 1928
+edSignature: sbs81TUQSHQ/EpKd5wvdA/QgO5K+F4zWW8KbxI1SfTUgvwHmDk0L/wzvRQSA7zzB9z8WSPRzccaEFZjdrJFJDw==
+length: 1865
 -->
