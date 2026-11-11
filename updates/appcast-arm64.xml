@@ -4,29 +4,33 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <channel>
     <title>EplayerX — Apple-Silicon</title>
     <item>
-      <title>EplayerX 1.2.43</title>
-      <pubDate>Tue, 10 Nov 2026 03:57:25 GMT</pubDate>
-      <sparkle:version>119</sparkle:version>
-      <sparkle:shortVersionString>1.2.43</sparkle:shortVersionString>
+      <title>EplayerX 1.2.44</title>
+      <pubDate>Wed, 11 Nov 2026 11:27:13 GMT</pubDate>
+      <sparkle:version>121</sparkle:version>
+      <sparkle:shortVersionString>1.2.44</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <description sparkle:format="markdown">## 更新内容
 
-- 更新了 EplayerX 的应用图标，并简化了人物详情页的头像样式。
-- 改善了剧集片头和片尾标记的共享。共享标记现在会附带视频时长，帮助区分同一集的不同片源，减少跳到错误位置的情况。
+- 新增画面文字规则扫描，可按自定义正则识别并跳过已缓存视频中的广告片段；在播放设置中开启。
+- 详情页新增 Letterboxd 评分，并改善只有 IMDb 编号时的评分获取。
+- 改善 SubHD 字幕缓存复用，减少重复下载，并在缓存被系统清理后自动重新获取。
+- 修复部分离线下载视频的续播进度无法正确保存的问题。
 
 需要 macOS 12.0 或更高版本。请按 Mac 芯片选择 Apple Silicon 或 Intel 安装包。
 
 ## What’s New
 
-- Refreshed the EplayerX app icon and simplified the portrait styling on cast and crew pages.
-- Improved shared intro and credits markers. Shared markers now include the video duration, helping distinguish different cuts of the same episode and reducing skips to the wrong point.
+- Added on-screen text scanning with custom regular expressions to detect and skip ad segments in cached video. Enable it in playback settings.
+- Added Letterboxd ratings to detail pages and improved rating lookup for titles identified only by an IMDb ID.
+- Improved SubHD subtitle caching to reduce repeat downloads and recover when macOS clears cached files.
+- Fixed resume progress not being saved correctly for some downloaded videos played offline.
 
 Requires macOS 12.0 or later. Choose the Apple Silicon or Intel download for your Mac.
 </description>
-      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.43-macos/EplayerX-1.2.43-119-macOS-Apple-Silicon.zip" sparkle:edSignature="lk1PL6I74k0CrT9hRKFHxgioJN0EmfPIKDiYxMNC2y7BIoZO5ghGevSilB3/DyGzroazs4z8kuy8ImeZghyZDA==" length="57194873" type="application/octet-stream"></enclosure>
+      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.44-macos/EplayerX-1.2.44-121-macOS-Apple-Silicon.zip" sparkle:edSignature="TQgmLqtuPr05HgUEkm5vPAcLGccWlmn+NWI6DEflyqdmZcTqlcIm1GF33UahjHZHdU4TZ/zD69kJTl4hLvqOCA==" length="65981580" type="application/octet-stream"></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 7LDLQkmrlr0IAgKQHMNGYXJTJwOWUPmwEfLF9CVx9sWUAj7HDH9tbR5gc00Xnk6+3ZFMst3O9NThnc0/T/MJAQ==
-length: 1881
+edSignature: y4jeuvlTCG+1sTDDB0TlKq4NLX7BLBV6H/9tI1xiAxaO03py3CWw3F8gsk/EAH8jQQZHtcMWuz7X04mzdHgRDA==
+length: 2211
 -->
