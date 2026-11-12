@@ -4,33 +4,33 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <channel>
     <title>EplayerX — Intel</title>
     <item>
-      <title>EplayerX 1.2.44</title>
-      <pubDate>Wed, 11 Nov 2026 11:27:14 GMT</pubDate>
-      <sparkle:version>121</sparkle:version>
-      <sparkle:shortVersionString>1.2.44</sparkle:shortVersionString>
+      <title>EplayerX 1.2.45</title>
+      <pubDate>Thu, 12 Nov 2026 13:33:39 GMT</pubDate>
+      <sparkle:version>122</sparkle:version>
+      <sparkle:shortVersionString>1.2.45</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <description sparkle:format="markdown">## 更新内容
 
-- 新增画面文字规则扫描，可按自定义正则识别并跳过已缓存视频中的广告片段；在播放设置中开启。
-- 详情页新增 Letterboxd 评分，并改善只有 IMDb 编号时的评分获取。
-- 改善 SubHD 字幕缓存复用，减少重复下载，并在缓存被系统清理后自动重新获取。
-- 修复部分离线下载视频的续播进度无法正确保存的问题。
+- 改善播放器 2 在长时间暂停后恢复、快进拖动、切换音轨及字幕时的稳定性，减少意外跳转和提前结束播放。
+- 修复部分 ISO 和长 GOP 视频起播或拖动时卡住的问题，并改善杜比视界 Profile 7 转换的兼容性。
+- 画面文字扫描支持更长的自定义正则表达式。
+- 关于页面新增 QQ 和 Telegram 社区入口。
 
 需要 macOS 12.0 或更高版本。请按 Mac 芯片选择 Apple Silicon 或 Intel 安装包。
 
 ## What’s New
 
-- Added on-screen text scanning with custom regular expressions to detect and skip ad segments in cached video. Enable it in playback settings.
-- Added Letterboxd ratings to detail pages and improved rating lookup for titles identified only by an IMDb ID.
-- Improved SubHD subtitle caching to reduce repeat downloads and recover when macOS clears cached files.
-- Fixed resume progress not being saved correctly for some downloaded videos played offline.
+- Improved Player 2 stability when resuming after long pauses, seeking, and switching audio or subtitles, reducing unexpected jumps and premature playback endings.
+- Fixed startup and seek stalls with some ISO and long-GOP videos, and improved Dolby Vision Profile 7 conversion compatibility.
+- On-screen text scanning now supports longer custom regular expressions.
+- Added QQ and Telegram community links to the About page.
 
 Requires macOS 12.0 or later. Choose the Apple Silicon or Intel download for your Mac.
 </description>
-      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.44-macos/EplayerX-1.2.44-121-macOS-Intel.zip" sparkle:edSignature="bU32dD2OE48jONybKIquHmoMWgka235UJKvbo9Fi9znP+iUUMRXmQE7aFsTLsYi8QIs1FM4NJZ8xK7wfaZxADQ==" length="70184844" type="application/octet-stream"></enclosure>
+      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.45-macos/EplayerX-1.2.45-122-macOS-Intel.zip" sparkle:edSignature="XVdO638aYG927UZQgMR9JF3fPSuLAHdccAL6CRZ7x79bXaFeetUNDPPPB0kcHBCS1UYLzj7V0KQvUGwDTUaNBw==" length="70509245" type="application/octet-stream"></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: zAR/IXfFhCfDueZQVWe9wJ8MUDhRL2J+m1a7WcA5r2fGzGrT0WBvOY46z/WjntFIQH5pdVspNq7sjawzvVfcDA==
-length: 2195
+edSignature: 5wqcG8PFMs8GaL8B0cu5u7KzrvYpvyHJd11gKqlHk4gubaRUOVC8Wx9VMaM4wznVQ3IQZkqTZVpVKi+KgtbyCQ==
+length: 2147
 -->
