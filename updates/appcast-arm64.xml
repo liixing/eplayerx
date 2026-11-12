@@ -4,33 +4,31 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <channel>
     <title>EplayerX — Apple-Silicon</title>
     <item>
-      <title>EplayerX 1.2.45</title>
-      <pubDate>Thu, 12 Nov 2026 13:33:38 GMT</pubDate>
-      <sparkle:version>122</sparkle:version>
-      <sparkle:shortVersionString>1.2.45</sparkle:shortVersionString>
+      <title>EplayerX 1.2.46</title>
+      <pubDate>Thu, 12 Nov 2026 15:26:27 GMT</pubDate>
+      <sparkle:version>123</sparkle:version>
+      <sparkle:shortVersionString>1.2.46</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <description sparkle:format="markdown">## 更新内容
 
-- 改善播放器 2 在长时间暂停后恢复、快进拖动、切换音轨及字幕时的稳定性，减少意外跳转和提前结束播放。
-- 修复部分 ISO 和长 GOP 视频起播或拖动时卡住的问题，并改善杜比视界 Profile 7 转换的兼容性。
-- 画面文字扫描支持更长的自定义正则表达式。
-- 关于页面新增 QQ 和 Telegram 社区入口。
+- 改善播放器 2 播放部分 HEVC 视频时的起播与拖动稳定性，减少时间戳异常造成的卡顿和画面丢失。
+- 优化播放器 2 的缓冲就绪判断，减少视频已准备好后仍等待数据的情况。
+- 改善连续拖动、切换音轨和播放缓存管理的稳定性。
 
 需要 macOS 12.0 或更高版本。请按 Mac 芯片选择 Apple Silicon 或 Intel 安装包。
 
 ## What’s New
 
-- Improved Player 2 stability when resuming after long pauses, seeking, and switching audio or subtitles, reducing unexpected jumps and premature playback endings.
-- Fixed startup and seek stalls with some ISO and long-GOP videos, and improved Dolby Vision Profile 7 conversion compatibility.
-- On-screen text scanning now supports longer custom regular expressions.
-- Added QQ and Telegram community links to the About page.
+- Improved Player 2 startup and seeking with some HEVC videos, reducing stalls and missing frames caused by irregular timestamps.
+- Improved Player 2 buffer readiness checks to reduce waiting after video is ready to play.
+- Improved stability when seeking repeatedly, switching audio tracks, and managing playback caches.
 
 Requires macOS 12.0 or later. Choose the Apple Silicon or Intel download for your Mac.
 </description>
-      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.45-macos/EplayerX-1.2.45-122-macOS-Apple-Silicon.zip" sparkle:edSignature="C1R8XIPf/LWwuybNEHHmB3mUje0bnZ31+KLqtQ3Gs+itaSpFwfnVcCtylvyZ1JYCIA9d7i4tM7wJkQf9CdXeCA==" length="66297103" type="application/octet-stream"></enclosure>
+      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.46-macos/EplayerX-1.2.46-123-macOS-Apple-Silicon.zip" sparkle:edSignature="iJmJPwhOqzIbzvSp/9gc7yZHtSTxUAfHiTIO+CRXDG6amwHOw4iTF1vm1iBCpDM+y5O1JdNYPf/zaErl2gmCBw==" length="66299850" type="application/octet-stream"></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: q0utBwVZ65Au5BuZOi1KwXLHhG8Otg6XrWKvSpk0hLuyC4oiblfrcxN56S8G50fYDxcLAxBqeYwAfivyKMgfCw==
-length: 2163
+edSignature: oOcx3TAo/sERWoFVvg7ewMCN3jPOTJ5VvMtpqhJse4u/9f4gqHAj/2p5n9XbiPnvFqsn+rjuqiZnWfqeR9yKAg==
+length: 1973
 -->
