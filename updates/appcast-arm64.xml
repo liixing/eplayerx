@@ -4,31 +4,29 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <channel>
     <title>EplayerX — Apple-Silicon</title>
     <item>
-      <title>EplayerX 1.2.47</title>
-      <pubDate>Thu, 12 Nov 2026 16:20:32 GMT</pubDate>
-      <sparkle:version>124</sparkle:version>
-      <sparkle:shortVersionString>1.2.47</sparkle:shortVersionString>
+      <title>EplayerX 1.2.48</title>
+      <pubDate>Fri, 13 Nov 2026 02:38:37 GMT</pubDate>
+      <sparkle:version>125</sparkle:version>
+      <sparkle:shortVersionString>1.2.48</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <description sparkle:format="markdown">## 更新内容
 
-- 暂停或继续播放时，已隐藏的播放控制栏保持隐藏，移动鼠标即可重新显示。
-- 改善播放器 2 在续播下一集、跳转及切换音轨时的画面衔接，减少旧画面停留和黑屏。
-- 修正画面文字扫描的正则表达式错误提示。
+- 改善画面文字广告扫描：已有部分广告区间时继续补全识别，减少遗漏。
+- 同步同版视频的扫描完成状态，减少已经完成识别的视频重复扫描。
 
 需要 macOS 12.0 或更高版本。请按 Mac 芯片选择 Apple Silicon 或 Intel 安装包。
 
 ## What’s New
 
-- Hidden playback controls now stay hidden when pausing or resuming. Move the pointer to show them again.
-- Improved Player 2 frame transitions when starting the next episode, seeking, and switching audio tracks, reducing stale frames and black flashes.
-- Corrected the regular-expression validation message for on-screen text scanning.
+- Improved on-screen ad scanning to keep looking for missing intervals when some ad timings are already available.
+- Added synchronization of scan completion for the same video version to reduce repeated scanning.
 
 Requires macOS 12.0 or later. Choose the Apple Silicon or Intel download for your Mac.
 </description>
-      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.47-macos/EplayerX-1.2.47-124-macOS-Apple-Silicon.zip" sparkle:edSignature="XWoQ6rVMyfzMG1WmB+KeQFDnctaSrJkUHfpZ5Y3FpE48A14wGA5G2VhvU5yLeFIUFeMSZ1HlIErzaMBbU3iUBw==" length="66301444" type="application/octet-stream"></enclosure>
+      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.48-macos/EplayerX-1.2.48-125-macOS-Apple-Silicon.zip" sparkle:edSignature="Wymr/I0S8gEM1WWWKn2c/3cFxLEaX5RX48uwA2TiaAecRTsaT9Z6hp1ZvphMSegzrnuBYWdjGn7JAjTjbLSqCw==" length="66324470" type="application/octet-stream"></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: QR1/fpLz7H1e1HomwFPCaK1AvnKf8ISSC8QFhtoRqRwguUeSvrSPCanHj3ne67UYnNnItH5cpOwHtPxaiS5fCg==
-length: 1967
+edSignature: ao7wNlggg9LSza57SvF5TSureRISKR8u2F4sjrs7KTlFOBL8cG4CcPTzLz7UEw6thLNY5KWY3gRp7X3KnU4rAw==
+length: 1754
 -->
