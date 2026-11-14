@@ -4,29 +4,29 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <channel>
     <title>EplayerX — Apple-Silicon</title>
     <item>
-      <title>EplayerX 1.2.48</title>
-      <pubDate>Fri, 13 Nov 2026 02:38:37 GMT</pubDate>
-      <sparkle:version>125</sparkle:version>
-      <sparkle:shortVersionString>1.2.48</sparkle:shortVersionString>
+      <title>EplayerX 1.2.49</title>
+      <pubDate>Sat, 14 Nov 2026 09:52:25 GMT</pubDate>
+      <sparkle:version>127</sparkle:version>
+      <sparkle:shortVersionString>1.2.49</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <description sparkle:format="markdown">## 更新内容
 
-- 改善画面文字广告扫描：已有部分广告区间时继续补全识别，减少遗漏。
-- 同步同版视频的扫描完成状态，减少已经完成识别的视频重复扫描。
+- 影片和剧集详情新增多来源评论，并按时间展示，方便了解其他观众的看法。
+- 优化剧集评论匹配及评论窗口的初始滚动位置。
 
 需要 macOS 12.0 或更高版本。请按 Mac 芯片选择 Apple Silicon 或 Intel 安装包。
 
 ## What’s New
 
-- Improved on-screen ad scanning to keep looking for missing intervals when some ad timings are already available.
-- Added synchronization of scan completion for the same video version to reduce repeated scanning.
+- Added reviews from multiple sources to movie and series details, ordered by date.
+- Improved series review matching and the initial scroll position of the reviews window.
 
 Requires macOS 12.0 or later. Choose the Apple Silicon or Intel download for your Mac.
 </description>
-      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.48-macos/EplayerX-1.2.48-125-macOS-Apple-Silicon.zip" sparkle:edSignature="Wymr/I0S8gEM1WWWKn2c/3cFxLEaX5RX48uwA2TiaAecRTsaT9Z6hp1ZvphMSegzrnuBYWdjGn7JAjTjbLSqCw==" length="66324470" type="application/octet-stream"></enclosure>
+      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.49-macos/EplayerX-1.2.49-127-macOS-Apple-Silicon.zip" sparkle:edSignature="AzEQu2zMbUX5rDWpwLoLXTJTv8ZXlBsG2+TRcK8160JuOs8pGpsQb1Vs8gxNxZpMql70MNrUsp4UsrmAlgDUDA==" length="66427070" type="application/octet-stream"></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: ao7wNlggg9LSza57SvF5TSureRISKR8u2F4sjrs7KTlFOBL8cG4CcPTzLz7UEw6thLNY5KWY3gRp7X3KnU4rAw==
-length: 1754
+edSignature: IyyGnhgc698GzYwvrrsYLFDHw3XVu4FV4fhSvK2eaOMJqlp4xEAKcF98/+ktABPDGOC4g31eooEjBcU5TQn6Cw==
+length: 1692
 -->

@@ -4,29 +4,29 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <channel>
     <title>EplayerX — Intel</title>
     <item>
-      <title>EplayerX 1.2.48</title>
-      <pubDate>Fri, 13 Nov 2026 02:38:38 GMT</pubDate>
-      <sparkle:version>125</sparkle:version>
-      <sparkle:shortVersionString>1.2.48</sparkle:shortVersionString>
+      <title>EplayerX 1.2.49</title>
+      <pubDate>Sat, 14 Nov 2026 09:52:26 GMT</pubDate>
+      <sparkle:version>127</sparkle:version>
+      <sparkle:shortVersionString>1.2.49</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <description sparkle:format="markdown">## 更新内容
 
-- 改善画面文字广告扫描：已有部分广告区间时继续补全识别，减少遗漏。
-- 同步同版视频的扫描完成状态，减少已经完成识别的视频重复扫描。
+- 影片和剧集详情新增多来源评论，并按时间展示，方便了解其他观众的看法。
+- 优化剧集评论匹配及评论窗口的初始滚动位置。
 
 需要 macOS 12.0 或更高版本。请按 Mac 芯片选择 Apple Silicon 或 Intel 安装包。
 
 ## What’s New
 
-- Improved on-screen ad scanning to keep looking for missing intervals when some ad timings are already available.
-- Added synchronization of scan completion for the same video version to reduce repeated scanning.
+- Added reviews from multiple sources to movie and series details, ordered by date.
+- Improved series review matching and the initial scroll position of the reviews window.
 
 Requires macOS 12.0 or later. Choose the Apple Silicon or Intel download for your Mac.
 </description>
-      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.48-macos/EplayerX-1.2.48-125-macOS-Intel.zip" sparkle:edSignature="Am9LYDh2n049nOY5l1g+pjJ72vnTOlk4GtAiHFVwDHAD3JlkRGymZTVq/6EFrQCcqCQXc44bcs1mYDc2KalXDg==" length="70535653" type="application/octet-stream"></enclosure>
+      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.49-macos/EplayerX-1.2.49-127-macOS-Intel.zip" sparkle:edSignature="rXqw1Bzk2JA+lBQqvpT+ypzLCy2O2usk1F2dzb4bGWOJVqCEH7MFl03ajeAVjzOiyyUlBRz9sA/omjHp1ZJBDg==" length="70659352" type="application/octet-stream"></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: UG0QIptG+X5Id+WZgIctdp7ijHG0HbQHGAirmBe3bNbIrQN2ogGRY0+4qIDIK11yqFiIT0/qc5SZxmC3+XoWAw==
-length: 1738
+edSignature: XZz3AYy/MczDN6m7+AFIk6bQpEabLBR7oD2d+ez0rLsY8Rw1G4lWk69vxZEupuGS3HCtw0lYyC19u4Q5deSZAQ==
+length: 1676
 -->
