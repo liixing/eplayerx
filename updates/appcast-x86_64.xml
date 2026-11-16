@@ -4,33 +4,33 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <channel>
     <title>EplayerX — Intel</title>
     <item>
-      <title>EplayerX 1.2.50</title>
-      <pubDate>Sun, 15 Nov 2026 16:12:13 GMT</pubDate>
-      <sparkle:version>129</sparkle:version>
-      <sparkle:shortVersionString>1.2.50</sparkle:shortVersionString>
+      <title>EplayerX 1.2.51</title>
+      <pubDate>Mon, 16 Nov 2026 04:03:30 GMT</pubDate>
+      <sparkle:version>131</sparkle:version>
+      <sparkle:shortVersionString>1.2.51</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <description sparkle:format="markdown">## 更新内容
 
-- 媒体库新增「纠正目录」，可调整影片和剧集的目录归属。
-- 改进剧集季数、集数识别与匹配，提高媒体库整理准确性。
-- 优化首页继续观看的影片信息刷新。
-- 修复字幕服务设置中的未保存提示，以及播放引擎切换后的画中画可用状态。
+- 改进隔行视频播放，保留双场的流畅度，并修复拖动进度及播放结束时的画面处理。
+- 改进 DTS:X 高度声道的解码与播放兼容性。
+- 加快被误标为 ISO 的 MKV 视频打开速度，减少重复网络读取。
+- 修复部分 Emby 服务器播放链接刷新后仍返回 403、导致无法继续播放的问题。
 
 需要 macOS 12.0 或更高版本。请按 Mac 芯片选择 Apple Silicon 或 Intel 安装包。
 
 ## What’s New
 
-- Added Correct Directory to change which library directory a movie or series belongs to.
-- Improved season and episode recognition and matching for more accurate library organization.
-- Improved metadata refresh for Continue Watching on the home screen.
-- Fixed unsaved-change messages in subtitle service settings and Picture in Picture availability after switching playback engines.
+- Improved interlaced video playback with smoother field-rate output and fixes for seeking and end-of-playback frame handling.
+- Improved decoding and playback compatibility for DTS:X height channels.
+- Faster opening of MKV videos mislabeled as ISO, with fewer repeated network reads.
+- Fixed playback failures on some Emby servers when refreshed playback URLs still return a 403 error.
 
 Requires macOS 12.0 or later. Choose the Apple Silicon or Intel download for your Mac.
 </description>
-      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.50-macos/EplayerX-1.2.50-129-macOS-Intel.zip" sparkle:edSignature="g7HWa0NlI3w8j7YV/xEaJs3FrtAtYO1j+SivJk9ixzX+Tz2DX4Wdwo5WafDmVtQ1qPhcTDEnVyUj1H6R/pWuDw==" length="70711430" type="application/octet-stream"></enclosure>
+      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.51-macos/EplayerX-1.2.51-131-macOS-Intel.zip" sparkle:edSignature="Mwz6wm6zQ1SeXaug8nu/XBimQGm1vMWDX6srcoDd8/gQoVEw+RRVBYuIEBGP1VnsrMbQVSBg9NQj3xjpK7c9DQ==" length="70713879" type="application/octet-stream"></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 53MdXQW3mfFRwi3YwB52cTPx7pJqUFpb7PBCaPt6jo8cHYX361Cxt4wYi3mkeB9l7KNHJ4rf3spUpBO5Aw4XAg==
-length: 2036
+edSignature: mWfDlJ0dqof3t9XbXHOrO4M+246HqvLS+fFqZnSGmI8HVbPGiu/NObWTVY4/8ol7pFPBpac4vWlIPPEPGq+mBw==
+length: 2077
 -->
