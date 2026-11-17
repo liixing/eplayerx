@@ -4,35 +4,33 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <channel>
     <title>EplayerX — Apple-Silicon</title>
     <item>
-      <title>EplayerX 1.2.52</title>
-      <pubDate>Tue, 17 Nov 2026 09:50:47 GMT</pubDate>
-      <sparkle:version>133</sparkle:version>
-      <sparkle:shortVersionString>1.2.52</sparkle:shortVersionString>
+      <title>EplayerX 1.2.53</title>
+      <pubDate>Tue, 17 Nov 2026 14:17:38 GMT</pubDate>
+      <sparkle:version>134</sparkle:version>
+      <sparkle:shortVersionString>1.2.53</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <description sparkle:format="markdown">## 更新内容
 
-- 首页新增 Trakt「今日更新」，可快速查看当天更新的剧集，并支持调整显示位置。
-- 改进 Plex 合集、智能合集和首页内容的浏览、排序与分页，并同步账号授权信息。
-- 加快播放器启动，减少短暂的加载提示闪烁，改进拖动进度和缩略图显示。
-- 改进 Silo 外挂字幕识别与恢复，提升资源版本选择和音视频规格标识的准确性。
-- 改进多窗口内容刷新与首页管理的稳定性。
+- 改进详情页内存管理，在连续浏览影片、相似内容和播放页面时及时释放隐藏页面的背景图。
+- 改进返回详情页时的背景图恢复。
+- 改进网络和文件读取错误处理，修复部分影片接近片尾时重复尝试恢复播放的问题。
+- 优化首页媒体库卡片的绘制，减少滚动时的实时模糊开销。
 
 需要 macOS 12.0 或更高版本。请按 Mac 芯片选择 Apple Silicon 或 Intel 安装包。
 
 ## What’s New
 
-- Added Trakt Today’s Updates to Home for quick access to episodes airing today, with customizable placement.
-- Improved browsing, sorting, and pagination for Plex collections, smart collections, and Home content, with account authorization syncing.
-- Faster player startup, less brief loading-indicator flicker, and improved seeking and thumbnail behavior.
-- Improved Silo external subtitle detection and restoration, resource version selection, and audio/video format labels.
-- Improved reliability of content refresh across windows and Home customization.
+- Improved detail-page memory management by releasing hidden backdrop images while browsing titles, similar content, and playback pages.
+- Improved backdrop restoration when returning to a detail page.
+- Improved handling of network and file-reading errors, and fixed repeated playback recovery attempts near the end of some videos.
+- Optimized Home library card rendering to reduce live-blur overhead while scrolling.
 
 Requires macOS 12.0 or later. Choose the Apple Silicon or Intel download for your Mac.
 </description>
-      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.52-macos/EplayerX-1.2.52-133-macOS-Apple-Silicon.zip" sparkle:edSignature="F1Ao5kcS7o7P7BYd2l9eyftpuquj9aK5+cebz+tvKsNscR7lkVlfqGHch6tM1JgA2H/eDcRDkU8ibuLgBieKCw==" length="66568556" type="application/octet-stream"></enclosure>
+      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.53-macos/EplayerX-1.2.53-134-macOS-Apple-Silicon.zip" sparkle:edSignature="f3s5nQWhbl3TRy1Ez5uVkwbd4WkJkAkvuoZqSwnhOQVfkfyZc178F7zT8a+0iU7LrpKNZPNSYv8uLEdjzGN1BA==" length="66566756" type="application/octet-stream"></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: WPbQyFfwzCHVRxK8svxFe3kuaExXXkQJY2VUy6cC6Zc97qYurGVb9Yci50mJB+aRz0e3e80DNq52JAWBNBvCAw==
-length: 2401
+edSignature: uD5OHzzO44fasIg2ztef5I6XlCOygNASWmujia3syPZoWAcvb/p/4RBS/vygAoWQw7hGir9u1/eggW2ZMBbmAw==
+length: 2136
 -->
