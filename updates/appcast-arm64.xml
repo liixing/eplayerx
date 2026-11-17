@@ -4,33 +4,35 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <channel>
     <title>EplayerX — Apple-Silicon</title>
     <item>
-      <title>EplayerX 1.2.51</title>
-      <pubDate>Mon, 16 Nov 2026 04:03:29 GMT</pubDate>
-      <sparkle:version>131</sparkle:version>
-      <sparkle:shortVersionString>1.2.51</sparkle:shortVersionString>
+      <title>EplayerX 1.2.52</title>
+      <pubDate>Tue, 17 Nov 2026 09:50:47 GMT</pubDate>
+      <sparkle:version>133</sparkle:version>
+      <sparkle:shortVersionString>1.2.52</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <description sparkle:format="markdown">## 更新内容
 
-- 改进隔行视频播放，保留双场的流畅度，并修复拖动进度及播放结束时的画面处理。
-- 改进 DTS:X 高度声道的解码与播放兼容性。
-- 加快被误标为 ISO 的 MKV 视频打开速度，减少重复网络读取。
-- 修复部分 Emby 服务器播放链接刷新后仍返回 403、导致无法继续播放的问题。
+- 首页新增 Trakt「今日更新」，可快速查看当天更新的剧集，并支持调整显示位置。
+- 改进 Plex 合集、智能合集和首页内容的浏览、排序与分页，并同步账号授权信息。
+- 加快播放器启动，减少短暂的加载提示闪烁，改进拖动进度和缩略图显示。
+- 改进 Silo 外挂字幕识别与恢复，提升资源版本选择和音视频规格标识的准确性。
+- 改进多窗口内容刷新与首页管理的稳定性。
 
 需要 macOS 12.0 或更高版本。请按 Mac 芯片选择 Apple Silicon 或 Intel 安装包。
 
 ## What’s New
 
-- Improved interlaced video playback with smoother field-rate output and fixes for seeking and end-of-playback frame handling.
-- Improved decoding and playback compatibility for DTS:X height channels.
-- Faster opening of MKV videos mislabeled as ISO, with fewer repeated network reads.
-- Fixed playback failures on some Emby servers when refreshed playback URLs still return a 403 error.
+- Added Trakt Today’s Updates to Home for quick access to episodes airing today, with customizable placement.
+- Improved browsing, sorting, and pagination for Plex collections, smart collections, and Home content, with account authorization syncing.
+- Faster player startup, less brief loading-indicator flicker, and improved seeking and thumbnail behavior.
+- Improved Silo external subtitle detection and restoration, resource version selection, and audio/video format labels.
+- Improved reliability of content refresh across windows and Home customization.
 
 Requires macOS 12.0 or later. Choose the Apple Silicon or Intel download for your Mac.
 </description>
-      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.51-macos/EplayerX-1.2.51-131-macOS-Apple-Silicon.zip" sparkle:edSignature="EejMasGq8AoV4CsKmULS9qaiYz9LfJhYzoazr/LEYYecobDj8IKt6idfx/Pe7reFmw4TPPwKimXJc3lYIxhvBg==" length="66483472" type="application/octet-stream"></enclosure>
+      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.52-macos/EplayerX-1.2.52-133-macOS-Apple-Silicon.zip" sparkle:edSignature="F1Ao5kcS7o7P7BYd2l9eyftpuquj9aK5+cebz+tvKsNscR7lkVlfqGHch6tM1JgA2H/eDcRDkU8ibuLgBieKCw==" length="66568556" type="application/octet-stream"></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 3mkjRK3SBtHeOonweS1cfsiPqEATEZryX8akj8CdX8Yk5gfZ3j00pym7O3wyEI9JKf+cMWKCxHXV3bwQAe5EDQ==
-length: 2093
+edSignature: WPbQyFfwzCHVRxK8svxFe3kuaExXXkQJY2VUy6cC6Zc97qYurGVb9Yci50mJB+aRz0e3e80DNq52JAWBNBvCAw==
+length: 2401
 -->
