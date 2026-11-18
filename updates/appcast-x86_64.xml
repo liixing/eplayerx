@@ -4,35 +4,35 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <channel>
     <title>EplayerX — Intel</title>
     <item>
-      <title>EplayerX 1.2.54</title>
-      <pubDate>Tue, 17 Nov 2026 18:00:46 GMT</pubDate>
-      <sparkle:version>135</sparkle:version>
-      <sparkle:shortVersionString>1.2.54</sparkle:shortVersionString>
+      <title>EplayerX 1.2.55</title>
+      <pubDate>Wed, 18 Nov 2026 09:13:07 GMT</pubDate>
+      <sparkle:version>137</sparkle:version>
+      <sparkle:shortVersionString>1.2.55</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <description sparkle:format="markdown">## 更新内容
 
-- 首页「今日更新」新增播出时间和剧集信息展示，并可查看完整列表。
-- 优化首页和详情页卡片布局，减少滚动时的重复布局与预告片资源占用。
-- 修复后台通知刷新首页时可能发生的崩溃。
-- 改进异常字幕和特殊字符的处理，增强字幕显示稳定性。
-- 改进部分 HEVC 片源的播放时序，修复缓存读取异常，提升播放与恢复的稳定性。
+- 改进与 Trakt 的播放进度同步。从「继续观看」移除剧集时，会同步更新 Trakt 的观看状态。
+- 当首页窗口失去焦点或被播放器遮挡时，暂停动态服务器图标，减少后台资源占用。
+- 改进画面关键词跳过的识别效率，减少播放期间重复加载文字识别资源。
+- 减少播放器重复检查缓冲区和扫描待翻译字幕的开销，并修复预告片结束时字幕清理的问题。
+- 改进旧版下载任务的迁移，保留已有下载记录。会员状态现在使用经过验证的购买信息。
 
 需要 macOS 12.0 或更高版本。请按 Mac 芯片选择 Apple Silicon 或 Intel 安装包。
 
 ## What’s New
 
-- Today’s Updates on Home now shows air times and episode information, with access to the full list.
-- Improved Home and detail card layouts, reducing repeated layout work while scrolling and resource usage for trailers.
-- Fixed a possible crash when background notifications refresh Home.
-- Improved handling of malformed subtitles and special characters for more reliable subtitle display.
-- Improved playback timing for some HEVC sources and fixed cache reading errors for more reliable playback and recovery.
+- Improved playback progress sync with Trakt. Removing a show from Continue Watching now updates its viewing status on Trakt.
+- Animated server icons pause when the Home window loses focus or is covered by the player, reducing background resource use.
+- Improved screen-keyword skipping by reducing repeated loading of text-recognition resources during playback.
+- Reduced overhead from repeated playback buffer checks and subtitle translation lookahead, and fixed caption cleanup when trailers end.
+- Improved migration of existing download tasks to preserve download records. Membership status now uses verified purchase information.
 
 Requires macOS 12.0 or later. Choose the Apple Silicon or Intel download for your Mac.
 </description>
-      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.54-macos/EplayerX-1.2.54-135-macOS-Intel.zip" sparkle:edSignature="NvG5fV61LhFeMGclC5tFn20YjdrRLjI/iL7cmNAFIpOrfHwTRWYcOSpjn8Q6U9irOobOeFCK4qe3xoH4p65jBQ==" length="70818051" type="application/octet-stream"></enclosure>
+      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.55-macos/EplayerX-1.2.55-137-macOS-Intel.zip" sparkle:edSignature="5a65oZf4gorf5/YDFcI2rPj9i8nVmawZmq90H3QGPURzm53FLsSdFxkjiKtBEESQfNUdppIRCAzhGb2djz3FCg==" length="70820328" type="application/octet-stream"></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: LM4YS9tSpm1y2iYDNMdbTZSkU172ngOi6dlhwMaR0j5kA2SjTZ92dlI/kX09cdMy8vkwz49ZvBZdSiHb8k1HBQ==
-length: 2288
+edSignature: 9Hn3iw46k1D1GxNzLO5a03MV1j+4Zc4lDpV6lWtvSDDyRFPlofNziYRNsVXQcQbgy2j+0hd2akumXD+EwB++DA==
+length: 2549
 -->
