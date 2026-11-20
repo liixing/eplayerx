@@ -4,31 +4,33 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <channel>
     <title>EplayerX — Apple-Silicon</title>
     <item>
-      <title>EplayerX 1.2.56</title>
-      <pubDate>Thu, 19 Nov 2026 07:36:31 GMT</pubDate>
-      <sparkle:version>138</sparkle:version>
-      <sparkle:shortVersionString>1.2.56</sparkle:shortVersionString>
+      <title>EplayerX 1.2.57</title>
+      <pubDate>Fri, 20 Nov 2026 12:55:38 GMT</pubDate>
+      <sparkle:version>140</sparkle:version>
+      <sparkle:shortVersionString>1.2.57</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <description sparkle:format="markdown">## 更新内容
 
-- 改进 Emby 播放版本选择。播放器会补全当前影片或剧集的可用版本，并在同一服务器内按文件大小排列。
-- 编辑 Emby 服务器时，即使关闭线路同步，也可以修改主线路名称。仅修改线路名称时会保留现有登录状态。
-- 改进部分 H.264 隔行视频的播放兼容性，并修复取消网络播放时可能卡在连接或读取的问题。
+- 新增 iPhone 遥控播放。在同一局域网配对后，可以把视频从 iPhone 接续到 Mac，并遥控播放进度、音量、字幕和弹幕。也可以把字幕字体发送到 Mac，在字幕设置中管理。
+- 改进弹幕人物遮挡，让弹幕尽量避开画面中的人物。
+- 改进 SubHD 字幕下载与验证。遇到验证时，可在播放器中完成，也可交给已配对的 iPhone 处理。
+- 修复云盘首页混入 Trakt「今日更新」的问题，并改善部分图像字幕边缘的显示效果。
 
-需要 macOS 12.0 或更高版本。请按 Mac 芯片选择 Apple Silicon 或 Intel 安装包。
+需要 macOS 12.0 或更高版本。遥控功能需要支持「连接设备」的 iPhone 版 EplayerX。
 
 ## What’s New
 
-- Improved Emby version selection. The player shows available versions of the current movie or episode and sorts versions from the same server by file size.
-- You can rename an Emby server’s primary route with route syncing turned off. Renaming the route keeps your existing sign-in.
-- Improved playback compatibility with some interlaced H.264 videos and fixed a stall that could occur when canceling a network connection or read.
+- Use your iPhone as a playback remote. Pair on the same local network to continue a video on your Mac and control playback, volume, subtitles, and on-screen comments. You can also send subtitle fonts to your Mac and manage them in subtitle settings.
+- Improved person detection so on-screen comments are less likely to cover people in the video.
+- Improved SubHD subtitle downloads and verification. If verification is required, complete it in the player or send it to your paired iPhone.
+- Fixed Trakt’s Today Updates appearing on cloud library home pages and improved edge rendering for some bitmap subtitles.
 
-Requires macOS 12.0 or later. Choose the Apple Silicon or Intel download for your Mac.
+Requires macOS 12.0 or later. Remote playback requires a version of EplayerX for iPhone with Connect Devices support.
 </description>
-      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.56-macos/EplayerX-1.2.56-138-macOS-Apple-Silicon.zip" sparkle:edSignature="XI5tdX+ugAmBri1T5zwZL/GDmYobEEI3jcrljSQpSmbNsxZCuiGSSD03S/YvRj9H0ZQd/gKv8sw9PvMbYXUmAA==" length="66272366" type="application/octet-stream"></enclosure>
+      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.57-macos/EplayerX-1.2.57-140-macOS-Apple-Silicon.zip" sparkle:edSignature="gnX9AIO+D+eJ+rRDx7VRbITlUxfnqxqY412qEL8z0Y5ngZt5ng242MvGpzAtbscev1N25dfZuYQ5aY2343LQCA==" length="69364055" type="application/octet-stream"></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: OtxNuQRmeyvKIMw7EeF0cv5TLWroNz9TfxxlJYYgAUEKGgKH5qSFyR+kiJn5shc39jFpymYO/o+W70RCQm5JBQ==
-length: 2191
+edSignature: amY8s7Sm9im/7SdN+ia8fGv5kHR5NLXUxqRYamjEJdcgIWm1W6+8lW5zN+1A/3M2GR9jV+QhWMAe5LCWIIDOCw==
+length: 2536
 -->
