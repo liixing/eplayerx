@@ -4,33 +4,31 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <channel>
     <title>EplayerX — Apple-Silicon</title>
     <item>
-      <title>EplayerX 1.2.57</title>
-      <pubDate>Fri, 20 Nov 2026 12:55:38 GMT</pubDate>
-      <sparkle:version>140</sparkle:version>
-      <sparkle:shortVersionString>1.2.57</sparkle:shortVersionString>
+      <title>EplayerX 1.2.58</title>
+      <pubDate>Sat, 21 Nov 2026 07:18:58 GMT</pubDate>
+      <sparkle:version>141</sparkle:version>
+      <sparkle:shortVersionString>1.2.58</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <description sparkle:format="markdown">## 更新内容
 
-- 新增 iPhone 遥控播放。在同一局域网配对后，可以把视频从 iPhone 接续到 Mac，并遥控播放进度、音量、字幕和弹幕。也可以把字幕字体发送到 Mac，在字幕设置中管理。
-- 改进弹幕人物遮挡，让弹幕尽量避开画面中的人物。
-- 改进 SubHD 字幕下载与验证。遇到验证时，可在播放器中完成，也可交给已配对的 iPhone 处理。
-- 修复云盘首页混入 Trakt「今日更新」的问题，并改善部分图像字幕边缘的显示效果。
+- 修复在画中画里切换剧集时，字幕和弹幕可能消失的问题。
+- 改善从 iPhone 接续 Emby 或 Jellyfin 播放。使用支持新版接续功能的 iPhone 版时，即使同一个服务器在两台设备上分别添加，Mac 也能根据服务器和账号识别对应配置。
+- 改善部分视频标注的分辨率与实际画面不一致时的播放兼容性。
 
-需要 macOS 12.0 或更高版本。遥控功能需要支持「连接设备」的 iPhone 版 EplayerX。
+需要 macOS 12.0 或更高版本。
 
 ## What’s New
 
-- Use your iPhone as a playback remote. Pair on the same local network to continue a video on your Mac and control playback, volume, subtitles, and on-screen comments. You can also send subtitle fonts to your Mac and manage them in subtitle settings.
-- Improved person detection so on-screen comments are less likely to cover people in the video.
-- Improved SubHD subtitle downloads and verification. If verification is required, complete it in the player or send it to your paired iPhone.
-- Fixed Trakt’s Today Updates appearing on cloud library home pages and improved edge rendering for some bitmap subtitles.
+- Fixed subtitles and on-screen comments disappearing when switching episodes in Picture in Picture.
+- Improved Emby and Jellyfin playback handoff from iPhone. With a compatible iPhone version, your Mac can match the server and account even when the server was added separately on each device.
+- Improved playback compatibility for some videos whose reported resolution differs from the encoded picture.
 
-Requires macOS 12.0 or later. Remote playback requires a version of EplayerX for iPhone with Connect Devices support.
+Requires macOS 12.0 or later.
 </description>
-      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.57-macos/EplayerX-1.2.57-140-macOS-Apple-Silicon.zip" sparkle:edSignature="gnX9AIO+D+eJ+rRDx7VRbITlUxfnqxqY412qEL8z0Y5ngZt5ng242MvGpzAtbscev1N25dfZuYQ5aY2343LQCA==" length="69364055" type="application/octet-stream"></enclosure>
+      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.58-macos/EplayerX-1.2.58-141-macOS-Apple-Silicon.zip" sparkle:edSignature="VL1Kbcza/voJVnVlCFdLyoobsKHV+D5HYUt7r7EqFNNsIvZq3f/aDDv0ZwoQ8BN74NlICxsMcVv9AiPu1a2YDA==" length="69728898" type="application/octet-stream"></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: amY8s7Sm9im/7SdN+ia8fGv5kHR5NLXUxqRYamjEJdcgIWm1W6+8lW5zN+1A/3M2GR9jV+QhWMAe5LCWIIDOCw==
-length: 2536
+edSignature: FhlOJ61o72Wf5hPCqwKV90775epbdjPYRlDw1vHmDczYNY7HnQ7CWrxCwl42wHLFtar/acWyADpZSKpv306tBg==
+length: 2019
 -->
