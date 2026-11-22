@@ -4,31 +4,33 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <channel>
     <title>EplayerX — Apple-Silicon</title>
     <item>
-      <title>EplayerX 1.2.58</title>
-      <pubDate>Sat, 21 Nov 2026 07:18:58 GMT</pubDate>
-      <sparkle:version>141</sparkle:version>
-      <sparkle:shortVersionString>1.2.58</sparkle:shortVersionString>
+      <title>EplayerX 1.2.59</title>
+      <pubDate>Sun, 22 Nov 2026 14:39:54 GMT</pubDate>
+      <sparkle:version>147</sparkle:version>
+      <sparkle:shortVersionString>1.2.59</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <description sparkle:format="markdown">## 更新内容
 
-- 修复在画中画里切换剧集时，字幕和弹幕可能消失的问题。
-- 改善从 iPhone 接续 Emby 或 Jellyfin 播放。使用支持新版接续功能的 iPhone 版时，即使同一个服务器在两台设备上分别添加，Mac 也能根据服务器和账号识别对应配置。
-- 改善部分视频标注的分辨率与实际画面不一致时的播放兼容性。
+- 改善部分网络环境下 TMDB 海报、横图和影片资料的加载，并优化首页图片清晰度和滚动时的加载表现。
+- 播放器显示当前视频的下载速度，缓存播放时也能正确反映网络用量。
+- 改善 SubHD 字幕下载，可复用已完成的微信验证，减少重复验证。
+- 更新会员页面布局，让权益和购买选项更易浏览。
 
 需要 macOS 12.0 或更高版本。
 
 ## What’s New
 
-- Fixed subtitles and on-screen comments disappearing when switching episodes in Picture in Picture.
-- Improved Emby and Jellyfin playback handoff from iPhone. With a compatible iPhone version, your Mac can match the server and account even when the server was added separately on each device.
-- Improved playback compatibility for some videos whose reported resolution differs from the encoded picture.
+- Improved loading of TMDB posters, backdrops, and title details on some networks, and refined image quality and loading while scrolling Home.
+- The player shows the current video’s download speed and reflects network usage during cached playback.
+- Improved SubHD downloads by reusing completed WeChat verification where available.
+- Refreshed the membership page to make benefits and purchase options easier to browse.
 
 Requires macOS 12.0 or later.
 </description>
-      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.58-macos/EplayerX-1.2.58-141-macOS-Apple-Silicon.zip" sparkle:edSignature="VL1Kbcza/voJVnVlCFdLyoobsKHV+D5HYUt7r7EqFNNsIvZq3f/aDDv0ZwoQ8BN74NlICxsMcVv9AiPu1a2YDA==" length="69728898" type="application/octet-stream"></enclosure>
+      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.59-macos/EplayerX-1.2.59-147-macOS-Apple-Silicon.zip" sparkle:edSignature="e4c0StKWjok97RHDp9rYaX2p3IA3GEfDAX4rGIqmXQ5XTlSfY2yxZOv39IMtKx+UwGLlcbQhWJuBbxCfNqTKBA==" length="69771689" type="application/octet-stream"></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: FhlOJ61o72Wf5hPCqwKV90775epbdjPYRlDw1vHmDczYNY7HnQ7CWrxCwl42wHLFtar/acWyADpZSKpv306tBg==
-length: 2019
+edSignature: 1WA7PAgrMg9yzH2SzEGxnLlnvcN0I3BLlkuRQcmG0adKSoburDSgbHTSMdnQET6dABpXAccRYGkamIKGV90mDA==
+length: 2045
 -->
