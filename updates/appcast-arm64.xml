@@ -4,33 +4,31 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <channel>
     <title>EplayerX — Apple-Silicon</title>
     <item>
-      <title>EplayerX 1.2.59</title>
-      <pubDate>Sun, 22 Nov 2026 14:39:54 GMT</pubDate>
-      <sparkle:version>147</sparkle:version>
-      <sparkle:shortVersionString>1.2.59</sparkle:shortVersionString>
+      <title>EplayerX 1.2.60</title>
+      <pubDate>Mon, 23 Nov 2026 11:15:00 GMT</pubDate>
+      <sparkle:version>149</sparkle:version>
+      <sparkle:shortVersionString>1.2.60</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <description sparkle:format="markdown">## 更新内容
 
-- 改善部分网络环境下 TMDB 海报、横图和影片资料的加载，并优化首页图片清晰度和滚动时的加载表现。
-- 播放器显示当前视频的下载速度，缓存播放时也能正确反映网络用量。
-- 改善 SubHD 字幕下载，可复用已完成的微信验证，减少重复验证。
-- 更新会员页面布局，让权益和购买选项更易浏览。
+- 首页背景、合集封面和部分横图改为从顶部裁切，减少人物头部被裁掉的情况。
+- 改善 TMDB 图片缓存复用，减少重复加载。重新打开影片详情时也会复用仍然有效的资料。
+- 优化 V2 播放引擎对部分 H.264 视频的转码，以及位图字幕的显示。
 
 需要 macOS 12.0 或更高版本。
 
 ## What’s New
 
-- Improved loading of TMDB posters, backdrops, and title details on some networks, and refined image quality and loading while scrolling Home.
-- The player shows the current video’s download speed and reflects network usage during cached playback.
-- Improved SubHD downloads by reusing completed WeChat verification where available.
-- Refreshed the membership page to make benefits and purchase options easier to browse.
+- Home backgrounds, collection covers, and some landscape artwork now crop from the top to keep faces in view.
+- Improved TMDB artwork cache reuse to reduce duplicate loads. Reopening a title also reuses details that are still current.
+- Improved transcoding for some H.264 videos in the V2 playback engine and refined bitmap subtitle rendering.
 
 Requires macOS 12.0 or later.
 </description>
-      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.59-macos/EplayerX-1.2.59-147-macOS-Apple-Silicon.zip" sparkle:edSignature="e4c0StKWjok97RHDp9rYaX2p3IA3GEfDAX4rGIqmXQ5XTlSfY2yxZOv39IMtKx+UwGLlcbQhWJuBbxCfNqTKBA==" length="69771689" type="application/octet-stream"></enclosure>
+      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.60-macos/EplayerX-1.2.60-149-macOS-Apple-Silicon.zip" sparkle:edSignature="rlriYeR0vCOH/49VWXIEyJBbIu2CzSTb8hnq/Sy8VS7/udH5ZuRV5NAH74lVNSbuUVvHp+18PBwtmV22WEM+Cg==" length="69777033" type="application/octet-stream"></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 1WA7PAgrMg9yzH2SzEGxnLlnvcN0I3BLlkuRQcmG0adKSoburDSgbHTSMdnQET6dABpXAccRYGkamIKGV90mDA==
-length: 2045
+edSignature: tT7KADSbf5WYv5YrKwvVEYAVjyJ2KdiQXtriBKQdTB/dNNFXpT17nWfEUJypGTL6+PyCqdh1ZZfxb8EGkfmdAQ==
+length: 1894
 -->
