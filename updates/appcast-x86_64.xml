@@ -4,29 +4,29 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <channel>
     <title>EplayerX — Intel</title>
     <item>
-      <title>EplayerX 1.2.61</title>
-      <pubDate>Mon, 23 Nov 2026 16:19:51 GMT</pubDate>
-      <sparkle:version>150</sparkle:version>
-      <sparkle:shortVersionString>1.2.61</sparkle:shortVersionString>
+      <title>EplayerX 1.2.62</title>
+      <pubDate>Tue, 24 Nov 2026 15:30:11 GMT</pubDate>
+      <sparkle:version>152</sparkle:version>
+      <sparkle:shortVersionString>1.2.62</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <description sparkle:format="markdown">## 更新内容
 
-- 改善 V2 播放引擎对部分 H.264 和 HEVC 视频的兼容性。修正异常的 H.264 关键帧时间戳，以及部分视频因封装尺寸与实际画面不符而出现的显示问题。
-- 改善部分网络视频跳转后的画面恢复，并保留跳转位置仍应显示的位图字幕。
+- 修复从「继续观看」恢复已下载 Emby 影片或剧集时，有时会重新打开网络串流的问题。现在会优先使用仍可用的本地下载，并从上次的位置继续播放。
+- 字幕翻译开关和「保留原文」设置按设备保存，避免被 iCloud 同步覆盖。
 
 需要 macOS 12.0 或更高版本。
 
 ## What’s New
 
-- Improved V2 playback compatibility for some H.264 and HEVC videos by correcting irregular H.264 keyframe timestamps and video dimensions that disagree with the encoded picture.
-- Improved video recovery after seeking in some network streams and kept bitmap subtitles visible when a cue spans the seek position.
+- Fixed an issue where resuming a downloaded Emby movie or episode from Continue Watching could reopen the network stream. EplayerX now plays the local download when it is still available and resumes from where you left off.
+- The subtitle translation and Keep Original settings now stay on each device so iCloud sync cannot overwrite them.
 
 Requires macOS 12.0 or later.
 </description>
-      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.61-macos/EplayerX-1.2.61-150-macOS-Intel.zip" sparkle:edSignature="FsmsJia98YI99GD4bkJWbsor9aHydS/miCEuwMMVT8vaVT7VdgFZsjP4AK3A+0a7XirhsGOYDDJFXlQ31/iKAA==" length="74412147" type="application/octet-stream"></enclosure>
+      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.62-macos/EplayerX-1.2.62-152-macOS-Intel.zip" sparkle:edSignature="4khzLBEMredQnTAC4yAZyYLv1wFMvYCrj1B4EeZeNG9Z5sIL9HIiV02NIerC95GpGfWijExHwhbS1Ymvj5y/BA==" length="74421228" type="application/octet-stream"></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: qqN9+0x2O9N4yFOAQ/b5hGo+iKDOezdwPu2h5mFgPhwnFbYqhyRBXkU+Bv4xjWD3SqZamBTLq5yyunG9VSMZAw==
-length: 1828
+edSignature: AME7Z9ZsV5TxAoQ7+HY9xyddXKmWBZPm79461Nr6TKmQJHyjP9St8bQYrSuHm308616Uu63DZ6NVoq7zt9EMDQ==
+length: 1855
 -->
