@@ -4,29 +4,29 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <channel>
     <title>EplayerX — Apple-Silicon</title>
     <item>
-      <title>EplayerX 1.2.62</title>
-      <pubDate>Tue, 24 Nov 2026 15:30:10 GMT</pubDate>
-      <sparkle:version>152</sparkle:version>
-      <sparkle:shortVersionString>1.2.62</sparkle:shortVersionString>
+      <title>EplayerX 1.2.63</title>
+      <pubDate>Wed, 25 Nov 2026 13:54:53 GMT</pubDate>
+      <sparkle:version>154</sparkle:version>
+      <sparkle:shortVersionString>1.2.63</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <description sparkle:format="markdown">## 更新内容
 
-- 修复从「继续观看」恢复已下载 Emby 影片或剧集时，有时会重新打开网络串流的问题。现在会优先使用仍可用的本地下载，并从上次的位置继续播放。
-- 字幕翻译开关和「保留原文」设置按设备保存，避免被 iCloud 同步覆盖。
+- 修复部分片源打开失败时被误判为播放结束的问题。现在会显示读取错误。
+- 降低大型媒体库批量读取识别结果和影视资料时的内存占用。
 
 需要 macOS 12.0 或更高版本。
 
 ## What’s New
 
-- Fixed an issue where resuming a downloaded Emby movie or episode from Continue Watching could reopen the network stream. EplayerX now plays the local download when it is still available and resumes from where you left off.
-- The subtitle translation and Keep Original settings now stay on each device so iCloud sync cannot overwrite them.
+- Fixed an issue where some sources that failed to open were treated as finished. EplayerX now reports a read error.
+- Reduced memory use when loading recognition results and metadata for large media libraries.
 
 Requires macOS 12.0 or later.
 </description>
-      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.62-macos/EplayerX-1.2.62-152-macOS-Apple-Silicon.zip" sparkle:edSignature="NyZQDzhjWP2nvQBm5tTl9odAS6AEFlA0B1fIgFXTMMSpOEpV0hvh9UVPC2+1SKR07jFWBbVeu/wDTN7LT3iXCw==" length="69790222" type="application/octet-stream"></enclosure>
+      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.63-macos/EplayerX-1.2.63-154-macOS-Apple-Silicon.zip" sparkle:edSignature="Ju+h7jZe9N5YRtluS/zYcpN41nAOho43ZnFCcQ7dgPkIk6MN5mv8uatbGWrEYNkda0PyX8LKzaA+RXBwweTzCg==" length="69788936" type="application/octet-stream"></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 83hhq1IqMobO4hF9JTGpNXZ19vXkjPedQOR9KFKcxgONXGDF3nRyoEvXVdZrFf6lfnpxhq9B3wRjDKMlcQ/EAw==
-length: 1871
+edSignature: lqr5rihNQA0A13OinAYWRCGt39iGGHQRgRATnvoK4GDvx0cISCZtBPuzw1G+1Vt47hY+OadepvN9FH1SW/ahCw==
+length: 1628
 -->
