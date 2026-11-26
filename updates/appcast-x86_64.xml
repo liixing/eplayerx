@@ -4,29 +4,27 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <channel>
     <title>EplayerX — Intel</title>
     <item>
-      <title>EplayerX 1.2.65</title>
-      <pubDate>Thu, 26 Nov 2026 11:38:46 GMT</pubDate>
-      <sparkle:version>157</sparkle:version>
-      <sparkle:shortVersionString>1.2.65</sparkle:shortVersionString>
+      <title>EplayerX 1.2.66</title>
+      <pubDate>Thu, 26 Nov 2026 15:32:46 GMT</pubDate>
+      <sparkle:version>158</sparkle:version>
+      <sparkle:shortVersionString>1.2.66</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <description sparkle:format="markdown">## 更新内容
 
-- 修复远程 MPEG-TS 和 M2TS 视频仅缓存了部分内容时，拖动进度条可能看不到预览缩略图的问题。
-- 修正带有起始时间偏移的视频的缩略图时间，让预览画面对应进度条上的位置。
+- 修复部分远程 HEVC M2TS 视频拖动进度条后无法跳转的问题。常规跳转失败时，播放器会尝试从目标位置附近的关键帧恢复播放。
 
 需要 macOS 12.0 或更高版本。
 
 ## What’s New
 
-- Fixed missing scrub thumbnails for remote MPEG-TS and M2TS videos when only parts of the video are cached.
-- Corrected thumbnail timing for videos with a nonzero start timestamp so previews line up with the playback timeline.
+- Fixed seeking in some remote HEVC M2TS videos. If a normal seek fails, the player tries to resume from a keyframe near the requested position.
 
 Requires macOS 12.0 or later.
 </description>
-      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.65-macos/EplayerX-1.2.65-157-macOS-Intel.zip" sparkle:edSignature="jJMsQJ1jYfFFU+KlUm7yPQACXRcD+kTYmPhe3j5jHEfq8quykZwUlQtVhi2L1mWGdMmCtEYGKFrv95t1AeRqBg==" length="74422912" type="application/octet-stream"></enclosure>
+      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.66-macos/EplayerX-1.2.66-158-macOS-Intel.zip" sparkle:edSignature="/Usrt9nFHAKg7M7HG85AlSs31UjNe/QrfQ+PlDnbNncszDBWPc7t5mco0B0PSFmTtH8gItlPrqhRtYqJlYd+BQ==" length="74425358" type="application/octet-stream"></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 2AdxdRE87h6ZRxyWEOAtew5boYsP3pCJjD34MLdvpodDNipUIyHv1TuPNeIayfWqvYVDBnOoXAIV4TE3A3GSDw==
-length: 1677
+edSignature: FOqiHeAal1gYvuJd3itHItt4hxnMRnR2Tt/y2PhC5m4NQbsN8RkSuzo42CNmBGcpkob+5PGpoD2NAKmDWrvRAA==
+length: 1530
 -->
