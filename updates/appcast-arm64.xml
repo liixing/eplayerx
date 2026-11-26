@@ -4,31 +4,29 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <channel>
     <title>EplayerX — Apple-Silicon</title>
     <item>
-      <title>EplayerX 1.2.64</title>
-      <pubDate>Thu, 26 Nov 2026 06:19:36 GMT</pubDate>
-      <sparkle:version>155</sparkle:version>
-      <sparkle:shortVersionString>1.2.64</sparkle:shortVersionString>
+      <title>EplayerX 1.2.65</title>
+      <pubDate>Thu, 26 Nov 2026 11:38:45 GMT</pubDate>
+      <sparkle:version>157</sparkle:version>
+      <sparkle:shortVersionString>1.2.65</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <description sparkle:format="markdown">## 更新内容
 
-- 播放引擎 1.0 新增可选的 2.0 转 5.1 声道功能，适用于支持 5.1 PCM 的音频输出。
-- 字幕描边和阴影模糊现在可按 0.1 的步长微调。
-- 修复片源缺少匹配标题时，弹幕搜索无法自动填入片名的问题。
+- 修复远程 MPEG-TS 和 M2TS 视频仅缓存了部分内容时，拖动进度条可能看不到预览缩略图的问题。
+- 修正带有起始时间偏移的视频的缩略图时间，让预览画面对应进度条上的位置。
 
 需要 macOS 12.0 或更高版本。
 
 ## What’s New
 
-- Player Engine 1.0 can optionally upmix stereo audio to 5.1 on outputs that support 5.1 PCM.
-- Subtitle outlines and shadow blur can now be adjusted in 0.1 increments.
-- Fixed an issue that left the danmaku search field blank when the source lacked a matching title.
+- Fixed missing scrub thumbnails for remote MPEG-TS and M2TS videos when only parts of the video are cached.
+- Corrected thumbnail timing for videos with a nonzero start timestamp so previews line up with the playback timeline.
 
 Requires macOS 12.0 or later.
 </description>
-      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.64-macos/EplayerX-1.2.64-155-macOS-Apple-Silicon.zip" sparkle:edSignature="3b78Q5I0hAbpeWdlhgRToyWAbvxq0c1cSMaRAJIvpST6MGrD09RfSehM//NFW2MLebPKWaQW5woysfmM4UmIBg==" length="69792027" type="application/octet-stream"></enclosure>
+      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.65-macos/EplayerX-1.2.65-157-macOS-Apple-Silicon.zip" sparkle:edSignature="v1TJVCIEUrv2bvq4HHSZdCdVNOkkAshdf+1EQPJERzJwtuiSxwBEP6qHKb3izj6Oa2ojsnoOOU218e80gOOcBQ==" length="69796425" type="application/octet-stream"></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: qlmiuMA1zso8g+b5JU+PiUvP2SQhHTC3p282PMb72GDh2JYA7NpQ4NzYWssw9lMWqd3SRiTPTMt7E4IR/R7LCg==
-length: 1756
+edSignature: fMDzScb+ZzL0wbIivWfThGITnosdqyPfL8YoWp/P8g4/OmkSpfFvy6PdwaIdwYlLdvsU2C5jYd3VPDihM4LaDw==
+length: 1693
 -->
