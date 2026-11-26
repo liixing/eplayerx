@@ -4,29 +4,31 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <channel>
     <title>EplayerX — Intel</title>
     <item>
-      <title>EplayerX 1.2.63</title>
-      <pubDate>Wed, 25 Nov 2026 13:54:54 GMT</pubDate>
-      <sparkle:version>154</sparkle:version>
-      <sparkle:shortVersionString>1.2.63</sparkle:shortVersionString>
+      <title>EplayerX 1.2.64</title>
+      <pubDate>Thu, 26 Nov 2026 06:19:37 GMT</pubDate>
+      <sparkle:version>155</sparkle:version>
+      <sparkle:shortVersionString>1.2.64</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <description sparkle:format="markdown">## 更新内容
 
-- 修复部分片源打开失败时被误判为播放结束的问题。现在会显示读取错误。
-- 降低大型媒体库批量读取识别结果和影视资料时的内存占用。
+- 播放引擎 1.0 新增可选的 2.0 转 5.1 声道功能，适用于支持 5.1 PCM 的音频输出。
+- 字幕描边和阴影模糊现在可按 0.1 的步长微调。
+- 修复片源缺少匹配标题时，弹幕搜索无法自动填入片名的问题。
 
 需要 macOS 12.0 或更高版本。
 
 ## What’s New
 
-- Fixed an issue where some sources that failed to open were treated as finished. EplayerX now reports a read error.
-- Reduced memory use when loading recognition results and metadata for large media libraries.
+- Player Engine 1.0 can optionally upmix stereo audio to 5.1 on outputs that support 5.1 PCM.
+- Subtitle outlines and shadow blur can now be adjusted in 0.1 increments.
+- Fixed an issue that left the danmaku search field blank when the source lacked a matching title.
 
 Requires macOS 12.0 or later.
 </description>
-      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.63-macos/EplayerX-1.2.63-154-macOS-Intel.zip" sparkle:edSignature="niPB3KkdpUZjdByvVISoVLElXQGGoTsxkOCIpB3qvwd+mJBqb4977mkQ28ZRBYRRJDsut9dGngRvu4I1Ck97Cw==" length="74420601" type="application/octet-stream"></enclosure>
+      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.64-macos/EplayerX-1.2.64-155-macOS-Intel.zip" sparkle:edSignature="fc1V5u+oYtgtiWpp9K1SgG0apCChXplpwfQrAQJauP+sBm27rlTK8MHSGidGrJEVelgUTKFDi0W/WM6Db0JfAQ==" length="74423121" type="application/octet-stream"></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: PjBkpEG08QImAEuesjuvVZUtMSCvbBrxM2Lzn55n0C5+rzHvp3vrwAS5rMO6AZUkhenw/L/fZeX1bhB2N6jRBQ==
-length: 1612
+edSignature: /U/23bieMxHfoBAZWcgK6dQDPrxMi6J7ueFVNYeRqNB1eaQon1mgHT8bZYTw09LBaQ4WZJrJinO9zdlLtrofCQ==
+length: 1740
 -->
