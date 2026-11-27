@@ -4,27 +4,29 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <channel>
     <title>EplayerX — Apple-Silicon</title>
     <item>
-      <title>EplayerX 1.2.66</title>
-      <pubDate>Thu, 26 Nov 2026 15:32:45 GMT</pubDate>
-      <sparkle:version>158</sparkle:version>
-      <sparkle:shortVersionString>1.2.66</sparkle:shortVersionString>
+      <title>EplayerX 1.2.67</title>
+      <pubDate>Fri, 27 Nov 2026 02:37:32 GMT</pubDate>
+      <sparkle:version>159</sparkle:version>
+      <sparkle:shortVersionString>1.2.67</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <description sparkle:format="markdown">## 更新内容
 
-- 修复部分远程 HEVC M2TS 视频拖动进度条后无法跳转的问题。常规跳转失败时，播放器会尝试从目标位置附近的关键帧恢复播放。
+- 修复连续拖动进度条时，播放位置可能跳回上一次拖动目标的问题。跳转完成后，进度条会立即显示实际落点。
+- 改善 H.264 MP4 视频从中途开始播放或跳转时的定位，减少跳到错误画面的问题。
 
 需要 macOS 12.0 或更高版本。
 
 ## What’s New
 
-- Fixed seeking in some remote HEVC M2TS videos. If a normal seek fails, the player tries to resume from a keyframe near the requested position.
+- Fixed an issue where rapidly scrubbing could send the playhead back to an earlier seek target. The progress bar now shows the actual playback position as soon as the seek finishes.
+- Improved playback from a saved position and seeking in H.264 MP4 videos, reducing jumps to the wrong frame.
 
 Requires macOS 12.0 or later.
 </description>
-      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.66-macos/EplayerX-1.2.66-158-macOS-Apple-Silicon.zip" sparkle:edSignature="TQ+AQAjPZfvOmvTb+WPbfeyAOhfX7Bt/Yki52zTp8949wzLdVXTXFTMN5T8zwVty0FT/Qh61zkpLiQKHecrlCQ==" length="69798658" type="application/octet-stream"></enclosure>
+      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.67-macos/EplayerX-1.2.67-159-macOS-Apple-Silicon.zip" sparkle:edSignature="L2YxtHXHOYpc6FfCgE0xBHen8gFfAw5jwE84XpAyhlRbNL8ljGA4PBapGdratTr6JQ/i81WNNBOtwNjerBGmBA==" length="69800758" type="application/octet-stream"></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: WmRxvrCadlUNhc8APv/Ha+8C7D5tTOckWDXklGqdGLp9vvqG/qzBptQdAdvv7NE5GIAe8FVExVXew+V9ZuS1AA==
-length: 1546
+edSignature: ZmlSPEado8gDo9Tad33O6QFzSfJKnkkPyPQ70Cj3n3M33qrcIJ89wvSKERo5bqxkzZKQAv2/oHg1Xoc7zWtmCA==
+length: 1781
 -->
