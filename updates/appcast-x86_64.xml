@@ -4,29 +4,31 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <channel>
     <title>EplayerX — Intel</title>
     <item>
-      <title>EplayerX 1.2.69</title>
-      <pubDate>Sat, 28 Nov 2026 05:43:26 GMT</pubDate>
-      <sparkle:version>163</sparkle:version>
-      <sparkle:shortVersionString>1.2.69</sparkle:shortVersionString>
+      <title>EplayerX 1.2.70</title>
+      <pubDate>Sat, 28 Nov 2026 11:39:28 GMT</pubDate>
+      <sparkle:version>164</sparkle:version>
+      <sparkle:shortVersionString>1.2.70</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <description sparkle:format="markdown">## 更新内容
 
-- 修复 Silo 收藏较多时列表显示不全的问题。电影和剧集会按各自类型加载完整的收藏列表。
-- 改善部分视频的播放兼容性。当前播放方式无法处理视频编码时，播放器会尝试使用兼容的解码方式。
+- 降低大型网盘媒体库批量读取识别结果时的内存占用，改善浏览和播放时的稳定性。
+- 改善部分视频从上次进度继续播放、向前或向后跳转后的恢复表现。
+- 改善剧集播完后切换到下一集的稳定性。
 
 需要 macOS 12.0 或更高版本。
 
 ## What’s New
 
-- Fixed incomplete Silo favorites lists for larger collections. Movies and TV shows now each load their full list of favorites.
-- Improved playback compatibility for some videos. The player can switch to a compatible decoder when the current playback method cannot handle the video codec.
+- Reduced memory use when loading recognition results for large cloud media libraries, improving stability while browsing and playing videos.
+- Improved playback recovery for some videos when resuming from a saved position or seeking in either direction.
+- Improved the transition to the next episode after the current episode finishes.
 
 Requires macOS 12.0 or later.
 </description>
-      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.69-macos/EplayerX-1.2.69-163-macOS-Intel.zip" sparkle:edSignature="addOA3giwYQM8RK0abTkVSJBW8cUL6IPA/RRc2KRFr74FeCeUKqYfzRDGCzsA/vFS6Z38ApPIvURKdVqqFLnAg==" length="74439878" type="application/octet-stream"></enclosure>
+      <enclosure url="https://github.com/liixing/eplayerx/releases/download/v1.2.70-macos/EplayerX-1.2.70-164-macOS-Intel.zip" sparkle:edSignature="SgvI/Y9CZSD1KG4k2aMzpb0CVQ8hlT1cXu19jjj2SdPlw7d30LcdYTh/6Ry922yqGv3bpfbjwhJiTaBwxLi8AA==" length="74445199" type="application/octet-stream"></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: YWIPLtlm03GxcXDojgI4YSXLlWoMVpDi1Ekekp67HI/7fju4VFlTMDC8w1Kyz+QEM+aPRrDL9UdS7Jwjc46CDg==
-length: 1765
+edSignature: U12z2/qJHBVkSnkhkZX9tRQJljyU2CkuKitljxAdtUzSvIQGPkFTk/QeAUTFdGRX3Icj9rsJHWJPaMfFs9lbBg==
+length: 1816
 -->
